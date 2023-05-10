@@ -3,4 +3,8 @@ srv/CMakeCache.txt
 srv/outtake
 srv/cmake_install.cmake
 srv/Makefile
+*.gz
+*.db
+tmp*.*
+bin
 

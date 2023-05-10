@@ -27,21 +27,15 @@
 //!	multi purpose stream terminator.
 	struct tt_end {};
 //!	multi purpose stream terminator instance.
-	extern tt_end tte;
-
+	extern const tt_end tte;
 
 //	============================================================
-//	prototypes
-	class sbuffer;
 
 //!	buffer with data size prototype
 	class dsb
 	{
 	 public:
-	 	inline dsb(unsigned s = 0)
-		: ds(0)
-		, st(s ? s : c_DEFAULT_CBUFF_STEP)
-		{}
+	 	dsb(unsigned s = 0);
 	//! data / empty.
         inline bool empty(void) const { return ds == 0; }
         inline bool data (void) const { return ds >  0; }
@@ -52,17 +46,14 @@
 	//!	used data size.
 		unsigned ds;
     //!	buffer expansion step size.
-		unsigned st;
+		const unsigned st;
 	};
 
 //!	char and string buffer prototype
 	class xbuffer : public dsb
 	{
     public:
-		inline xbuffer(unsigned s = 0)
-		: dsb(s)
-		, db(0)
-		{}
+		xbuffer(unsigned s = 0);
 	//!	retrieve string content.
 		inline t_cc str(void)	const { return db ? db : cdef; }
 	//!	const char* behauviour.
@@ -170,7 +161,7 @@
     {
     public:
 	//!	constructor [with given expansion step size].
-        cbuffer(unsigned = 0);
+        cbuffer(unsigned s = 0);
 
 	//!	dest.
 		inline ~cbuffer() { clear(); }
@@ -228,7 +219,7 @@
 	{
 	public:
 	//!	constructor with given size.
-		fbuffer(unsigned);
+		fbuffer(unsigned s);
     //! add a character.
 		void add(char);
 	//!	add a string.
@@ -254,7 +245,7 @@
     {
     public:
 	//!	constructor [with given expansion step size].
-        sbuffer(unsigned = 0, bool = false);
+        sbuffer(unsigned s = c_DEFAULT_CBUFF_STEP, bool sr = false);
 
 	//!	dest.
 		inline ~sbuffer() { clear(); }
@@ -306,7 +297,7 @@
     {
     public:
 	//!	constructor [with given expansion step size].
-        csbuffer(unsigned = 0, bool = true);
+        csbuffer(unsigned s = c_DEFAULT_CBUFF_STEP, bool sr = true);
 
 	//!	dest.
 		inline ~csbuffer() { clear(); }
@@ -387,7 +378,7 @@
     {
     public:
 	//!	constructor [with given expansion step size].
-        inline ncsbuffer(unsigned s = 0)
+        inline ncsbuffer(unsigned s = c_DEFAULT_CBUFF_STEP)
 		: csbuffer(s, false)
 		{}
 		inline ~ncsbuffer() { clear(); }

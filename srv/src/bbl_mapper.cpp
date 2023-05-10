@@ -180,6 +180,7 @@ namespace bbl
 			slly.copy(lay);
 			bload(cml, lang, lay, c_login);
 		}
+		return true;
 	}
 
 //!	retreive a translation

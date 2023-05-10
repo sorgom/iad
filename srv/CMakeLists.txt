@@ -8,9 +8,11 @@ include_directories(inc)
 include_directories(/usr/include)
 link_directories(/usr/lib)
 
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../bin)
+
 file(GLOB srv_srcs ./src/**.cpp)
 
-add_compile_options(-DISSRV)
+add_compile_options(-DISSRV -DDEVEL -DXDEVEL)
 
 add_executable(iadsrv ${srv_srcs})
 

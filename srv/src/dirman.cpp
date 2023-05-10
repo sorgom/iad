@@ -52,6 +52,7 @@
 		lxt = xt ? strlen(xt) : 0;
 		scn(0);
 		sort();
+		return true;
 	}
 
 //!	internal scan sub.

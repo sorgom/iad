@@ -78,7 +78,7 @@
 
 //!	constructor [with given expansion step size].
     cmapper::cmapper(unsigned s, cm_load_func* lf)
-	: dsb(s ? s : c_BUF_STEP_CMAPPER)
+	: dsb(s > 0 ? s : c_BUF_STEP_CMAPPER)
 	, bs(0)
 	, db(0)
 	, ldfc(lf)
@@ -203,6 +203,7 @@
     t_cc cmapper::add(const s_cc& k, const s_cc& v)
 	{
 		TRACE_FLOW
+		TRACE_INF("cmapper")
 		loaded = true;
 		if (!k) return 0;
 		spair* sp = findp(k);

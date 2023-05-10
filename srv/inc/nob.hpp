@@ -63,7 +63,7 @@
     //!	change name.
 		inline void operator=(t_cc n) { nm = n; }
 		inline void out(outstream& os) const { os.add(nm); }
-		inline operator const nob&() const { return *this; }
+		// inline operator const nob&() const { return *this; }
 
 	protected:
 		const char* nm;
@@ -95,7 +95,7 @@
 		inline inob& operator()(void) { ++nn; return *this; }
 
 		inline void out(outstream& os) const { os.add(nn); }
-		inline operator const nob&() const { return *this; }
+		// inline operator const nob&() const { return *this; }
 
 	protected:
 		t_num nn;

@@ -13,7 +13,7 @@
 #include "ini.hpp"
 #include "sysctrl.hpp"
 
-#define XDEVEL
+// #define XDEVEL
 #include "trace_macros.hpp"
 
 #include <cstdlib>

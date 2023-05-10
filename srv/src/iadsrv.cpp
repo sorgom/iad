@@ -19,7 +19,7 @@
 #include "sysctrl.hpp"
 #include "vars.hpp"
 
-#define XDEVEL
+// #define XDEVEL
 #include "trace_macros.hpp"
 
 #ifdef DEVEL

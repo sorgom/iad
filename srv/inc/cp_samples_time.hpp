@@ -53,7 +53,7 @@
     public:
 		cp_time_server();
 	//!	returns true if a time server is active.
-		inline bool ok(sbuffer& sb) { check_once(sb); }
+		inline bool ok(sbuffer& sb) { return check_once(sb); }
 	//!	puts out current time server name.
 		void put(sbuffer&);
 	//!	reset 'once'

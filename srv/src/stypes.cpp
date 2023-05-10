@@ -22,10 +22,31 @@
 
 //	============================================================
 //	frequently used stream types
-	tt_end tte;
+	const tt_end tte;
+
+//  ============================================================
+//	dsb
+	dsb::dsb(unsigned s)
+		: ds(0)
+		, st(s > 0 ? s : c_DEFAULT_CBUFF_STEP)
+	{
+		TRACE_FLOW
+		TRACE_VAR(this)
+		TRACE_VAR(s)
+		TRACE_VAR(st)
+	}
 
 //  ============================================================
 //	xbuffer
+	xbuffer::xbuffer(unsigned s)
+		: dsb(s)
+		, db(0)
+	{
+		TRACE_FLOW
+		TRACE_VAR(this)
+		TRACE_VAR(st)
+	}
+
 	unsigned xbuffer::rs(void)
 	{
 		return db ? (ds = strlen(db)) : (ds = 0);
@@ -185,7 +206,11 @@
 	cbuffer::cbuffer(unsigned s)
 	: xbuffer(s)
 	, bs(0)
-	{}
+	{
+		TRACE_FLOW
+		TRACE_VAR(this)
+		TRACE_VAR(st)
+	}
 
 //	add a character
 	void cbuffer::add(char c)
@@ -223,6 +248,7 @@
 	void cbuffer::add(unsigned i)
 	{
 		TRACE_FLOW
+		TRACE_INF("cbuffer int")
 		unsigned ic = i;
 		unsigned l = 0;
 		do { ++l; ic /= 10; } while (ic);
@@ -313,6 +339,8 @@
 	bool cbuffer::alloc(unsigned s)
 	{
 		TRACE_FLOW
+		TRACE_VAR(this)
+		TRACE_VAR(s)
 		unsigned ns = (
 			s == 1 ?
 			bs + st :
@@ -385,12 +413,19 @@
 	, bs(0)
 	, srt(sr)
 	, srtd(false)
-	{}
+	{
+		TRACE_FLOW
+		TRACE_VAR(this)
+		TRACE_VAR(st)
+	}
 
 //	add a character string
 	void sbuffer::add(t_cc c)
 	{
 		TRACE_FLOW
+		TRACE_INF("sbuffer t_cc")
+		TRACE_VAR(this)
+		TRACE_VAR(c)
 		if (
 			!(srt && find(c)) &&
 			(bs > ds || alloc())
@@ -462,9 +497,16 @@
 //	- size
 	bool sbuffer::alloc(void)
 	{
-		unsigned ns = bs + st;
-		unsigned ms = ns * sizeof(t_ch);
-		db = reinterpret_cast<t_ch*>(bs ? realloc(db, ms) : malloc(ms));
+		TRACE_FLOW
+		TRACE_INF("sbuffer")
+		TRACE_VAR(this)
+		TRACE_VAR(bs)
+		TRACE_VAR(this->st)
+		const unsigned ns = bs + (st > 0 ? st : c_DEFAULT_CBUFF_STEP); //st;
+		const unsigned ms = ns * sizeof(t_ch);
+		TRACE_VAR(ns)
+		TRACE_VAR(ms)
+		db = reinterpret_cast<t_ch*>(bs > 0 ? realloc(db, ms) : malloc(ms));
 		bs = ns;
 		return true;
 	}
@@ -550,6 +592,7 @@
 	t_cc csbuffer::add(t_cc c)
 	{
 		TRACE_FLOW
+		TRACE_INF("csbuffer t_cc")
 		stmp = c;
 		return aoc(stmp);
 	}
@@ -685,7 +728,7 @@
 	void csbuffer::operator=(const csbuffer& o)
 	{
 		clear();
-		st  = o.st;
+		// st  = o.st;
 		srt = o.srt;
 		if (!o.ds) return;
 		s_cc** odb = o.db;

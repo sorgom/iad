@@ -24,6 +24,7 @@
 		TRACE_FLOW
 		n += i;
 		ovfl();
+		return *this;
 	}
 	void lnum::operator = (unsigned i)
 	{
