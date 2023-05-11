@@ -1,0 +1,14 @@
+unique		= 1
+# pg 			?= lan_online_a
+current		= lan
+onload		= none
+java_form	= none
+menu2 {
+	<div id=menu2>
+		<a params="pg=lan_online_a"><span>LL("Online State") A</span></a>
+		<a params="pg=lan_online_b"><span>LL("Online State") B</span></a>
+		<a params="pg=lan_online_c"><span>LL("Online State") C</span></a>
+	</div>	
+}
+contents = PAGE($pg)
+PARSE(main)

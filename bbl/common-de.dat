@@ -1,0 +1,646 @@
+#	========================================
+#	login relevant items
+#	========================================
+BEGIN:	login
+complete	= 1
+
+pg_login	= Einloggen
+Login 		= Einloggen
+Password	= Passwort
+Start Page 	= Startseite
+NoHelp		= Hilfetext in Arbeit
+Help		= Hilfe
+
+END:	login
+
+#	========================================
+#	page titles
+#	========================================
+pg_start		= Startseite
+pg_lan			= LAN / WLAN
+pg_logout		= Ausloggen
+pg_system		= System
+pg_layout		= Layout Einstellen
+pg_language 	= Spracheinstellung
+pg_time			= Datum und Uhrzeit
+pg_wlan			= WLAN
+pg_macfilter 	= MAC Filter
+pg_samples		= Formatierungen
+pg_tables		= Datenbank-Editor
+pg_sysreset		= System-Reset
+pg_lan_online_1	= Online Status 1
+pg_lan_online_2	= Online Status 2
+pg_lan_online_a	= Status A
+pg_lan_online_b	= Status B
+pg_lan_online_c	= Status C
+pg_lan_online	= Online ...
+pg_devtools		= Entwicklung
+#	========================================
+#	runtime variable names
+#	========================================
+rtv_aut			= Übersetzer
+rtv_des			= Gestalter
+rtv_dev			= Entwickler
+rtv_exp			= Experte
+#	========================================
+Add				= Hinzufügen
+Cells			= Zellen
+Deactivated		= Deaktiviert
+Deactivate		= Deaktivieren
+Activate		= Aktivieren
+Clear			= Neu
+Edit			= Bearbeiten
+On				= An
+Off				= Aus
+Yes				= Ja
+No				= Nein
+Are You Sure	= Sind Sie Sicher
+Set Layout 		= Marke Einstellen
+Set Language	= Spracheinstellung
+Error 			= Fehler
+Poly Off		= Die Layout-Auswahl wurde deaktiviert.
+Reset 			= Zurücksetzen
+Remove 			= Löschen
+Save 			= Speichern
+Active			= Aktiv
+Address			= Adresse
+Mac				= MAC-Adresse
+NoMacFilter		= Z. Zt. sind keine MAC-Adress-Filter aktiv.
+Manual Setup	= Manuelle Einstellung
+Packets			= Pakete
+Setup			= Einstellung
+Update			= Aktualisierung
+Successful		= Erfolgreich
+Language		= Sprache
+Online State	= Online Status
+System Overview = Sytem-Übersicht
+Sample			= Beispiel
+Format Samples	= Formatierungen
+Translated		= Übersetzt
+Trusted Nodes	= Zugelassene Teilnehmer
+Database Editor = Datenbank-Editor
+Table Selection = Datenbank-Tabellen
+Table			= Tabelle
+System Resetted	= Das System wurde auf Werkseinstellung zurückgesetzt.
+TODO {
+	Dieser Inhalt wird noch erstellt.
+	Wir bitten um Verzeihung.
+}
+# ============================================================
+# Datum und Uhrzeit
+# ============================================================
+Time Settings	= Datum und Uhrzeit
+Mar				= Mär
+May				= Mai
+Oct				= Okt
+Dec				= Dez
+Time			= Uhrzeit
+Date			= Datum
+Day				= Tag
+Month			= Monat
+Year			= Jahr
+Hour			= Stunde
+Second			= Sekunde
+Time Servers	= Zeit-Server
+# ============================================================
+# page help 
+# ============================================================
+help_start {
+Willkommen beim IAD Setup.
+Hier können Sie beliebig herumfummeln.
+}
+help_time {
+Auf dieser Seite haben Sie die Möglichkeit, die Systemuhr Ihres Gerätes manuell einzustellen oder einen Zeit-Server zu aktivieren, mit dem die interne Uhr Ihres Gerätes abgeglichen werden soll.
+Bei letzterem können Sie auf einen fest vorkonfigurierten Zeit-Server zurückgreifen oder Zeit-Server durch ihren Internet-Namen oder ihre IP-Adresse angeben.
+}
+help_samples {
+Beispiele für eingabetolerante Formatierungen.
+}
+help_samples_TEXT {
+In Textfelder können Sie alles eigeben.
+Damit meinen wir wirklich alles.
+}
+help_samples_REAL {
+Fließkommazahlen werden in der sprachüblichen Punktion angezeigt.
+Die Stellen hinter dem Komma sind individuell einstellbar.
+Die Eingabe ist extrem formattolerant.
+}
+# ============================================================
+# performance check
+# helerious data load of SAS common de
+# ============================================================
+ReplaceMe: Replace me!
+TestString1: Wumpel
+TestString2: Rumpel
+TestString3: ÄÜÖÓ
+TestString4: common
+NoJsHelpAvailable: Keine Hilfe verfügbar.
+JsHelpString1: Hilfe1
+JsHelpString2: Hier können Sie Ihr Passwort ändern. Die Eingabefelder sind nur verfügbar, wenn die Checkbox aktiv ist. Ein leeres Passwort ist nicht zulässig. Bitte beachten Sie auch, dass das die Passwortbestätigung mit Ihrem neuen Passwort übereinstimmt.
+JsHelpString3: Auf dieser Seite haben Sie die Möglichkeit, die Systemuhr Ihres Gerätes manuell einzustellen oder die Zeitserver anzugeben, mit denen die interne Uhr Ihres Gerätes abgeglichen werden soll. Sie können bis zu vier Zeitserver entweder durch ihren Internet-Namen oder ihre IP-Adresse angeben. Ein Zeitserver ist fest vorkonfiguriert.
+JsHelpString4: IN USE: JsHelpString4?
+JsHelpString5: IN USE: JsHelpString5?
+NavMainEntryOverview: Übersicht
+NavMainEntryInternet: Internet
+NavSubEntryWan: WAN
+NavSubEntryNat: NAT
+NavSubEntryNCID: NCID
+NavSubEntryAccess: Zugang einrichten
+NavTabEntryBoxMode: Modus
+NavTabEntryAccessData: Internetzugang
+NavTabEntryAtmConfig: ATM-Konfiguration
+NavTabEntryVoipAccessData: Internettelefonie
+NavSubEntryAdditionFunction1: Zusatzfunktionen
+NavTabEntryDynDns: DynDNS
+NavTabEntryDnsRelay: DNS Relay
+NavSubEntryAdditionFunction2: Zusatzfunktionen (II)
+NavTabEntryCosConfiguration: CoS-Konfiguration
+NavTabEntryQosConfiguration: QoS-Konfiguration
+NavTabEntryVpnConfiguration: VPN-Konfiguration
+NavMainEntryTelephony: Telefonie
+NavTabEntryLastCalls: Letzte Gespräche
+NavTabEntryCodecs: Codecs
+NavSubEntryTelephonyCommon: Allgemein
+NavSubEntryIntNumber: Interne Nummern
+NavSubEntryTelNumber: Rufnummern
+NavTabEntryFXOext: Rufnummern Extern
+NavTabEntryFXOint: Rufnummern Intern
+NavTabEntryTAMsn: Telefonieadapter
+NavTabEntryVoipProvider: VoIP-Anbieter
+NavTabEntryVoip: VoIP-Konten
+NavSubEntryPhoneDevices: Endgeräte
+NavTabEntryFxoDevices: Analoge Telefone
+NavTabEntryIsdnDevices: ISDN Telefone
+NavTabEntryLanWlanDevices: LAN Telefone
+NavTabEntryDectDevices: DECT Telefone
+NavSubEntryCharacteristics: Leistungsmerkmale
+NavSubEntryCallRules: Wahlvorgaben
+NavTabEntryAddressBook: Kurzwahlen
+NavTabEntryDialRules: Wahlregeln
+NavTabEntryProviderPrefix: Anbietervorwahlen
+NavTabEntryCallLocks: Wahlsperren
+NavSubEntryRedirect: Rufumleitungen
+NavSubEntryDropZone: Abwurfplatz
+NavSubEntryOutgoing: Ausgehend
+NavSubEntryIncoming: Eingehend
+NavSubEntryWakeUpCall: Wecker
+NavSubEntryNightConfig: Nachtschaltung
+NavMainEntryNetwork: Heimnetz
+NavTabStatistics: Statistiken
+NavSubEntryLan: LAN
+NavTabEntryStaticDHCP: Feste IP-Adressen
+NavTabEntryStaticRoute: Statisches Routing
+NavSubEntryWlan: WLAN
+NavTabEntryWlanMode: WLAN-Basisstation
+NavTabEntryWlanEncryption: Verschlüsselung
+NavTabEntryWlanConfig: Nachtschaltung
+NavTabEntryWlanRepeaterMode: Repeater-Modus
+NavSubEntryIpTv: IPTV
+NavSubEntryUSB: USB
+NavTabEntryUsbDevices: Massenspeicher
+NavTabEntryUsbPrinter: Drucker
+NavTabEntryUsbAuthorisation: Zugang
+NavSubEntryExtDevices: Externe Geräte
+NavMainEntrySecurity: Sicherheit
+NavSubEntryMacFilter: MAC-Adressen-Filter
+NavSubEntryInternetPortMapping: Port-Weiterleitung
+NavSubEntrySecurityConfig: Firewall
+NavSubEntryPacketFilter: Paketfilter
+NavTabEntryUrlFilter: URL-Filter
+NavSubEntryUPnP: UPnP
+NavTabEntryUPnPForwarding: Freigaben
+NavSubEntryDMZ: DMZ
+NavSubEntrySNMP: SNMP
+NavMainEntrySystem: System
+NavSubEntryTime: Systemzeit
+NavSubEntryInfoService: Info-Service
+NavSubEntryLanguage: Sprache
+NavTabEntryLanguage: Sprache wählen
+NavSubEntryAccessConfig: Benutzermodus
+NavSubEntryAccessProtection: Zugangsschutz
+NavSubEntryConfig: Konfiguration sichern
+NavSubEntryRemoteConfig: Gerät neu starten
+NavSubEntryReset: Gerät rücksetzen
+NavSubEntryUpdate: Firmware-Update
+NavSubEntryInfo: Info-Center
+NavTabEntryInfoDsl: DSL-Verbindung
+NavTabEntryInfoInternet: Internet-Verbindung
+NavTabEntryInfoNetwork: Heimnetz
+NavTabEntryInfoTelephony: Telefonie
+NavSubEntryDiagnostic: Diagnose
+NavTabEntrySysLog: Systemmeldungen anzeigen
+NavTabEntryPaketTracer: Paket-Tracer
+NavTabEntrySystemTest: System-Test
+NavSubEntrySitemap: Sitemap
+NavMainEntryWizard: Einrichtungsassistent
+NavMainEntryLogout: Abmelden
+NavSkipToContent: Springe zu: Inhalt
+NavSkipToNavigation: Springe zu: Navigation
+NavSkipToHelp: Springe zu: Hilfe
+NavSkipToFooter: Springe zu: Fusszeile
+UserModeNormal: Normaler Modus
+UserModeExpert: Experten-Modus
+UserModeDeveloper: Entwickler-Modus
+CommonProvider: Anbieter
+CommonName: Name
+CommonCallNumber: Rufnummer
+CommonCallNumbers: Rufnummern
+CommonState: Status
+CommonMin: Min
+CommonMax: Max
+CommonEnabled: Aktiviert
+CommonDisabled: Deaktiviert
+CommonActivated: aktiviert
+CommonDeactivated: deaktiviert
+CommonNewEntry: Neu
+HelpboxHeadingSuccess: Erfolg
+HelpboxHeadingError: Fehler
+HelpboxHeadingWarning: Warnung
+HelpboxHeadingInfo: Hinweis
+HelpboxCommonShowHelp: Schliessen Sie die Fehlermeldung, um den Hilfetext erneut einzublenden.
+CommonHelp: Hilfe
+CommonMonday: Montag
+CommonTuesday: Dienstag
+CommonWednesday: Mittwoch
+CommonThursday: Donnerstag
+CommonFriday: Freitag
+CommonSaturday: Samstag
+CommonSunday: Sonntag
+CommonUnitClock: Uhr
+CommonUnitWeeks: Wochen
+CommonUnitWeek: Woche
+CommonUnitDays: Tage
+CommonUnitDay: Tag
+CommonUnitDayPlural: Tag(e)
+CommonUnitHours: Stunden
+CommonUnitHour: Stunde
+CommonUnitHourPlural: Stunde(n)
+CommonUnitMinutes: Minuten
+CommonUnitMinute: Minute
+CommonUnitMinutePlural: Minute(n)
+CommonUnitSeconds: Sekunden
+CommonUnitSecondPlural: Sekunde(n)
+CommonUnitDB: dB
+CommonUnitKBps: kB/s
+CommonUnitKbitps: kbit/s
+CommonUnitMbitps: Mbit/s
+ButtonSave: Speichern
+ButtonForward: Weiter
+ButtonBack: Zurück
+ButtonFinish: Beenden
+ButtonBreak: Abbrechen
+ButtonEdit: Bearbeiten
+ButtonDelete: Löschen
+ButtonRefresh: Aktualisieren
+ButtonNew: Neu
+ButtonRestart: Neu starten
+ButtonReset: Zurücksetzen
+ButtonCamera: Link zur Kamera
+ButtonSearch: Durchsuchen
+ButtonDeleteList: Liste löschen
+ButtonSaveList: Liste speichern
+ButtonLoad: Laden
+ButtonTestInternet: Internet testen
+ButtonTestDsl: DSL testen
+ButtonStart: Start
+ButtonStop: Stop
+ButtonDisconnect: Trennen
+ButtonEstablish: Herstellen
+ButtonTransfer: Übertragen
+ButtonShow: Anzeigen
+ButtonClose: Schließen
+ButtonHelp: Infos von A-Z
+ButtonSkip: Überspringen
+ButtonReconnect: Neu verbinden
+ButtonAssume: Übernehmen
+CommonError: Fehler
+ErrorHeadingUnknown: Unbekannter Fehler
+ErrorHeadingNoFrames: Keine Unterstützung von Frames
+ErrorHeadingNoScript: Keine Unterstützung von Javascript
+ErrorHeadingOldBrowser: Nicht unterstützter Browser
+ErrorTextUnknown: Seite kann nicht angezeigt werden.
+ErrorTextNoFrames: Ihr Browser muss Frames unterstützen, um diese Seite anzeigen zu können.
+ErrorTextNoScript: Sie müssen Javascript aktivieren, um diese Seite korrekt anzuzeigen.
+ErrorTextOldBrowser: Sie benutzen einen zu alten oder nicht unterstützten Browser. Es werden nur folgende Browser unterstützt
+OverviewWizard: Welcome To the DSL-EasyBox 802
+OverviewWizardIndex: For an easy and fast DSL-EasyBox - use the Setup-Wizard. It will lead you through the installation step by step.
+OverviewWizardState: Status
+OverviewWizardEthEstablished: Ethernet: Verbindung hergestellt
+OverviewWizardEthDisconn: Ethernet: DISCONNECTED
+OverviewWizardAdslConn: ADSL: CONNECTED
+OverviewWizardAdslDisconn: ADSL: DISCONNECTED
+OverviewWizardAdslEstablished: ADS: Verbindung hergestellt
+OverviewLanIpAddr: IP-Adresse
+OverviewLanSubnet: IP-Subnetzmaske
+HeadingAccessData: Zugangsdaten
+LblInternetProvider: Anbieter
+LblDefaultProvider: Sonstiger Anbieter
+LblUserCommon: Zugangsname
+LblPassCommon: Passwort
+LblPassConfirmCommon: Passwortbestätigung
+HeadingInternetConnection: Art der Internet-Verbindung
+LblConnectionFlatrate: Ich nutze eine Flatrate oder einen Volumentarif
+LblConnectionDemand: Ich nutze einen zeitbasierten Tarif
+LblConnectionIdle1: Internetverbindung automatisch nach
+LblConnectionIdle2: Nicht-Nutzung trennen.
+TextTelephonySipProxy: SIP-Proxy
+ExHspaNowConnected: The devive is now connected with the internet.
+ExLoginOldPassword: Altes Passwort
+ExLoginNewPassword: Neues Passwort
+ExLoginConfirmPassword: Passwortbestätigung
+DataDNSIndex: DNS-Relay
+DataDnsEnable: DNS-Relay aktivieren
+DataDnsCacheEnable: DNS-Cache aktivieren
+DataPrimaryDNS: DNS-Server 1
+DataSecondaryDNS: DNS-Server 2
+DataDDNSIndex: Liste der eingerichteten DynDNS-Konten
+DataDDNSCreate: Neues DynDNS-Konto erstellen
+DataDDNSEdit: DynDNS-Konto bearbeiten
+DataDDNSEmpty: Es wurden keine DynDNS-Konten erstellt.
+DataDDNS: DynDNS einschalten
+DataDdnsServiceProvider: Anbieter
+DataDdnsDomainName: Kontoname
+DataDdnsUsername: Hostname
+DataDdnsPassword: Passwort
+DataDdnsPasswordConf: Passwortbestätigung
+SasSystemOverviewSystemTime: Aktuelle Systemzeit
+SasSystemOverviewSystemRunningTime: Aktuelle Systemlaufzeit
+SasSystemManualTimeSet: Zeit und Datum manuell einstellen
+SasSystemAutoTimeSet: Automatische Zeitsynchronisation
+SasSystemNewTime: Neue Uhrzeit
+SasSystemNewDate: Neues Datum
+SasSystemTimeServer: Zeitserver
+SasSystemRebootText: Erneutes Starten des Turbolink. Dabei bleiben alle gespeicherten Einstellungen erhalten.
+SasSystemResetText: Zurücksetzen des Turbolink in den Auslieferungszustand. Dabei werden alle eigenen Einstellungen gelöscht.
+HlSysInfoDsl: DSL-Verbindungsparameter anzeigen
+ThlSysInfoDslUpstream: Upstream
+ThlSysInfoDslDownstream: Downstream
+LblSysInfoDslDataRate: Netto-Datenrate
+LblSysInfoDslWireCapacity: Leitungskapazität
+LblSysInfoDslFastPath: FastPath
+LblSysInfoDslWireDamping: Leitungsdämpfung
+LblSysInfoDslSignalDamping: Signaldämpfung
+LblSysInfoDslSnr: Signal-Rausch-Abstand
+LblSysInfoDslConnectionAttempts: DSL-Verbindungsversuche
+HlSysInfoInet: Internet-Verbindungsdetails anzeigen
+LblMacAddress: MAC-Adresse
+LblSysInfoInetIpAddress: IP-Adresse
+LblSysInfoInetNetTransition: Netzübergang
+LblSysInfoInetPrimaryDns: Primärer DNS
+LblSysInfoInetSecondaryDns: Sekundärer DNS
+LblSysInfoInetOnlineTime: Online-Zeit
+LblSysInfoInetOnlineVolume: Online-Volumen
+HlSysInfoNetwIpSettings: IP-Einstellungen LAN / WLAN anzeigen
+LblSysInfoNetwIpAddress: IP-Adresse
+LblSysInfoNetwSubnetMask: Subnetzmaske
+HlSysInfoNetwDhcpSettings: DHCP-Server LAN/WLAN anzeigen
+DtSysInfoNetwDhcpUsed: DHCP-Server wird verwendet.
+DtSysInfoNetwDhcpNotUsed: DHCP-Server wird nicht verwendet.
+LblSysInfoNetwIpStartAddress: IP-Startadresse
+LblSysInfoNetwIpEndAddress: IP-Endadresse
+LblSysInfoNetwIpDuration: Vergabedauer
+HlSysInfoNetwFixedIpSettings: Fest eingerichtete IP-Adressen anzeigen
+DtSysInfoNetwFixedIpNoEntries: Es wurden keine Einträge erstellt.
+HlSysInfoTeleVoipSettings: Internettelefonie-Einstellungen anzeigen
+HlSysInfoTelePstnSettings: Festnetztelefonie-Einstellungen anzeigen
+DtSysInfoTeleNoVoipAccounts: Es sind keine VoIP-Konten eingerichtet.
+DtSysInfoTeleNoPstnConnection: Das Gerät ist nicht mit dem Festnetz verbunden.
+HlpSysInfoDsl: Hier erhalten Sie ausführliche Informationen über den Status Ihrer DSL-Verbindung. Insbesondere können Sie die Verbindungsparameter der DSL-Leitung sehen, was Ihnen wertvolle Informationen für eine eventuelle Fehlersuche liefert.
+HlpSysInfoInet: Auf dieser Seite finden Sie Detailinformationen zu Ihrer Internet-Verbindung. Von Interesse sind hier vor allem die zugeteilte IP-Adresse und die dynamisch zugewiesenen DNS-Server-Adressen.
+HlpSysInfoNetw: Hier sehen Sie ausführliche Angaben zu ihrem Heimnetz. Bitte beachten Sie, dass Ihr Gerät zum Anschluss von LAN- und WLAN-Geräten die gleichen Schnittstellenparameter verwendet. Wenn Ihr Gerät nicht als WLAN-Repeater arbeitet, sehen Sie noch die fest zugeordneten IP-Adressen.
+HlpSysInfoTele: Auf dieser Seite können Sie sich einen genauen Überblick über die Telefonie-Funktionen Ihres Gerätes verschaffen. Es werden detaillierte Informationen bezüglich der eingerichteten Konten, Rufnummern, Endgeräte und Leistungsmerkmale angezeigt.
+DtCommonOn: Ein
+DtCommonOff: Aus
+CommonUnitsByte: Byte
+CommonUnitsBytes: Bytes
+TeleNoVoipAccounts: Es sind keine VoIP-Konten eingerichtet.
+TeleVoipAccouts: Es wurden VoIP-Konten eingerichtet.
+TeleNoPstnConnection: Das Gerät ist nicht mit dem Festnetz verbunden.
+TelePstnConnection: Das Gerät ist mit dem Festnetz verbunden.
+TeleVoip: Internettelefonie
+TelePstn: Festnetztelefonie
+TeleFalseConfig: Das Gerät ist mit dem Festnetz verbunden, aber nicht richtig konfiguriert.
+TeleToAnalog: Das Gerät ist mit dem analogen Festnetz verbunden.
+TeleToIsdn: Das Gerät ist mit dem ISDN-Festnetz verbunden.
+TeleNoCalls: Keine Gespräche verfügbar.
+LanHlIpAndSubnet: IP-Adresse / Subnetzmaske LAN / WLAN
+LanHlDhcp: DHCP-Server LAN / WLAN
+LanUseDhcp: DHCP-Server verwenden
+LanDhcpStaticIpList: Liste der fest eingerichteten IP-Adressen
+LanDhcpStaticIpEntry: Fest eingerichtete IP-Adresse
+ErrorIpOutOfRange: Die IP-Adresse befindet sich ausserhalb des zulässigen Bereiches.
+ErrorDuplicateIp: Die IP-Adresse ist bereits vergeben.
+ErrorDuplicateMac: Die MAC-Adresse ist bereits vergeben.
+ExHspaConfirmUMTS: Bestätigen Sie bitte den Verbindungsaufbau über Mobilfunknetz.
+HeadingTelephony: Sprach-und Telefoneinstellungen
+LblNumberTOnline: T-Online-Nummer
+LblSuffixTOnline: Mitbenutzersuffix
+LblUserAOL: AOL-Hauptname
+LblUserAlice: Rufnummer
+LblUserCongster: Kundennummer
+LblUserFirstEwetel: Vorname
+LblUserLastEwetel: Nachname
+LblUserLycos: CustomerID
+LblUserRate: Tarif-Prefix (flatrate/Lycos)
+LblUserTOnline: Anschlusskennung
+LblUserTiscali: Email-Adresse
+WizardMainEntry: Intro
+WizardMainEntrySummary: Zusammenfassung
+TelephoneLastCalls: Verbindungsdaten
+TelephonyNumber: Rufnummer
+TelephonyLastCallTarget: Zielrufnummer
+TelephonyLastCallType: Art
+TelephonyMode: Telefoniemodus einstellen
+TelephonyModeEnable: PBX-Mode aktivieren
+TelephonyFxoChannel1: Leitung 1 aktivieren
+TelephonyFxoChannel2: Leitung 2 aktivieren
+TelephonyFxoChannels: Analoge Leitungen
+TelephonyVad: Verbesserung der Bandbreitennutzung von DSL
+TelephonyIntNumber: Interne Nummern
+TelephonyInternNumber: Interne Nummer
+CommonCallType: Telefon-Typ
+CommonLine: Leitung
+TelephonyNewIntNumber: Interne Nummer erstellen
+CommonAnalog: Analog
+TelephonyISDN: ISDN
+TelephonyStartTime: Startzeitpunkt
+TelephonyEndTime: Endzeitpunkt
+CommonSubsidiary: Nebenstelle
+TelephonyNightEnable: Regel nutzen
+CommonOff: aus
+CommonOn: ein
+TelephonyClirColr: eigene Rufnummer unterdrücken (CLIR/COLR)
+TelephonyCwOff: Anklopfen ausschalten (CW)
+TelephonyECTOn: Vermitteln durch Auflegen (ECT)
+TelephonyDevicesIsdn: ISDN-S0
+TelephonyIsdnCharacteristic: Die Zuordnung der Leistungsmerkmale zu den ISDN-Endgeräten erfolgt in den Endgeräten selbst.
+TelephonyAddressBook: Liste der eingerichteten Kurzwahlen
+TelephonyNoAddressBook: Es wurden keine Kurzwahlnummern eingerichtet.
+TelephonyRedirection: Liste der eingerichteten Rufumleitungen
+TelephonyNoRedirection: Es wurden keine Rufumleitungen konfiguriert.
+TelephonyDropZoneEnable: Abwurfplatz aktivieren
+TelephonyDropTime: Dauer für Nichtmelden
+SasHeadingSecurityInternetSec: Internet-Sicherheit
+SasHeadingSecurityPortForwarding: Port-Weiterleitung
+SasHeadingSecurityMacFilter: MAC-Adressen-Filter
+SasHeadingSecurityInternetFilter: Paketfilter
+SasHeadingSecurityUPnP: Universal Plug-and-Play (UPnP)
+SasHelpSecurity: Auf dieser Seite können Sie sehen, wie gut Ihr Gerät vor potentiellen Bedrohungen aus dem Internet geschützt ist. In den entsprechenden Untermenüs können Sie diese Schutzfunktionen detailliert konfigurieren.
+SasHelpSecurityWanStatus: Hier sehen Sie, ob der Zugriff auf Ihr Gerät über das Internet möglich ist.
+SasHelpSecurityFirewallStatus: Hier sehen Sie, ob Ihre Firewall eingeschaltet und korrekt konfiguriert ist.
+SasHelpSecurityPaketfilterStatus: Hier sehen Sie, ob das Paketfilter-Regelwerk Ihres Gerätes aktiviert wurde.
+SasHelpSecurityPortforwardingStatus: Hier sehen Sie, ob in Ihrem Gerät Port-Weiterleitungen aktiviert wurden.
+SasHelpSecurityMacFitlerStatus: Hier sehen Sie, ob der MAC-Adressen-Filter, mit dem Sie die an Ihr Heimnetz angeschlossenen Geräte freischalten können, aktiviert ist.
+SasHelpSecurityUPnPStatus: Hier sehen Sie, ob UPnP-Statusinformationen und UPnP-Port- Weiterleitungen aktiviert sind.
+SasTextSecurityMacFilterOff: Der MAC-Adress-Filter ist ausgeschaltet.
+SasTextSecurityDevNoSaved: Das Gerät ist gegen unberechtigtes Eindringen vom Zugangsnetz nicht ausreichend gesichert.
+SasTextSecurityDevSaved: Das Gerät ist gegen unberechtigtes Eindringen vom Zugangsnetz ausreichend gesichert.
+SasTextSecurityInternFilter: Es sind Internet-Filter eingerichtet.
+SasTextSecurityNoInternFilter: Es sind keine Internet-Filter eingerichtet.
+SasTextSecurityPaketFilterOff: Der Paketfilter ist ausgeschaltet.
+SasTextSecurityPortfowardOn: Port-Weiterleitung wurde eingerichtet.
+SasTextSecurityPortfowardEmpty: Port-Weiterleitung wurde nicht eingerichtet.
+SasTextSecurityPortfowardOff: Port-Weiterleitung ist ausgeschaltet.
+SasTextSecurityEnablingOn: MAC-Adress-Filter für folgende Geräte aktivieren
+SasTextSecurityUPnPIGDEnabled: UPnP-Statusinformationen sind eingeschaltet.
+SasTextSecurityUPnPIGDDisabled: UPnP-Statusinformationen sind ausgeschaltet.
+SasTextSecurityUPnPFWEnabled: UPnP-Port-Weiterleitungen sind eingeschaltet.
+SasTextSecurityUPnPFWDisabled: UPnP-Port-Weiterleitungen sind ausgeschaltet.
+TelephonyFxoChannel: Leitung %d aktivieren
+commonAnalog: Interne Nummer
+CommonPointInTime: Zeitpunkt
+CommonDuration: Dauer
+CommonCaller: Anrufer
+TelephonyCallDirectionIn: eingehend
+TelephonyCallDirectionOut: ausgehend
+TelephonyCallDirectionErr: nicht erfolgreich
+TelephonyVadText: Ich möchte die Erkennung von Sprachpausen verwenden.
+TelephonyVadTextCng: Ich möchte das Einfügen von Rauschen bei Sprachpausen verwenden.
+HelpTelephonyDef: Auf dieser Seite sehen Sie eine Übersicht über den Status Ihrer Telefonieverbindungen. Der Begriff "VoIP" bezieht sich dabei immer auf die Internettelefonie.
+HelpTelephonyInternet: Hier sehen Sie den Status der Internettelefonie.
+HelpTelephonyFxo: Hier sehen Sie den Status der Festnetztelefonie.
+HelpTelephonyLastCalls: Auf dieser Seite können Sie Einzelheiten über Ihre zuletzt geführten Telefonate sehen. Bis zu 50 Gespräche werden hier aufgeführt. Bitte beachten Sie, dass diese Übersicht nur zu Ihrer Information dient und daher Abweichungen zur Telefonabrechnung, Ihres Telefonieanbieters enthalten kann.
+HelpTelephonyCommon: Hier können Sie den Telefoniemodus einstellen und die analogen Leitungen aktivieren.
+HelpTelephonyIntNumber: Auf dieser Seite sind die vergebenen internen Nummern aufgeführt.
+HelpTelephonyEditIntNumber: Hier können Sie vergebene interne Nummern bearbeiten.
+HelpTelephonyIsdnFeatures: Die Zuordnung der Leistungsmerkmale zu den ISDN-Endgeräten erfolgt in den Endgeräten selbst. Bitte sehen Sie dazu im Handbuch Ihres ISDN- Endgerätes nach.
+HelpTelephonyFxoFeatures: Hier konfigurieren Sie die Leistungsmerkmale für Ihre angeschlossenen analogen Endgeräte wie Eigene Rufnummer bei abgehenden und ankommenden Gesprächen unterdrücken (CLIR / COLR), Anklopfen ausschalten (Call Waiting) und Vermitteln durch Auflegen (Explicit Call Transfer). Bitte beachten Sie, dass ECT nur bei aktivierter "TK-Anlagenfunktion" verfügbar ist!
+CommonNumber: Nr.
+CommonSetting: Einstellen
+CommonTelNumber: Telefonnummer
+DataAdvancedSettings: Erweiterte Einstellungen
+DataAllways: Immer
+DataApp: Anwendung
+DataApps: Anwendungen
+DataAudioVideo: Audio / Video
+DataBlock: Blockieren
+DataClientIp: Client IP-Adresse
+DataConfigure: Konfigurieren
+DataCopy: Kopieren
+DataFirewallAim: AIM
+DataFirewallAllTcpPorts: Alle TCP Ports
+DataFirewallAllUdpPorts: Alle UDP Ports
+DataFirewallAlwaysBlock: Immer blockieren
+DataFirewallClientIpRange: IP-Adresse des Clients
+DataFirewallClientServices: Dienste des Clients
+DataFirewallConnectionRules: Verbindungsregeln
+DataFirewallCreateScheduleRule: Terminplanregel erstellen
+DataFirewallDescOfClient: Bezeichnung des Clients
+DataFirewallDetailsDesc: Detail-Beschreibung
+DataFirewallDhcpClients: Liste der DHCP Clients
+DataFirewallDmz: DMZ (Demilitarisierte Zone)
+DataFirewallDmzEnable: Einschalten der DMZ Funktionen
+HelpTelephonyCreateIntNumber: Hier können Sie neue interne Nummern einrichten. Unter Nummer tragen Sie bitte ein, welche interne Nummer Sie vergeben möchten. Unter Anschlusstyp wählen Sie bitte, welchen Typ des Festnetz-Anschlusses Sie für diese Nummer verwenden möchten. \n Bitte beachten Sie, dass Sie den Telefon-Typ "ISDN" nur verwenden können, wenn Sie einen ISDN Telefonanschluss besitzen.
+TelephonyTypeFxo: Typ des Festnetz-Anschlusses
+TelephonyUseAnalog: Ich verwende einen analogen Festnetz-Anschluss.
+TelephonyUseIsdn: Ich verwende einen ISDN Festnetz-Anschluss.
+TelephonyAnalog: Analoge Festnetz-Rufnummer
+TelephonySelection: Auswahl über
+TelephonyIsdn: ISDN-Rufnummern
+CommonMainCallNumber: Hauptrufnummer
+CommonAdditionalNumbers: Weitere Rufnummern
+TelephonyNewMSN: Rufnummern eintragen
+TelephonyMsnNumber: MSN/Rufnummer
+TelephonyAutoAmt: Externe Telefonanlage
+TelephonyAmtEnable: automatische Amtsholung aktivieren
+TelephonyAmtNumber: vorzuwählende Ziffer
+TelephonyVoipProvider: Liste der eingerichteten VoIP-Anbieter
+TelephonyNoVoipProvider: Es sind keine VoIP-Provider eingerichtet.
+CommonProviderName: Anbietername
+TelephonyAccountDomain: Konto-Domain
+TelephonyNewProvider: Neuen VoIP-Anbieter erstellen
+TelephonyEditProvider: VoIP-Anbieter bearbeiten
+CommonPort: Port
+TelephonySipRegistrar: SIP-Registrar
+TelephonyOutboundProxy: Ausgehender Proxy
+TelephonyLocalPort: Lokaler Port
+TelephonyRtpStartPort: Startport
+TelephonyRtpEndPort: Endport
+TelephonyRtpPortRange: RTP-Portbereich
+TelephonyT38Support: T38-Unterstützung
+TelephonyVoipInterface: VoIP-Interface
+TelephonyVoipAccounts: Liste der eingerichteten VoIP-Konten
+TelephonyAccountName: Kontoname
+InternetChooseProvider: Anbieter wählen
+CommonPleaseChoose: -- bitte auswählen --
+TelephonyNewVoipAccount: Neues VoIP-Konto erstellen
+TelephonyEditVoipAccount: VoIP-Konto bearbeiten
+CommonDisplayName: Anzeigename
+CommonAuthName: Authentifizierungsname
+TelephonyTime: Registrierzeit
+CommonNotAssigned: nicht zugeordnet
+TelephonyOutNumbers: Rufnummern für ausgehende Gespräche
+TelephonyInternUser: Interner Teilnehmer
+TelephonyNoIntExtNumbers: Es sind noch keine internen oder externen Rufnummern konfiguriert.
+TelephonyInNumbers: Rufnummern für eingehende Gespräche
+TelephonyEditShortDial: Kurzwahl bearbeiten
+CommonShortDial: Kurzwahl
+TelephonyAddressBookTypPrivat: Privat
+TelephonyAddressBookTypBusi: Geschäft
+TelephonyAddressBookTypMobil: Mobil
+TelephonyCallLocksMode: Sperrmodus wählen
+TelephonyCallLockBlackListMode: Die folgenden Rufnummern abweisen
+TelephonyCallLockWhiteListMode: Die folgenden Rufnummern zulassen
+TelephonyCallLocksDirection: Rufrichtung
+TelephonyBlackListEmpty: Es wurden keine Nummernsperren eingerichtet.
+HelpTelephonyCallLock: Mit Wahlsperren können Sie verschiedene Regeln für aus- und eingehende Anrufe festlegen. Sie können z.B. dafür sorgen, dass Anrufe von einer bestimmten Rufnummer / Vorwahl etc. entweder abgewiesen werden (Besetztzeichen) oder aber nur diese Nummern am Turbolink klingeln dürfen. Bitte wählen Sie dazu zuerst den Sperrmodus und betätigen Sie Speichern.
+HelpTelephonyIncomming: Hier können Sie Ihren angeschlossenen Telefonen die Rufnummern zuordnen, die für eingehende Gespräche verwendet werden sollen.
+HelpTelephonyOutgoing: Hier können Sie Ihren angeschlossenen Telefonen die Rufnummern zuordnen, die für ausgehende Gespräche verwendet werden sollen.
+HelpTelephonyAddressBook: Auf dieser Seite sind die eingerichteten Kurzwahlen aufgeführt. Über Kurzwahlnummern können Sie schneller eine bestimmte Rufnummer wählen. \n Gleichzeitig können Sie diese Seite nutzen, um sich ein Telefonbuch Ihrer wichtigsten Rufnummern einzurichten.
+TelephonyWhiteListEmpty: Es wurden keine Nummern-Freigaben eingerichtet. BITTE BEACHTEN: Wenn Sie unter "Neu" keine Rufnummer für "Ausgehend" und "Eingehend" eintragen, dann ist ihr Telefonanschluss für ALLE ausgehenden und eingehenden Telefonate gesperrt. Notrufe sind weiterhin möglich.
+TelephonyCallLAddWhite: Neue Nummernfreigabe einrichten
+TelephonyCallEditWhite: Nummernfreigabe ändern
+TelephonyCallLAddBlack: Neue Nummernsperre einrichten
+TelephonyCallLEditBlack: Nummernsperre ändern
+TelephonyCallLocksIn: Eingehend
+TelephonyCallLocksOut: Ausgehend
+TelephonyCallLocksBoth: Ein- und ausgehend
+TelephonyAdapterNoLines: Es sind keine Leitungen aktiviert
+CommonConfirmRemoveEntry: Wollen Sie den Eintrag wirklich loeschen?
+TelephonyOutNumber: Rufnummer für ausgehende Gespräche
+TelephonyEditTAMsn: TA-MSN bearbeiten
+TelephonyNewTAMsn: Neue TA-MSN erstellen
+TelephonieOutgoingPhoneNumber: Ausgehende Rufnummer
+TelephonyCallsTo: Anrufe an
+TelephonyRedirectTo: Umleiten auf
+TelephonyRedirectType: Art der Umleitung
+TelephonyRedirectTypeCfb: bei Besetzt
+TelephonyRedirectTypeCfu: sofort
+TelephonyRedirectTypeCfnr: bei Nichterreichen
+TelephonyNewRedirect: Neue Rufumleitungen erstellen
+TelephonyEditRedirect: Rufumleitungen bearbeiten
+TelephonyRedirectToNumber: Umleiten auf Rufnummer
+TelephonyRedirectActive: Rufumleitung aktiv
+TelephonyAllCallsTo: alle Anrufe an
+TelephonyNoIntNumber: Hinweis: Es wurden keine internen Nummern eingerichtet.
+confirmDeleteNightRules: Möchten Sie die Nachtschaltung wirklich zurücksetzen?
+TelephonyNightReset: Gesamte Nachtschaltung zurücksetzen: damit werden alle Einstellungen gelöscht.
+HelpTelephonyNightMode {
+	Hier können Sie zu jedem Wochentag einen Zeitraum festlegen, in dem alle Anrufe auf die gewählte Nebenstelle umgeleitet werden.
+	Für jeden Wochentag können Sie dazu festlegen, ob die Regel genutzt werden soll, schalten Sie die Regel dazu ein.
+	Hinweis: Zur Verwendung müssen interne Rufnummern eingerichtet sein. Diese können Sie unter "Telefonie / Rufnummern" einrichten.
+}	
+CommonTimeFormatString: %02d.%02d.%04d - %02d:%02d:%02d
+CommonTimeDurationFormatString: %02ld:%02ld:%02ld
+hello: High Ihr Sacknasen! 
+

@@ -1,0 +1,18 @@
+contents {
+	<h2>LL("System Reset")</h2>
+	<form>
+		IF(prompt)
+			@@prompt('Are You Sure')
+		ELSE()
+			PUT(sysreset)
+			IF(sysreset) 
+				<p>LL('System Resetted')</p>
+			ELSE()
+				<div class=submit><input type=submit value="LL(Reset)" class=submit></div>
+			ENDIF()	
+		ENDIF()
+
+	</form>
+}
+current	= system
+PARSE(main)

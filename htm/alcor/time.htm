@@ -1,0 +1,21 @@
+contents {
+<h2>LL("Time Servers")</h2>
+<form next=system onerror=this>
+	PUT(time_servers)
+	<div class=submit>
+		<input type=submit value="LL(Save): LL('Time Servers')">
+	</div>
+</form>
+<br>
+<h2>LL("Manual Setup")</h2>
+<form next=system>
+	PUT(fake_time)
+	<div class=submit>
+		<input type=submit value="LL(Save): LL('Manual Setup')">
+	</div>
+</form>
+}
+sub_system = $submenu_system
+current	= system
+PARSE(main)
+

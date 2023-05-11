@@ -1,0 +1,17 @@
+#	============================================================
+#	language: de
+#	layout  : sas
+#	updated : Sun Jun 28 17:58:33     2009
+#	============================================================
+END: login
+Set Layout 	= Layout Einstellen
+Incomming	= Downstream
+Outgoing	= Upstream
+Remove		= Entfernen
+Save		= Übernehmen
+Logout		= Ausloggen
+help_samples +{
+Bei "Saiphron" schön zu sehen:
+Die Links zeigen an, ob Daten vorhanden sind.
+(Kombination aus cproc & css).
+}

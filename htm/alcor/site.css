@@ -1,0 +1,83 @@
+/**
+*	CSS
+*	============================================================
+*	This style sheet comes with no warranty.
+*	It may be used, copied and modified
+*	for your own purposes as you like.
+*
+*	Manfred Sorgo
+*	http://www.sorgo.de
+*	last update: Mon Dec 21 13:44:24 2009
+*	============================================================
+**/
+*{font-size:11pt;font-family:Arial,Helvetica,Sans-Serif;}
+div#helptxt,div#helptxt strong{font-size:9pt;}
+div.tables a.current{color:#006875;}
+div.shade{margin-top:25px;margin-left:20px;width:18em;background-color:#DDD;padding-right:4px;}
+div.prompt{position:relative;left:-20px;top:-12px;width:18em;background-color:#AAA;border:solid 4px;border-color:#CCC #777 #777 #CCC;padding-top:20px;text-align:center;}
+div.yesno{margin:20px;}
+@media screen {
+*{color:black;}
+a{color:blue;}
+a:visited,a:active,a:link{color:blue;}
+h2{color:#007585;}
+body{background-image:url(img/arcor_bg.png);}
+div#navi{position:absolute;left:0;top:112px;width:13em;}
+a#top{background-image:url(img/arcor.png);background-position:20px 0;}
+div#help{position:absolute;right:20px;top:120px;width:150px;height:400px;background-color:#F4F4F4;}
+div#helptxt{padding:8px;}
+div#navi a{display:block;height:1.7em;margin-top:8px;background-color:#A7C6CD;}
+div#navi a span{display:block;height:1.7em;padding-top:4px;padding-left:10px;padding-right:10px;color:black;}
+div#navi a.current{background-color:#008698;}
+div#navi a.current span{color:white;font-weight:bold;}
+div#navi a:hover{background-color:#008698;}
+div#navi a:hover span{color:white;font-weight:bold;}
+div#navi a#logout:hover span{background-color:#900;}
+div#navi div.subnavi a{height:1.2em;margin-top:4px;}
+div#navi div.subnavi a span{height:1.2em;padding-top:0px;padding-bottom:0px;color:black;background-color:white;}
+div#navi div.subnavi a.current span{color:#007585;background-color:white;font-weight:bold;}
+div#navi div.subnavi a:hover span{color:#007585;background-color:white;font-weight:bold;}
+div#langs{position:absolute;bottom:10px;right:20px;z-index:3;}
+div#errinf{position:absolute;bottom:10px;left:20px;}
+div#ajax_clock,p#nojava{position:absolute;top:20px;right:20px;z-index:4;}
+p.info{color:#060;}
+p.error{color:#600;}
+p#qlayout{position:absolute;top:80px;right:20px;z-index:3;}
+p#qlayout span.nok{color:#666;}
+h2{color:#007585;}
+table#OnlineState,table#OnlineState2 td.dbc_Rate{border-color:#A7C6CD;}
+table#OnlineState2 td.dbc_Name{border-color:#AAA;}
+.ajaxinfo{color:#A7C6CD;}
+.translated{color:#AAA;}
+div#navi a#a_logout:hover span{background-color:#900;}
+option.ok{color:#007585;}
+td.c1 label{display:block;margin-right:17px;text-align:right;font-weight:bold;color:#007585;}
+div.submit{position:relative;text-align:right;border-bottom:1px solid #007585;margin-top:5px;padding-bottom:5px;}
+div#MacFlt div.submit input,div.SVB div.submit input,div.submit input.submit{width:9em;}
+div#MacFlt_3{text-align:right;}
+div#langs{position:absolute;bottom:10px;right:20px;z-index:4;}
+div#langs a,div#langs span{display:block;float:left;width:40px;height:30px;margin-left:8px;font-size:0;text-decoration:none;border:solid 1px #007585;}
+div#langs a{background-color:#CCC;}
+div#langs a:hover,div#langs span{background-color:#00F;}
+div#langs a.de{background-image:url(img/lang_de_bw.gif);}
+div#langs a.dk{background-image:url(img/lang_dk_bw.gif);}
+div#langs a.en{background-image:url(img/lang_en_bw.gif);}
+div#langs a.es{background-image:url(img/lang_es_bw.gif);}
+div#langs a.fr{background-image:url(img/lang_fr_bw.gif);}
+div#langs a.de:hover,div#langs span.de{background-image:url(img/lang_de.gif);}
+div#langs a.dk:hover,div#langs span.dk{background-image:url(img/lang_dk.gif);}
+div#langs a.en:hover,div#langs span.en{background-image:url(img/lang_en.gif);}
+div#langs a.es:hover,div#langs span.es{background-image:url(img/lang_es.gif);}
+div#langs a.fr:hover,div#langs span.fr{background-image:url(img/lang_fr.gif);}
+select#language option{display:block;height:34px;width:12em;padding-left:45px;background-repeat:no-repeat;}
+select#language option.de{background-image:url(img/lang_de.gif);}
+select#language option.dk{background-image:url(img/lang_dk.gif);}
+select#language option.en{background-image:url(img/lang_en.gif);}
+select#language option.es{background-image:url(img/lang_es.gif);}
+select#language option.fr{background-image:url(img/lang_fr.gif);}
+div.rtv_ico{position:absolute;left:220px;top:20px;z-index:3;}
+div.rtv_ico span{display:block;float:left;width:50px;height:50px;margin-right:10px;}
+div.rtv_ico span.aut{background-image:url(img/aut.gif);}
+div.rtv_ico span.des{background-image:url(img/des.gif);}
+div.rtv_ico span.dev{background-image:url(img/dev.gif);}
+div.rtv_ico span.exp{background-image:url(img/exp.gif);}}

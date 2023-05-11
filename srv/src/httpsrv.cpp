@@ -89,6 +89,7 @@ using namespace bbl;
 		int r = srv->run(p, ini.getn(c_ip));
 	//	save SID to tmp file
 		save_sid(s_sid);
+		TRACE_VAR(r)
 		return r;
 	}
 //	============================================================

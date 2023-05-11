@@ -1,0 +1,19 @@
+# ========================================
+# online contents
+# ========================================
+<h2>LL('LAN / WAN' 'Online State') B</h2> 
+<table cellspacing=2 cellpadding=0 id=OnlineState2>
+	<tr>
+		SET(view_table_trans)
+		<td class=dbc_Name>PUT(view_column OnlineState Name)</td>
+		PUT(begin_ajax td dbc_Rate)
+		PARSE(ajax_lan_2)
+		PUT(end_ajax)
+	</tr>
+	<tr>
+		<td class=translated>LL(Translated)</td>
+		<td class=ajaxinfo>LL('AJAX Updater')<noscript><br>LL(Deactivated)</noscript></td>
+	</tr>
+</table>
+PUT(ajax_updater 1000 ajax_lan_2)
+

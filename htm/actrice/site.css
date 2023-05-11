@@ -1,0 +1,53 @@
+/**
+*	CSS
+*	============================================================
+*	This style sheet comes with no warranty.
+*	It may be used, copied and modified
+*	for your own purposes as you like.
+*
+*	Manfred Sorgo
+*	http://www.sorgo.de
+*	last update: Sun Dec 20 17:29:54 2009
+*	============================================================
+**/
+*{font-size:11pt;font-family:Arial,Helvetica,Sans-Serif;}
+div#helptxt,div#helptxt strong{font-size:9pt;}
+div.tables a.current{color:#C01;}
+div.shade{margin-top:25px;margin-left:20px;width:18em;background-color:#DDD;padding-right:4px;}
+div.prompt{position:relative;left:-20px;top:-12px;width:18em;background-color:#AAA;border:solid 4px;border-color:#CCC #777 #777 #CCC;padding-top:20px;text-align:center;}
+div.yesno{margin:20px;}
+@media screen {
+*{color:black;}
+a{color:blue;}
+a:visited,a:active,a:link{color:blue;}
+h2{color:#C01;}
+body{background-image:url(img/actrice_bg.gif);}
+div#navi{position:absolute;left:0;top:117px;width:13em;}
+a#top{background-image:url(img/actrice.jpg);background-position:20px 0;}
+div#help{position:absolute;right:20px;top:120px;width:150px;height:400px;background-color:#F4F4F4;}
+div#helptxt{padding:8px;}
+div#navi a{display:block;height:1.2em;margin-top:3px;}
+div#navi a span{display:block;height:1.2em;padding-top:2px;padding-left:10px;padding-right:10px;color:blue;}
+div#navi a.current span{color:#C01;font-weight:bold;}
+div#navi a:hover span{color:#C01;font-weight:bold;}
+div#navi div.subnavi{margin-left:20px;}
+div#navi div.subnavi a{height:1.2em;}
+div#navi div.subnavi a span{height:1.2em;}
+div#navi div.subnavi a.current span{font-weight:bold;}
+div#navi div.subnavi a:hover span{font-weight:bold;}
+div#langs{position:absolute;top:10px;right:20px;z-index:3;}
+div#errinf{position:absolute;bottom:10px;right:20px;}
+p#nojava,div#ajax_clock{position:absolute;bottom:10px;left:20px;}
+p#qlayout{position:absolute;top:80px;right:20px;z-index:3;}
+p#qlayout span.nok{color:#666;}
+h2{color:#C01;}
+table#OnlineState,table#OnlineState2 td.dbc_Rate{border-color:#6FF;}
+table#OnlineState2 td.dbc_Name{border-color:#BBB;}
+.ajaxinfo{color:#6FF;}
+.translated{color:#BBB;}
+div.rtv_ico{position:absolute;left:220px;top:31px;z-index:3;}
+div.rtv_ico span{display:block;float:left;width:68px;height:68px;}
+div.rtv_ico span.aut{background-image:url(img/aut.gif);}
+div.rtv_ico span.des{background-image:url(img/des.gif);}
+div.rtv_ico span.dev{background-image:url(img/dev.gif);}
+div.rtv_ico span.exp{background-image:url(img/exp.gif);}}

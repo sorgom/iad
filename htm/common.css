@@ -1,0 +1,62 @@
+/**
+*	CSS
+*	============================================================
+*	This style sheet comes with no warranty.
+*	It may be used, copied and modified
+*	for your own purposes as you like.
+*
+*	Manfred Sorgo
+*	http://www.sorgo.de
+*	last update: Mon Dec 21 13:32:01 2009
+*	============================================================
+**/
+a{text-decoration:none;}
+h1{font-size:14pt;margin:0px;margin-bottom:5px;}
+h2{font-size:12pt;margin:0px;margin-bottom:2px;}
+h3,h4,h5,h6{font-size:11pt;}
+ul{list-style-type:square;margin:0;padding-left:1em;list-style-position:outside;}
+li{margin:0.3em;margin-left:0;line-height:1.5em;}
+p{margin:0;margin-bottom:3px;}
+td{vertical-align:top;padding:3px;}
+.real{text-align:right;}
+.ip4{text-align:center;}
+th{text-align:left;}
+img{border:none;}
+span.nok input,td.nok input{background:#FCC;}
+input{padding-left:0.5em;padding-right:0.5em;}
+th{padding-right:20px;}
+table.view_table td{padding-right:10px;}
+td.dbc_Rate{width:6em;text-align:right;}
+option.ok{color:green;}
+option.nok{color:red;}
+select.MacFlt{width:20em;margin-bottom:10px;}
+div#MacFlt_2{margin-bottom:10px;margin-top:10px;}
+div.submit span.On,div.submit span.Off{display:block;float:left;width:10em;border:solid 1px #888;margin-right:10px;padding:1px;padding-left:10px;text-align:left;}
+div.submit span.On{background:#F90;}
+div.submit span.Off{background:#DDD;}
+div.submit{clear:both;}
+td.ajaxinfo{text-align:right;}
+p.ajaxinfo{margin-top:0.5em;}
+p.todo{margin-top:10px;width:20em;border:solid 1px;padding:10px;}
+table edit_table td,table edit_table th,table edit_table td input{width:3em;}
+@media screen {
+.noscreen,.hidden{display:none;}
+a:hover{text-decoration:underline;}
+body,div#outer{margin:0;background-position:top left;background-repeat:repeat-x;}
+a#top{position:absolute;left:0;top:0;z-index:2;display:block;width:99%;font-size:0;line-height:0;height:100px;background-repeat:no-repeat;}
+div#contents{position:absolute;top:120px;left:13em;z-index:5;padding-left:20px;}
+div#navi a:hover,div#menu2 a:hover{text-decoration:none;}
+a span{cursor:pointer;}
+input.remove{background-color:#F00;color:white;font-weight:bold;}
+input.Add{background-color:#0FF;color:white;font-weight:bold;}
+table#OnlineState,table#OnlineState2 td.dbc_Rate,table#OnlineState2 td.dbc_Name{border:1px solid;}
+table#OnlineState2 td{line-height:1.6em;padding-right:10px;}
+div#edit_table table{border:none;}
+div.tables{width:30em;margin-bottom:20px;}}
+@media print {
+.noprint,.hidden,.topnavi{display:none;}
+*{line-height:1.6em;}
+a{color:black;}
+div#navi,a#top{display:none;}
+input.submit,input.remove{display:none;}
+div#langs,p#nojava,div#errinf,div.submit,p#qlayout{display:none;}}

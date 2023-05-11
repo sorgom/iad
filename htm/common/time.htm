@@ -1,0 +1,20 @@
+contents {
+<h2>LL("Manual Setup")</h2>
+<form>
+	PUT(fake_time)
+	<br>
+	<input type=submit value="LL(Save)" class=submit>
+</form>
+<br>
+<h2>LL("Time Servers")</h2>
+<form>
+	PUT(time_servers $display_time_servers)
+	<br>
+	<input type=submit value="LL(Save)" class=submit>
+</form>
+}
+current		= system
+onload_form	= none
+java_form	= none
+PARSE(main)
+

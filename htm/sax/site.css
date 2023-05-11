@@ -1,0 +1,63 @@
+/**
+*	CSS
+*	============================================================
+*	This style sheet comes with no warranty.
+*	It may be used, copied and modified
+*	for your own purposes as you like.
+*
+*	Manfred Sorgo
+*	http://www.sorgo.de
+*	last update: Mon Dec 21 13:56:47 2009
+*	============================================================
+**/
+*{font-size:11pt;font-family:Arial,Helvetica,Sans-Serif;}
+div#helptxt,div#helptxt strong{font-size:9pt;}
+div.tables a.current{color:#000;}
+div.shade{margin-top:25px;margin-left:20px;width:18em;background-color:#A09DBD;padding-right:4px;}
+div.prompt{position:relative;left:-20px;top:-12px;width:18em;background-color:#AAA;border:solid 4px;border-color:#CCC #777 #777 #CCC;padding-top:20px;text-align:center;}
+div.yesno{margin:20px;}
+@media screen {
+*{color:black;}
+a{color:blue;}
+a:visited,a:active,a:link{color:blue;}
+body{background-color:#A09DBD;background-image:url();}
+div#navi{position:absolute;left:0;top:117px;width:13em;}
+a#top{background-image:url(img/sas.jpg);background-position:20px 0;}
+div#help{position:absolute;right:0px;top:120px;width:150px;height:400px;background-color:#F4F4F4;}
+div#helptxt{padding:8px;}
+div#navi a{display:block;height:25px;margin-top:3px;background-color:#d34551;}
+div#navi a span{display:block;height:25px;padding-top:4px;padding-right:10px;color:white;}
+div#navi a.current span{color:white;font-weight:bold;}
+div#navi a:hover span{color:white;font-weight:bold;}
+div#navi div.subnavi a{height:25px;background-color:#A09DBD;}
+div#navi div.subnavi a span{height:25px;background-color:#aaa6c9;}
+div#navi div.subnavi a.current span{font-weight:bold;}
+div#navi div.subnavi a:hover span{font-weight:bold;}
+div#page_path{position:absolute;top:40px;left:15px;z-index:3;padding:5px;}
+div#errinf{position:absolute;bottom:10px;right:20px;}
+div#ajax_clock,p#nojava{position:absolute;top:80px;left:20px;z-index:3;}
+div#langs{position:absolute;top:10px;left:20px;z-index:3;}
+div.rtv_info{position:absolute;bottom:10px;left:10px;padding:10px;border:solid 1px;border-color:#669 #CCF #CCF #669;}
+p#qlayout{position:absolute;top:80px;right:20px;z-index:3;}
+p#qlayout span.nok{color:#666;}
+table#OnlineState,table#OnlineState2 td.dbc_Rate{border-color:#CCF;}
+table#OnlineState2 td.dbc_Name{border-color:#669;}
+.ajaxinfo{color:#CCF;}
+.translated{color:#669;}
+div#outer{position:relative;top:10px;left:10px;width:980px;height:570px;border:solid 1px;border-color:#CCF #669 #669 #CCF;background-color:#aaa6c9;background-image:url(img/sas_bg.jpg);}
+a#top{background-image:url(img/sas.jpg);background-position:top right;}
+div#hlptp{height:25px;background-color:#d34551;padding-right:10px;}
+div#hlptp span{display:block;height:25px;padding-top:4px;font-weight:bold;color:white;}
+div#navi a,div#hlptp{background-image:url(img/btg.gif);background-repeat:repeat-x;}
+div#navi div.subnavi a{background-image:none;}
+h2{color:white;}
+div#navi a span,div#hlptp span{padding-left:25px;background-repeat:no-repeat;background-position:5px 0.5em;background-image:url(img/btstd.gif);}
+div#navi a span.ok,div#navi a#a_logout span,div#hlptp span.ok{background-image:url(img/btok.gif);}
+div#navi a span.nok,div#navi a#a_logout:hover span,div#hlptp span.nok{background-image:url(img/btnok.gif);}
+div#menu2{position:absolute;left:13em;top:74px;z-index:4;padding-left:20px;height:3.0em;}
+div#menu2 a{display:block;float:left;margin-right:1px;height:25px;border-bottom:1px solid white;background-color:#d34551;background-repeat:repeat-x;background-image:url(img/btg.gif);}
+div#menu2 a span{display:block;float:left;height:25px;padding-top:4px;padding-left:10px;padding-right:10px;color:white;}
+div#menu2 a:hover,div#menu2 a.current{background-color:#aaa6c9;background-image:url(img/btbg.gif);}
+div#menu2 a.current{border-color:#aaa6c9;background-image:none;}}
+@media print {
+div#hlptp,div#menu2{display:none;}}

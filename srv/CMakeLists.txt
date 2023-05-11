@@ -12,7 +12,10 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../bin)
 
 file(GLOB srv_srcs ./src/**.cpp)
 
-add_compile_options(-DISSRV -DDEVEL -DXDEVEL)
+add_compile_options(-DISSRV)
+if(${DEVEL})
+     add_compile_options(-DDEVEL -DXDEVEL)
+endif()
 
 add_executable(iadsrv ${srv_srcs})
 

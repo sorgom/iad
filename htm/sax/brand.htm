@@ -1,0 +1,31 @@
+help_condition			= IF(true)
+help_top				= <div id=hlptp><span ok=page_help>LL(Help)</span></div>
+mac_display				= reversed
+display_time_servers 	= reversed
+@@samplink 				= <a page=samples params="subject=$1"><span ok="sample_format $1">LL('Sample'): $1 </span></a>
+@@oklink 				= <a page=$1 id=a_$1><span ok="SVB $2">LL(pg_$1)</span></a>
+
+@@okxlink {
+	@@oklink($1 $2)
+	IF(current $1)
+	<div class=subnavi>
+		$submenu_$1
+	</div>
+	ENDIF()
+} 
+
+llwlan = @@okxlink(wlan WLAN)
+
+submenu_wlan {
+	<a page=macfilter><span ok=macfilter>LL(pg_macfilter)</span></a>
+}
+submenu_lan {
+	@@plink(lan_online)
+	@@plink(lan_online_1)
+	@@plink(lan_online_2)
+}
+
+page_path = <div id=page_path>PUT(page_path)</div>
+rtv_info = PUT(rtv_info <br> '&bull; ')
+
+SET(fdigits 1)

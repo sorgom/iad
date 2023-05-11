@@ -63,6 +63,7 @@
 			ok &= chkdir(dbdir,		c_dbdir);
 			ok &= chkdir(htmdir,	c_htmdir);
 			ok &= chkdir(langdir,	c_langdir);
+			TRACE_VAR(ok)
 			if (!ok) return false;
 		}
 		hdn::ini.set(c_droot, cdef);
@@ -122,5 +123,6 @@
 	//	other finders
 		htmfinder* const pf = const_cast<htmfinder* const>(htmfinder::instance());
 		ok &= pf->init();
+		TRACE_VAR(ok)
 		return ok;
 	}

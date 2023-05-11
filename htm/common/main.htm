@@ -1,0 +1,170 @@
+PARSE(brand)
+# ============================================================
+# predefinitions	
+# ============================================================
+
+# a MACRO: standard page link
+@@plink ?= <a page=$1><span>LL(pg_$1)</span></a>
+
+# submenus
+submenu_system ?{
+	IF(poly) @@plink(layout) ENDIF()
+	@@plink(language)
+	@@plink(time)
+	@@plink(sysreset)
+}
+submenu_lan ?{
+	@@plink(lan_online_1)
+	@@plink(lan_online_2)
+}		
+submenu_wlan ?{
+	@@plink(macfilter)
+}
+
+submenu_devtools ?{
+	@@iplink(tables)
+}
+
+# a MACRO: link to a sample page with 1 parameter
+@@samplink ?=  <a page=samples params="subject=$1"><span>LL('Sample'): $1 </span></a>
+
+submenu_samples ?{
+	@@samplink(TEXT)
+	@@samplink(REAL)
+	@@samplink(HOST)
+	@@samplink(IP4)
+	@@samplink(MAC)
+}
+
+# ============================================================
+# other defaults
+# ============================================================
+TODO			?= <p class=todo>LL(TODO)</p>
+onload_form 	?= firstfocus();
+java_form		?= PUT(JS /forms)
+java_prototype	?= PUT(JS /http)
+onload			?= $onload_form
+java			?= $java_form $java_prototype
+languages 		?= PUT(quick_language)
+help_condition	?= IF(page_help)
+# saiphron has a different wlan menu
+# therefore this menu item is a variable
+llwlan 			?=  @@xlink(wlan)
+
+
+# a MACRO: standard page link with id
+@@iplink ?= <a page=$1 id=a_$1><span>LL(pg_$1)</span></a>
+
+# a MACRO: standard item + submenu expandable link
+# parameter: page name
+@@xlink ?{
+	@@iplink($1)
+	IF(current $1)
+	<div class=subnavi>
+		$submenu_$1
+	</div>
+	ENDIF()
+}
+
+
+# main menu
+menu ?{
+	<div id=navi>
+		@@iplink(start)
+		@@xlink(system)
+		@@xlink(lan)
+		$llwlan
+		IF(rtv exp)	
+			@@xlink(samples)
+		ENDIF()	
+		IF(rtv dev)	
+			@@xlink(devtools)
+		ENDIF()	
+		@@iplink(logout)
+	</div>	
+}
+
+# the clock
+clock  ?{ 
+ 	IF(ajax_able) 
+ 		<div id=ajax_clock>
+ 			PUT(JWS)
+ 			<a page=time tile="LL('Time Settings')">
+ 			PUT(begin_ajax span)
+ 			PUT(end_ajax)
+ 			</a>
+ 			PUT(JWE)
+ 			PUT(ajax_updater 1000 ajax_clock)
+ 		</div> 
+ 	ENDIF()
+}
+# standard macro for prompt
+@@prompt {
+	<div class=shade>
+		<div class=prompt>
+			<p>LL($1)?</p>
+			<div class=yesno>PUT(prompt)</div>
+		</div>
+	</div>
+}
+
+# ============================================================
+# standard layout HTML	
+# ============================================================
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<title>IAD Setup $brand</title>
+<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
+<meta http-equiv=expires content=0>
+<meta http-equiv=Content-Script-Type content="text/javascript">
+<meta name=author content="Manfred Sorgo www.sorgo.de">
+<link href="$droot/$layout/favicon.ico" rel="shortcut icon" type="image/x-icon">
+<link rel=stylesheet href="$droot/common.css" type="text/css">
+<link rel=stylesheet href="$droot/$layout/site.css" type="text/css">
+<meta name="generator" content="WebSteno by Manfred Sorgo www.sorgo.de">
+$java
+</head>
+<body onload="$onload">
+<div id=outer>
+# top link with logo	
+	<a page=start id=top name=top title="LL('Start Page')" target=_top>&nbsp;</a>
+# additional navigation?
+	$menu2
+# contents
+	<div id=contents>
+		$contents
+	</div>
+# error and info output	
+	<div id=errinf>
+		IF(errors)	<p class=error>PUT(errors)</p>
+		ELIF(infos)	<p class=info >PUT(infos) </p>
+		ENDIF() 
+	</div>
+# navigation	
+	$menu
+# language selector
+	<div id=langs>$languages</div>	
+# display clock if defined	
+	$clock
+# if help defined in current language: display help div
+	$help_condition
+	<div id=help>
+		$help_top
+		<div id=helptxt>PUT(page_help)</div>
+	</div>
+	ENDIF()
+# no javascript indicator
+	<noscript>
+		<p id=nojava>JavaScript LL(Deactivated)</p>
+	</noscript>	
+# display quick layout selector if poly mode is on
+	IF(poly) <p id=qlayout>PUT(quick_layout)</p>ENDIF()
+# page path display?
+	$page_path
+# runtime vars to display?
+	$rtv_info
+</div>
+</body>
+</html>

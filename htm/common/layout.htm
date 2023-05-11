@@ -1,0 +1,16 @@
+contents {
+	IF(poly)
+	<form>
+		PUT(layout)
+		<br>
+		<div class=submit><input type=submit value="LL(enter)" class=submit></div>
+	</form>
+	ELSE()
+		<p>LL('Poly Off')</p>
+	ENDIF()
+}
+next = system
+sub_system = $submenu_system
+current = system
+PARSE(main)
+

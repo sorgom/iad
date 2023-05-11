@@ -1,0 +1,16 @@
+BEGIN:	login
+
+Login 		= Entrar
+Password	= Contraseña
+Start Page 	= Inicio
+NoHelp		= Ayuda en Labor
+Help		= Ayuda
+
+#	============================================================
+#	language: es
+#	layout  : common
+#	updated : Sun Jun 28 17:58:33     2009
+#	============================================================
+END: login
+Set Layout 	= Ajustar Layout
+

@@ -1,0 +1,46 @@
+#	========================================
+#	login relevant items
+#	========================================
+BEGIN: login
+#	login page title
+pg_login		?= Login Page
+NoHelp			?= Help for this item is currently being written ...
+END: login
+#	========================================
+#	page titles
+#	========================================
+pg_start		?= Start Page
+pg_lan			?= LAN / WLAN
+pg_logout		?= Logout
+pg_system		?= System
+pg_layout		?= Set Layout
+pg_language 	?= Set Language
+pg_time			?= Time Settings
+pg_wlan			?= WLAN
+pg_macfilter 	?= MAC Filter
+pg_samples		?= Format Samples
+pg_tables		?= Database Editor
+pg_sysreset		?= System Reset
+pg_lan_online_1	?= Online State 1
+pg_lan_online_2	?= Online State 2
+pg_lan_online_a	?= Online State A
+pg_lan_online_b	?= Online State B
+pg_lan_online_c	?= Online State C
+pg_lan_online	?= Online State ...
+pg_devtools		?= Development
+#	========================================
+#	runtime variable names
+#	========================================
+rtv_aut			?= Translator
+rtv_des			?= Designer
+rtv_dev			?= Developer
+rtv_exp			?= Expert
+#	========================================
+#	some other phrases
+#	========================================
+TODO			?{ 
+	Sorry,
+	Under Construction.
+}	
+System Resetted	?= System has been resetted to shipping values.
+Poly Off		?= Multi layout selection has been deactivated.

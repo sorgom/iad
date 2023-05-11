@@ -1,0 +1,11 @@
+contents {
+	IF(DEF $subject)
+	<h2>LL(Sample): $subject</h2>
+	<form>
+			PUT(sample_format $subject)
+			<div class=submit><input type=submit value="LL(Save)" class=submit></div>
+	</form>
+	ENDIF()
+}
+PARSE(main)
+

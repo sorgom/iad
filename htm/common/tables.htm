@@ -1,0 +1,17 @@
+current = devtools
+subject = $table
+contents { 
+	<h2>LL('Table Selection')</h2>
+	PUT(tables)
+	IF(DEF $table)
+		<h2>LL(Table): $table</h2>
+		<form>
+			<div id=edit_table>
+			PUT(edit_table $table)
+			</div>
+			<div class=submit><input type=submit value="LL(Save)" class=submit></div>
+		</form>
+	ENDIF()	
+}	
+PARSE(main)
+

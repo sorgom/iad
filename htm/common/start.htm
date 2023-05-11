@@ -1,0 +1,18 @@
+onload		= none
+java_form	= none
+
+contents {
+		<form>
+			PUT(rtv exp)
+#	IF(HOST)
+			PUT(rtv des)
+			PUT(rtv dev)
+			PUT(rtv aut)
+#	ENDIF()		
+			<p>&nbsp;</p>
+			<div class=submit><input type=submit value=OK class=submit></div>
+		</form>
+}
+
+PARSE(main)
+
