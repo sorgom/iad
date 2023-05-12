@@ -37,3 +37,7 @@ sample presentations
 translation files
 ### sh
 runtime shell scripts
+
+# TODO
+- setup.py command calls
+

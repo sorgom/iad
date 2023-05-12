@@ -9,11 +9,14 @@ from subprocess import run
 verbose = False
 preview = False
 targetDir = None
-projDir = dirname(realpath(abspath(__file__)))
 debug = False
 
+#   project folder with all symbolik linking expanded
+projDir = dirname(realpath(abspath(__file__)))
+#   project folder as begin of string regex
 rxProjDir = re.compile(r'^' + re.escape(projDir) + r'\b')
 
+#   sub folders to copy
 targetSubDirs = ['bin', 'db', 'htm', 'bbl', 'sh', 'tmp']
 
 def help():
@@ -32,6 +35,7 @@ options:
 def echo(*args):
     if verbose or preview: print(*args)
 
+#   less ugly substitute of assert
 def check(cond:bool, *args):
     if not cond:
         print(*args)
@@ -60,7 +64,7 @@ def copyDir(src:str, dest:str):
     curdir = getcwd()
     chdir(src)
     for item in glob('*'):
-        print(item)
+        echo(item)
         trg = join(dest, item)
         if (isdir(item)) : copyDir(item, trg)
         else: copyfile(item, trg) 
@@ -81,10 +85,7 @@ def placeTemplate(file:str):
         with open(tFile, 'w') as fh:
             fh.write(txt)
 
-#   ============================================================
 #   command line & target folder
-#   ============================================================
-
 try:
     opts, args = getopt.getopt(sys.argv[1:], 't:dpvh')
 except getopt.GetoptError as err:
@@ -97,42 +98,35 @@ for o, v in opts:
     elif o == '-p': preview = True
     elif o == '-d': debug = True
 
+#   default target: $HOME/iad_runtime
 if targetDir is None:
     targetDir = join(environ.get('HOME'), 'iad_runtime')
 
 targetDir = realpath(abspath(targetDir))
 
+#   make sure target folder is not part of project folder
 check(not rxProjDir.match(targetDir), targetDir, 'points to project folder', projDir)
 
 checkDir(targetDir)
 
-#   ============================================================
 #   build binary
-#   ============================================================
 goProjDir('srv')
 rm('CMakeCache.txt')
-if debug: run(['cmake',  '-DDEVEL=1', '.'])
-else: run(['cmake',  '.'])
+if debug: 
+    run(['cmake',  '-DDEVEL=1', '.'])
+else: 
+    run(['cmake',  '.'])
 run('make')
 
-#   ============================================================
 #   create databases
-#   ============================================================
 goProjDir('db')
 run('./mkdbs.sh')
 
-#   ============================================================
 #   copy folders to target
-#   ============================================================
 for dir in targetSubDirs:
     copyDir(join(projDir, dir), join(targetDir, dir))
 
-#   ============================================================
 #   expand templates
-#   ============================================================
 goProjDir('templates')
 for file in glob('template.*'): placeTemplate(file)
 
-
-
-# print('HOME', os.environ.get('HOME'))
