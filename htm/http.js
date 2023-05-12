@@ -4874,3 +4874,14 @@ Element.ClassNames.prototype = {
 Object.extend(Element.ClassNames.prototype, Enumerable);
 
 /*--------------------------------------------------------------------------*/
+
+function http_repeat(route, params, obj, msec)
+{
+  new Ajax.PeriodicalUpdater(
+    obj,
+    route,
+    {	method:'get',
+      frequency: msec / 1000.0,
+      parameters: params
+    });
+}

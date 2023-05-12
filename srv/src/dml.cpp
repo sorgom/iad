@@ -116,6 +116,8 @@
 //	standard: nob
 	void dmlstream::attr(taa<nob>	a) { addq(a); }
 //	standard: numeric
+	void dmlstream::attr(taan       a) { add(' '); add(a.name); add('='); add(a.val); }
+	
 	void dmlstream::attr(taa<t_num>	a) { add(' '); add(a.name); add('='); add(a.val); }
 //	standard: t_cc (expicit type)
 	void dmlstream::attr(taac a)

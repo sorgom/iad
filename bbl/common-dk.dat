@@ -8,10 +8,10 @@ Set Layout 	= Layout Einstellen
 Incomming	= Downstream
 Outgoing	= Upstream
 Remove		= Entfernen
-Save		= Übernehmen
+Save		= Ãœbernehmen
 Logout		= Ausloggen
 help_samples +{
-Bei "Saiphron" schön zu sehen:
+Bei "Saiphron" schÃ¶n zu sehen:
 Die Links zeigen an, ob Daten vorhanden sind.
 (Kombination aus cproc & css).
 }

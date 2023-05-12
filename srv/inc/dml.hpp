@@ -40,6 +40,18 @@
 	//!	forced quoting (e.g. "value" that can be user input)
 		bool q;
 	};
+
+//!	attribute stream struct: numerical
+	struct taan
+	{
+	//!	attribute name.
+		t_cc name;
+	//!	attribute value.
+		const t_num val;
+	//!	forced quoting (e.g. "value" that can be user input)
+		bool q;
+	};
+
 //!	attribute stream struct: string.
 	struct taac
 	{
@@ -83,6 +95,7 @@
 	//! tag attributes.
 		template <class T>
 		inline dmlstream& operator <<(taa<T> a)	{ if (open) attr(a); return *this; }
+		inline dmlstream& operator <<(taan a)	{ if (open) attr(a); return *this; }
 		inline dmlstream& operator <<(taac a)	{ if (open) attr(a); return *this; }
 	//!	non value attribute.
 		inline dmlstream& operator <<(saa a) 	{ if (open) attr(a); return *this; }
@@ -143,6 +156,7 @@
 		void attr(taa<t_cc>  a);
 		void attr(taa<nob>   a);
 		void attr(taa<t_num> a);
+		void attr(taan       a);
 		void attr(taac 		 a);
 		void attr(saa		 a);
 		void attr(laa		 a);
@@ -205,6 +219,12 @@ namespace ta
 		return t;
 	}
 
+	inline taan maa(t_cc n, t_num v, bool q = false)
+	{
+		taan t = { n, v, q };
+		return t;
+	}
+
 //!	attribute of t_cc (value) creator.
 	inline taac maac(t_cc n, t_cc v, bool q = false)
 	{
@@ -246,10 +266,10 @@ namespace ta
 	inline taa<nob> name (const nob& v) { return maa<nob>(c_name,  v); }
 
 //	numerical attributes.
-	inline taa<t_num> colspan	(t_num n) { return maa<t_num>(c_colspan,	n); }
-	inline taa<t_num> maxlength	(t_num n) { return maa<t_num>(c_maxlength,	n); }
-	inline taa<t_num> size		(t_num n) { return maa<t_num>(c_size,		n); }
-	inline taa<t_num> value		(t_num n) { return maa<t_num>(c_value,		n); }
+	inline taan colspan	  (t_num n) { return maa(c_colspan,	  n); }
+	inline taan maxlength (t_num n) { return maa(c_maxlength, n); }
+	inline taan size      (t_num n) { return maa(c_size,      n); }
+	inline taan value     (t_num n) { return maa(c_value,     n); }
 
 //	functor attributes.
 	inline sfaa title (sfunc* sf) { sfaa t = { c_title, sf }; return t; }

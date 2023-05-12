@@ -88,12 +88,8 @@ menu ?{
 clock  ?{ 
  	IF(ajax_able) 
  		<div id=ajax_clock>
- 			PUT(JWS)
- 			<a page=time tile="LL('Time Settings')">
  			PUT(begin_ajax span)
  			PUT(end_ajax)
- 			</a>
- 			PUT(JWE)
  			PUT(ajax_updater 1000 ajax_clock)
  		</div> 
  	ENDIF()
@@ -111,19 +107,15 @@ clock  ?{
 # ============================================================
 # standard layout HTML	
 # ============================================================
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-"http://www.w3.org/TR/html4/loose.dtd">
+<!DOCTYPE HTML>
 <html>
 <head>
 <title>IAD Setup $brand</title>
-<meta http-equiv=Content-Type content="text/html; charset=iso-8859-1">
-<meta http-equiv=expires content=0>
-<meta http-equiv=Content-Script-Type content="text/javascript">
-<meta name=author content="Manfred Sorgo www.sorgo.de">
-<link href="$droot/$layout/favicon.ico" rel="shortcut icon" type="image/x-icon">
-<link rel=stylesheet href="$droot/common.css" type="text/css">
-<link rel=stylesheet href="$droot/$layout/site.css" type="text/css">
-<meta name="generator" content="WebSteno by Manfred Sorgo www.sorgo.de">
+<meta charset="UTF-8" />
+<meta http-equiv=expires content=0 />
+<link href="$droot/$layout/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+<link rel=stylesheet href="$droot/common.css" type="text/css" />
+<link rel=stylesheet href="$droot/$layout/site.css" type="text/css" />
 $java
 </head>
 <body onload="$onload">

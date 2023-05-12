@@ -20,24 +20,24 @@ NavSubEntryPhoneDevices: Rufnummernzuordnung
 NavSubEntryCharacteristics: Telefoneinstellungen
 NavSubEntryOutgoing: Ausgehende Anrufe
 NavSubEntryIncoming: Eingehende Anrufe
-NavTabStatistics: » NAT Mapping Table
-NavTabEntryWlanMode: » Einstellungen
-NavTabEntryWlanEncryption: » Verschlüsselung
-NavTabEntryWlanConfig: » Access Control
-NavTabEntryWlanRepeaterMode: » WDS
-NavTabEntryUsbDevices: » FTP-Server
-NavTabEntryUsbPrinter: » Drucker-Server
-NavTabEntryUsbAuthorisation: » Dateiserver
-NavSubEntryExtDevices: » Web FTP Server
-NavSubEntryMacFilter: » MAC Filtertabelle
-NavSubEntryInternetPortMapping: » Port Mapping
+NavTabStatistics: NAT Mapping Table
+NavTabEntryWlanMode: Einstellungen
+NavTabEntryWlanEncryption: VerschlÃ¼sselung
+NavTabEntryWlanConfig: ï¿½ Access Control
+NavTabEntryWlanRepeaterMode: ï¿½ WDS
+NavTabEntryUsbDevices: ï¿½ FTP-Server
+NavTabEntryUsbPrinter: ï¿½ Drucker-Server
+NavTabEntryUsbAuthorisation: ï¿½ Dateiserver
+NavSubEntryExtDevices: ï¿½ Web FTP Server
+NavSubEntryMacFilter: ï¿½ MAC Filtertabelle
+NavSubEntryInternetPortMapping: ï¿½ Port Mapping
 NavSubEntrySecurityConfig: FIREWALL
-NavSubEntryPacketFilter: » Address Mapping
-NavTabEntryUrlFilter: » URL Blocking
-NavSubEntryDMZ: » DMZ
+NavSubEntryPacketFilter: ï¿½ Address Mapping
+NavTabEntryUrlFilter: ï¿½ URL Blocking
+NavSubEntryDMZ: ï¿½ DMZ
 NavMainEntrySystem: Extras
 NavSubEntryTime: Zeiteinstellungen
-NavSubEntryAccessConfig: » Zugangskontrolle
+NavSubEntryAccessConfig: ï¿½ Zugangskontrolle
 NavSubEntryAccessProtection: Anmeldeeinstellungen
 NavSubEntryRemoteConfig: Fernwartung
 NavSubEntryReset: Neustart
@@ -47,27 +47,27 @@ NavSubEntryDiagnostic: Diagnoseprogramm
 NavMainEntryWizard: Wizard
 ButtonRestart: Neustart
 OverviewWizard: Willkommen bei Ihrer DSL-EasyBox 802
-OverviewWizardIndex: Verwenden Sie den Installationsassistenten für die einfache und schnelle Konfiguration der DSL-EasyBox. Er wird Sie Schritt für Schritt durch das Installationsprogramm führen.
+OverviewWizardIndex: Verwenden Sie den Installationsassistenten fï¿½r die einfache und schnelle Konfiguration der DSL-EasyBox. Er wird Sie Schritt fï¿½r Schritt durch das Installationsprogramm fï¿½hren.
 OverviewWizardEthEstablished: Ethernet: Verbindung hergestellt
 OverviewWizardEthDisconn: Ethernet: Nicht verbunden
 OverviewWizardAdslConn: ADSL: Leitung verbunden
 OverviewWizardAdslDisconn: ADSL: Leitung nicht verbunden
 OverviewWizardAdslEstablished: ADSL: Verbindung hergestellt
-ExHspaNowConnected: Das Gerät ist nun mit dem Internet verbunden.
+ExHspaNowConnected: Das Gerï¿½t ist nun mit dem Internet verbunden.
 ExLoginOldPassword: Altes Kennwort
 ExLoginNewPassword: Neues Kennwort
 ExLoginConfirmPassword: Neues Kennwort erneut eingeben
 DataDNSIndex: DNS
-DataPrimaryDNS: Primäre DNS-Adresse
-DataSecondaryDNS: Sekundäre DNS-Adresse (optional)
+DataPrimaryDNS: Primï¿½re DNS-Adresse
+DataSecondaryDNS: Sekundï¿½re DNS-Adresse (optional)
 DataDDNSIndex: DynDNS-Einstellungen (Dynamic Domain Name Service)
 DataDDNS: Dynamic DNS
 DataDdnsServiceProvider: Diensteanbieter
-DataDdnsDomainName: Domänenname
+DataDdnsDomainName: Domï¿½nenname
 DataDdnsUsername: Konto / E-Mail
-DataDdnsPassword: Passwort / Schlüssel
-ExHspaConfirmUMTS: Bestätigung Abfragen bei Verbindungsaufbau über Mobilfunknetz
-WizardMainEntrySummary: Übersicht Ihrer Internetzugangsdaten
+DataDdnsPassword: Passwort / Schlï¿½ssel
+ExHspaConfirmUMTS: Bestï¿½tigung Abfragen bei Verbindungsaufbau ï¿½ber Mobilfunknetz
+WizardMainEntrySummary: ï¿½bersicht Ihrer Internetzugangsdaten
 CommonNumber: Nr.
 CommonSetting: Einstellen
 CommonTelNumber: Telefonnummer
@@ -93,21 +93,21 @@ DataFirewallDetailsDesc: Detail-Beschreibung
 DataFirewallDhcpClients: Liste der DHCP Clients
 DataFirewallDmz: DMZ (Demilitarisierte Zone)
 DataFirewallDmzEnable: Einschalten der DMZ Funktionen
-DataDDNSIndexDesc1: DynDNS stellt dem Internetnutzer eine Methode zur Verfügung, seine(n) Domänennamen mit Computern oder Servern zu verbinden. DynDNS stellt sicher, dass sich der Domänenname automatisch der IP-Adresse anpasst, indem sich Ihr DNS-Eintrag ändert, wann immer sich Ihre IP-Adresse ändert.
-DataDDNSIndexDesc2: Dieses Leistungsmerkmal wird durch einen externen Dienstleister bereitgestellt. Mit einer DynDNS-Verbindung können Sie trotz einer dynamischen IP-Adresse lokal eine eigene Webseite, einen E-Mail-Server, einen FTP-Server und anderes mehr betreiben.
-DataDNSIndexDesc: Ein Domain Name Server (DNS) ist ein Verzeichnis von IP- und Web-Adressen. Wenn Sie eine Web-Adresse in dieses Verzeichnis eingeben, findet der DNS-Server in seinem Verzeichnis diesen Namen und die dazu passende IP-Adresse. Aus Gründen von Schnelligkeit und Zweckmäßigkeit stellen die meisten ISPs einen DNS-Server bereit. Da Sie durch Ihren ISP über dynamische IP-Einstellungen mit dem Internet verbunden werden, ist es wahrscheinlich, dass auch die IP-Adresse des DNS-Servers dynamisch vergeben wird. Sollten Sie einen anderen DNS-Server bevorzugen, müssen Sie dessen IP-Adresse hier eingeben.
+DataDDNSIndexDesc1: DynDNS stellt dem Internetnutzer eine Methode zur Verfï¿½gung, seine(n) Domï¿½nennamen mit Computern oder Servern zu verbinden. DynDNS stellt sicher, dass sich der Domï¿½nenname automatisch der IP-Adresse anpasst, indem sich Ihr DNS-Eintrag ï¿½ndert, wann immer sich Ihre IP-Adresse ï¿½ndert.
+DataDDNSIndexDesc2: Dieses Leistungsmerkmal wird durch einen externen Dienstleister bereitgestellt. Mit einer DynDNS-Verbindung kï¿½nnen Sie trotz einer dynamischen IP-Adresse lokal eine eigene Webseite, einen E-Mail-Server, einen FTP-Server und anderes mehr betreiben.
+DataDNSIndexDesc: Ein Domain Name Server (DNS) ist ein Verzeichnis von IP- und Web-Adressen. Wenn Sie eine Web-Adresse in dieses Verzeichnis eingeben, findet der DNS-Server in seinem Verzeichnis diesen Namen und die dazu passende IP-Adresse. Aus Grï¿½nden von Schnelligkeit und Zweckmï¿½ï¿½igkeit stellen die meisten ISPs einen DNS-Server bereit. Da Sie durch Ihren ISP ï¿½ber dynamische IP-Einstellungen mit dem Internet verbunden werden, ist es wahrscheinlich, dass auch die IP-Adresse des DNS-Servers dynamisch vergeben wird. Sollten Sie einen anderen DNS-Server bevorzugen, mï¿½ssen Sie dessen IP-Adresse hier eingeben.
 DataDayOfWeek: Wochentag
 DataDisabled: deaktiviert
 DataEnabled: Aktiviert
 DataEndtime: Ende-Zeit (hh:mm)
 DataFirewall: Sicherheitseinstellungen (Firewall)
 DataFirewallAccessControl: Zugangskontrolle
-DataFirewallAccessControlForClients: Zugangskontrolle für angeschlossene PCs (Clients)
-DataFirewallAccessControlIndex: Mit Hilfe der Zugangskontrolle können Sie bestimmen, welche Art von Datenverkehr zum Internet erlaubt ist. Diese Seite beinhaltet das Filtern von IP- und MAC-Adressen.
-DataFirewallAccessControllIndex1: Auf dieser Seite können Sie Einstellungen von Clients, wie IP-Adresse, Art des Dienstes sowie Kriterien für Terminpläne festlegen.
-DataFirewallAccessControllIndex2: Bezüglich der Blockierung von Web-Seiten (URL Blocking) ist es erforderlich, die entsprechende Internetadresse zuerst auf der Seite "URL Blocking" festzulegen. Gleiches gilt für die Eingabe von Terminplänen. Auch diese müssen Sie zuerst auf der Seite "Regeln für Terminpläne" konfigurieren.
-DataFirewallDmzIndex1: Sollte ein Client hinter einer Firewall bestimmte Internetanwendungen nicht ordnungsgemäß ausführen können, kann man diesem Rechner durch Einrichten eines virtuellen DMZ Host den unbeschränkten, bidirektionalen Zugang zum Internet öffnen.
-DataFirewallDmzIndex2: Es können auch mehrere PCs für den bidirektionalen Zugang zum Internet für z.B. Internetspiele, Videokonferenzen oder VPN-Verbindungen freigeschaltet werden. Um die DMZ zu nutzen, muß dem betreffenden PC eine feste IP-Adresse zugewiesen werden.
+DataFirewallAccessControlForClients: Zugangskontrolle fï¿½r angeschlossene PCs (Clients)
+DataFirewallAccessControlIndex: Mit Hilfe der Zugangskontrolle kï¿½nnen Sie bestimmen, welche Art von Datenverkehr zum Internet erlaubt ist. Diese Seite beinhaltet das Filtern von IP- und MAC-Adressen.
+DataFirewallAccessControllIndex1: Auf dieser Seite kï¿½nnen Sie Einstellungen von Clients, wie IP-Adresse, Art des Dienstes sowie Kriterien fï¿½r Terminplï¿½ne festlegen.
+DataFirewallAccessControllIndex2: Bezï¿½glich der Blockierung von Web-Seiten (URL Blocking) ist es erforderlich, die entsprechende Internetadresse zuerst auf der Seite "URL Blocking" festzulegen. Gleiches gilt fï¿½r die Eingabe von Terminplï¿½nen. Auch diese mï¿½ssen Sie zuerst auf der Seite "Regeln fï¿½r Terminplï¿½ne" konfigurieren.
+DataFirewallDmzIndex1: Sollte ein Client hinter einer Firewall bestimmte Internetanwendungen nicht ordnungsgemï¿½ï¿½ ausfï¿½hren kï¿½nnen, kann man diesem Rechner durch Einrichten eines virtuellen DMZ Host den unbeschrï¿½nkten, bidirektionalen Zugang zum Internet ï¿½ffnen.
+DataFirewallDmzIndex2: Es kï¿½nnen auch mehrere PCs fï¿½r den bidirektionalen Zugang zum Internet fï¿½r z.B. Internetspiele, Videokonferenzen oder VPN-Verbindungen freigeschaltet werden. Um die DMZ zu nutzen, muï¿½ dem betreffenden PC eine feste IP-Adresse zugewiesen werden.
 DataFirewallDns: DNS
 DataFirewallDosCharacteristics: DoS Erkennungskriterien
 DataFirewallEditScheduleRule: Terminplanregel bearbeiten
@@ -123,16 +123,16 @@ DataFirewallH323120: H.323, TCP Port 1720, 1503
 DataFirewallH323DataChannelIdle: H.323 data channel idle timeout
 DataFirewallHalfOpenFragSensitive: Half-open fragmentation detect sensitive time period
 DataFirewallHttps: HTTPS
-DataFirewallIndex: Die DSL-EasyBox bietet Ihnen umfassenden Schutz durch eine Firewall, über die der Internetzugriff zur Begrenzung des Risikos von Hackerangriffen und zur Abwehr eines großen Bereichs herkömmlicher heimtückischer Angriffe von außen beschränkt werden kann. Ist der uneingeschränkte Internetzugang unabdingbar, können Sie einen Server- oder Client als sog. demilitarisierte Zone (DMZ) konfigurieren.
+DataFirewallIndex: Die DSL-EasyBox bietet Ihnen umfassenden Schutz durch eine Firewall, ï¿½ber die der Internetzugriff zur Begrenzung des Risikos von Hackerangriffen und zur Abwehr eines groï¿½en Bereichs herkï¿½mmlicher heimtï¿½ckischer Angriffe von auï¿½en beschrï¿½nkt werden kann. Ist der uneingeschrï¿½nkte Internetzugang unabdingbar, kï¿½nnen Sie einen Server- oder Client als sog. demilitarisierte Zone (DMZ) konfigurieren.
 DataFirewallIntrusionDetection: Festellen von unberechtigten Eindringversuchen (Intrusion Detection)
 DataFirewallIntrusionDetection2: Feststellen von Eindringversuchen (Intrusion Detection Feature)
-DataFirewallIntrusionDetectionIndex: Ist die SPI (Stateful Packet Inspection)-Firewall aktiv, können alle Datenpakete blockiert werden. Stateful Packet Inspection gestattet die Unterstützung unterschiedlicher Anwendungen, die dynamische Ports verwenden. Für die in der nachstehenden Liste markierten Anwendungen läßt das Gerät die vom lokalen LAN initiierten Datenpakete passieren. Das Gerät kann herkömmliche Hackerangriffe, wie IP-Spoofing, Land Attack, Ping of Death, IP with Zero length, Smurf Attack, UDP port loopback, Snork Attack, TCP null scan und TCP SYN flooding erkennen und blockieren.
+DataFirewallIntrusionDetectionIndex: Ist die SPI (Stateful Packet Inspection)-Firewall aktiv, kï¿½nnen alle Datenpakete blockiert werden. Stateful Packet Inspection gestattet die Unterstï¿½tzung unterschiedlicher Anwendungen, die dynamische Ports verwenden. Fï¿½r die in der nachstehenden Liste markierten Anwendungen lï¿½ï¿½t das Gerï¿½t die vom lokalen LAN initiierten Datenpakete passieren. Das Gerï¿½t kann herkï¿½mmliche Hackerangriffe, wie IP-Spoofing, Land Attack, Ping of Death, IP with Zero length, Smurf Attack, UDP port loopback, Snork Attack, TCP null scan und TCP SYN flooding erkennen und blockieren.
 DataFirewallIpAddressOfClient: IP-Adresse des Clients
 DataFirewallL2tp: L2TP
 DataFirewallMacFilter: MAC Filtertabelle
 DataFirewallMacFilterControl: Kontrolle der MAC-Adressen
-DataFirewallMacFilterIndex: Dieser Abschnitt hilft Ihnen bei der Konfiguration des MAC-Filters. Wenn aktiviert, haben nur noch die festgelegten MAC-Adressen Zugang zum Netzwerk. Allen anderen Rechnern wird der Zugang verwehrt. Diese Sicherheitsfunktion unterstützt bis zu 32 Clients.
-DataFirewallMacFilterTable: MAC-Filtertabelle (bis zu 32 Einträge)
+DataFirewallMacFilterIndex: Dieser Abschnitt hilft Ihnen bei der Konfiguration des MAC-Filters. Wenn aktiviert, haben nur noch die festgelegten MAC-Adressen Zugang zum Netzwerk. Allen anderen Rechnern wird der Zugang verwehrt. Diese Sicherheitsfunktion unterstï¿½tzt bis zu 32 Clients.
+DataFirewallMacFilterTable: MAC-Filtertabelle (bis zu 32 Eintrï¿½ge)
 DataFirewallMaxHalfOpenFragPacket: Maximum half-open fragmentation packet number from same host
 DataFirewallMsn: MSN Messenger
 DataFirewallNetMeeting: NetMeeting
@@ -146,12 +146,12 @@ DataFirewallReceiveEmail: E-mail empfangen
 DataFirewallRip: RIP defect
 DataFirewallRuleScheduler: Folgender Regel des Terminplans zuordnen
 DataFirewallSPI: Stateful Packet Inspection
-DataFirewallScheduleRule: Regeln für Terminpläne
-DataFirewallScheduleRuleIndex: Auf dieser Seite werden die Namen für Terminpläne festgelegt und der Terminplan für die Verwendung auf der Seite "Zugangskontrolle" aktiviert.
+DataFirewallScheduleRule: Regeln fï¿½r Terminplï¿½ne
+DataFirewallScheduleRuleIndex: Auf dieser Seite werden die Namen fï¿½r Terminplï¿½ne festgelegt und der Terminplan fï¿½r die Verwendung auf der Seite "Zugangskontrolle" aktiviert.
 DataFirewallScheduleRuleName: Name der Regel
 DataFirewallScheduleRuleNotes: Anmerkungen zur Regel
-DataFirewallScheduleRuleTable: Tabelle der Terminpläne (bis zu 10 Regeln)
-DataFirewallScheduleTable: Tabelle der Terminpläne (bis zu 10 Regeln)
+DataFirewallScheduleRuleTable: Tabelle der Terminplï¿½ne (bis zu 10 Regeln)
+DataFirewallScheduleTable: Tabelle der Terminplï¿½ne (bis zu 10 Regeln)
 DataFirewallScheduler: Terminplan
 DataFirewallSendEmail: E-mail senden
 DataFirewallServiceDesc: Dienstebezeichnung
@@ -182,11 +182,11 @@ DataFirewallUdp1701: UDP Port 1701
 DataFirewallUdp53: UDP Port 53
 DataFirewallUdpSession: UDP Session
 DataFirewallUdpSessionIdle: UDP session idle timeout
-DataFirewallUrlBlocking: URL Blocking: Gesperrte Internetseiten und verbotene Schlüsselworte
+DataFirewallUrlBlocking: URL Blocking: Gesperrte Internetseiten und verbotene Schlï¿½sselworte
 DataFirewallUrlBlockingEntry: Eintrag
-DataFirewallUrlBlockingIndex1: Sie können den Zugang zu speziellen Internetseiten für einen bestimmten PC sperren, indem Sie entweder die volle Internetadresse (URL) oder lediglich ein Schlüsselwort der Internetseite eingeben.
-DataFirewallUrlBlockingIndex2: Zur Festlegung des betreffenden PCs gehen Sie bitte auf die Seite "Zugangskontrolle" zurück und markieren Sie das Kästchen "WWW mit URL Blockierung" in der Tabelle der Filterregeln.
-DataFirewallUrlBlockingKeywords: URL / Schlüsselwort
+DataFirewallUrlBlockingIndex1: Sie kï¿½nnen den Zugang zu speziellen Internetseiten fï¿½r einen bestimmten PC sperren, indem Sie entweder die volle Internetadresse (URL) oder lediglich ein Schlï¿½sselwort der Internetseite eingeben.
+DataFirewallUrlBlockingIndex2: Zur Festlegung des betreffenden PCs gehen Sie bitte auf die Seite "Zugangskontrolle" zurï¿½ck und markieren Sie das Kï¿½stchen "WWW mit URL Blockierung" in der Tabelle der Filterregeln.
+DataFirewallUrlBlockingKeywords: URL / Schlï¿½sselwort
 DataFirewallUrlBlockingPage: Seite
 DataFirewallUserDefinedServices: Nutzerdefinierte Dienste
 DataFirewallWww: WWW
@@ -197,8 +197,8 @@ DataFtp: FTP
 DataFtpService: FTP Service
 DataGames: Spiele
 DataId: ID
-DataIndexDesc: Die DSL-EasyBox unterstützt erweiterte Einrichtungsfunktionen wie: Stateful Packet Inspection, das Feststellen von Hackerangriffen, das Filtern von Dateninhalten, Zugangskontrolle, virtuelle DMZ-Hosts, virtuelle Server und das Filtern von Clients.
-DataInvalidRule: Keine gültige Regel
+DataIndexDesc: Die DSL-EasyBox unterstï¿½tzt erweiterte Einrichtungsfunktionen wie: Stateful Packet Inspection, das Feststellen von Hackerangriffen, das Filtern von Dateninhalten, Zugangskontrolle, virtuelle DMZ-Hosts, virtuelle Server und das Filtern von Clients.
+DataInvalidRule: Keine gï¿½ltige Regel
 DataIpAddress: IP-Adresse
 DataKeepDefaults: Wir empfehlen, die Werkseinstellungen beizubehalten.
 DataMacAddress: MAC-Adresse
@@ -208,14 +208,14 @@ DataMinutes: Minuten
 DataMode: Modus
 DataMonday: Montag
 DataName: Name
-DataNatAddrMapping: Verknüpfen von Adressen (Address Mapping)
-DataNatAddrMapping2: Adressenverknüpfung (Address Mapping)
-DataNatAddrMappingConnectToPublic: verbinden mit der öffentlichen IP-Adresse
-DataNatAddrMappingIndex: Network Address Translation (NAT) ermöglicht es, IP-Adressen, die in einem privaten lokalen Netzwerk benutzt werden, mit einer oder mehreren Adressen, die im öffentlichen globalen Internet verwendet werden, zu verknüpfen. Dieses Leistungsmerkmal beschränkt die Anzahl öffentlicher IP-Adressen, die Sie von Ihrem ISP beziehen müßten. Es dient gleichzeitig der Sicherheit, indem verhindert wird, dass lokale IP-Adressen nach außen bekannt werden. Dabei können eine oder mehrere öffentliche IP-Adressen mit einem Pool von lokalen Adressen verknüpft werden.
+DataNatAddrMapping: Verknï¿½pfen von Adressen (Address Mapping)
+DataNatAddrMapping2: Adressenverknï¿½pfung (Address Mapping)
+DataNatAddrMappingConnectToPublic: verbinden mit der ï¿½ffentlichen IP-Adresse
+DataNatAddrMappingIndex: Network Address Translation (NAT) ermï¿½glicht es, IP-Adressen, die in einem privaten lokalen Netzwerk benutzt werden, mit einer oder mehreren Adressen, die im ï¿½ffentlichen globalen Internet verwendet werden, zu verknï¿½pfen. Dieses Leistungsmerkmal beschrï¿½nkt die Anzahl ï¿½ffentlicher IP-Adressen, die Sie von Ihrem ISP beziehen mï¿½ï¿½ten. Es dient gleichzeitig der Sicherheit, indem verhindert wird, dass lokale IP-Adressen nach auï¿½en bekannt werden. Dabei kï¿½nnen eine oder mehrere ï¿½ffentliche IP-Adressen mit einem Pool von lokalen Adressen verknï¿½pft werden.
 DataNatIndex: Index
 DataNatLanIp: LAN IP
 DataNatLanPort: LAN Port
-DataNatMappingIndex: Die NAT-Verknüpfungstabelle zeigt die gegenwärtigen NAT-Adressverknüpfungen an.
+DataNatMappingIndex: Die NAT-Verknï¿½pfungstabelle zeigt die gegenwï¿½rtigen NAT-Adressverknï¿½pfungen an.
 DataNatMappingLocalIp: Lokale IP
 DataNatMappingLocalPort: Lokaler Port
 DataNatMappingPage: Seite
@@ -223,23 +223,23 @@ DataNatMappingPeerIp: Peer IP
 DataNatMappingPeerPort: Peer Port
 DataNatMappingPseudoIp: Pseudo IP
 DataNatMappingPseudoPort: Pseudo Port
-DataNatMappingTable: NAT Mapping Table (NAT-Verknüpfungstabelle)
-DataNatPortMapping: Port Mapping (Verknüpfen von Ports)
-DataNatPortMappingIndex1: Sie können die DSL-EasyBox als virtuellen Server konfigurieren, damit entfernte Benutzer, die über öffentliche IP-Adressen, wie Web- oder FTP-Dienste, auf Ihr lokales Netzwerk zugreifen, automatisch an lokale Server umgeleitet werden, die mit privaten IP-Adressen konfiguriert sind. Das heißt, je nach dem angeforderten Dienst (TCP oder UDP) leitet die DSL-EasyBox die externe Diensteanforderung an den entsprechenden Server um (der sich an einer anderen internen IP-Adresse befindet).
-DataNatPortMappingIndex2: Diese Funktion unterstützt die Angabe von:Port-Bereichen, mehreren Ports oder eine Kombination aus beiden.
+DataNatMappingTable: NAT Mapping Table (NAT-Verknï¿½pfungstabelle)
+DataNatPortMapping: Port Mapping (Verknï¿½pfen von Ports)
+DataNatPortMappingIndex1: Sie kï¿½nnen die DSL-EasyBox als virtuellen Server konfigurieren, damit entfernte Benutzer, die ï¿½ber ï¿½ffentliche IP-Adressen, wie Web- oder FTP-Dienste, auf Ihr lokales Netzwerk zugreifen, automatisch an lokale Server umgeleitet werden, die mit privaten IP-Adressen konfiguriert sind. Das heiï¿½t, je nach dem angeforderten Dienst (TCP oder UDP) leitet die DSL-EasyBox die externe Diensteanforderung an den entsprechenden Server um (der sich an einer anderen internen IP-Adresse befindet).
+DataNatPortMappingIndex2: Diese Funktion unterstï¿½tzt die Angabe von:Port-Bereichen, mehreren Ports oder eine Kombination aus beiden.
 DataNatPortMappingIndex3: Zum Beispiel
 DataNatPortMappingIndex4: Port-Bereich: z.B. 100-150
 DataNatPortMappingIndex5: Mehrere Ports: z.B. 25,110,80
 DataNatPortMappingIndex6: Kombination: z.B. 25-100,80
 DataNatProtcolType: Protokolltyp
-DataNatPublicPort: Öffentlicher Port
+DataNatPublicPort: ï¿½ffentlicher Port
 DataNatSettings: NAT Einstellungen
 DataNatSettingsEnableNat: Einschalten der NAT-Funktion
-DataNatSettingsIndex: Network Address Translation (NAT) ermöglicht einer Vielzahl von lokalen Nutzern über eine einzige oder mehrere öffentliche IP-Adressen auf das Internet zuzugreifen. NAT kann aber auch Angriffe von Hackern verhindern, indem lokale Adressen mit öffentlichen Adressen für Schlüsseldienste wie das Web oder FTP verknüpft werden.
+DataNatSettingsIndex: Network Address Translation (NAT) ermï¿½glicht einer Vielzahl von lokalen Nutzern ï¿½ber eine einzige oder mehrere ï¿½ffentliche IP-Adressen auf das Internet zuzugreifen. NAT kann aber auch Angriffe von Hackern verhindern, indem lokale Adressen mit ï¿½ffentlichen Adressen fï¿½r Schlï¿½sseldienste wie das Web oder FTP verknï¿½pft werden.
 DataNatSpecialApps: Spezielle Anwendungen
-DataNatSpecialAppsIndex1: Einige Anwendungen, wie Internetspiele, Videokonferenzen, Internettelefongespräche usw. erfordern mehrere Verbindungen. Diese Anwendungen funktionieren nicht, wenn Network Address Translation (NAT) aktiviert ist.
-DataNatSpecialAppsIndex2: Wenn Sie also Anwendungen ausführen müssen, die mehrere Verbindungen erfordern, geben Sie den Anschluß (Port) an, der normalerweise einer Anwendung im Feld "Trigger Port" zugeordnet ist und wählen Sie als Protokolltyp TCP oder UDP aus.
-DataNatSpecialAppsIndex3: Geben Sie anschließend die öffentlichen Ports (Public Ports), die dem "Trigger Port" zugeordnet werden, ein. Dadurch werden diese für den eingehenden Datenverkehr geöffnet.
+DataNatSpecialAppsIndex1: Einige Anwendungen, wie Internetspiele, Videokonferenzen, Internettelefongesprï¿½che usw. erfordern mehrere Verbindungen. Diese Anwendungen funktionieren nicht, wenn Network Address Translation (NAT) aktiviert ist.
+DataNatSpecialAppsIndex2: Wenn Sie also Anwendungen ausfï¿½hren mï¿½ssen, die mehrere Verbindungen erfordern, geben Sie den Anschluï¿½ (Port) an, der normalerweise einer Anwendung im Feld "Trigger Port" zugeordnet ist und wï¿½hlen Sie als Protokolltyp TCP oder UDP aus.
+DataNatSpecialAppsIndex3: Geben Sie anschlieï¿½end die ï¿½ffentlichen Ports (Public Ports), die dem "Trigger Port" zugeordnet werden, ein. Dadurch werden diese fï¿½r den eingehenden Datenverkehr geï¿½ffnet.
 DataNatSpecialAppsIndex4: Hinweis: Der Adressbereich des "Trigger Ports" reicht von 1 bis 65535
 DataNatSpecialAppsPublicPort: Public Port
 DataNatSpecialAppsPublicType: Public Type
@@ -254,10 +254,10 @@ DataNumber: Nr.
 DataPPPoA: PPPoA
 DataPPPoE: PPPoE
 DataPassword: Kennwort
-DataPasswordRepeat: Kennwort bestätigen
-DataPleaseChoose: -- bitte auswählen --
+DataPasswordRepeat: Kennwort bestï¿½tigen
+DataPleaseChoose: -- bitte auswï¿½hlen --
 DataProtocol: Protokoll
-DataPublicIp: Öffentliche IP-Adresse
+DataPublicIp: ï¿½ffentliche IP-Adresse
 DataRead: Lesen
 DataReconnect: Neu verbinden
 DataRefresh: Aktualisieren
@@ -269,13 +269,13 @@ DataSession: session
 DataSnmpCommunity: Community
 DataSnmpCommunityAccess: Zugang
 DataSnmpCommunityHeading: SNMP Community (Gemeinschaft)
-DataSnmpCommunityIndex: Bezogen auf SNMP, wird mit "Community" eine Beziehung zwischen einem sog. "Agent" (Server oder Router) und einer Anzahl von SNMP-Managern (Computern im Netzwerk, die SNMP-Dienste ausführen) zur Überwachung und Verwaltung eines Netzwerks bezeichnet. Das "Community"-Konzept arbeitet lokal und ist beim "Agent" definiert. Der "Agent" erstellt eine "Community" für jede gewünschte Kombination von Authentifizierung, Zugangskontrolle und Proxy-Merkmalen her. Jeder "Community" innerhalb des "Agent" wird ein eindeutiger "Community"-Name zugewiesen. Die Managementstationen innerhalb dieser "Community" werden mit diesem Namen ausgestattet und müssen ihn bei allen "Get"-Anwendungen verwenden. Der "Agent" kann eine Anzahl von "Communities" mit überlappenden Managementstationen bilden.
-DataSnmpCommunityValid: Gültig
+DataSnmpCommunityIndex: Bezogen auf SNMP, wird mit "Community" eine Beziehung zwischen einem sog. "Agent" (Server oder Router) und einer Anzahl von SNMP-Managern (Computern im Netzwerk, die SNMP-Dienste ausfï¿½hren) zur ï¿½berwachung und Verwaltung eines Netzwerks bezeichnet. Das "Community"-Konzept arbeitet lokal und ist beim "Agent" definiert. Der "Agent" erstellt eine "Community" fï¿½r jede gewï¿½nschte Kombination von Authentifizierung, Zugangskontrolle und Proxy-Merkmalen her. Jeder "Community" innerhalb des "Agent" wird ein eindeutiger "Community"-Name zugewiesen. Die Managementstationen innerhalb dieser "Community" werden mit diesem Namen ausgestattet und mï¿½ssen ihn bei allen "Get"-Anwendungen verwenden. Der "Agent" kann eine Anzahl von "Communities" mit ï¿½berlappenden Managementstationen bilden.
+DataSnmpCommunityValid: Gï¿½ltig
 DataSnmpEnable: Einschalten des SNMP Agent
 DataSnmpHeading: SNMP (Simple Network Management Protocol) -Einstellungen
-DataSnmpIndex: Das Gerät stellt SNMP-Einstellungen für "Community"- (Gruppe von Hosts, die SNMP-Dienste ausführen) und "Trap"- (Befehl zum Abfragen außergewöhnlicher Ereignisse) Informationen bereit
+DataSnmpIndex: Das Gerï¿½t stellt SNMP-Einstellungen fï¿½r "Community"- (Gruppe von Hosts, die SNMP-Dienste ausfï¿½hren) und "Trap"- (Befehl zum Abfragen auï¿½ergewï¿½hnlicher Ereignisse) Informationen bereit
 DataSnmpTrapHeading: SNMP Trap (ein spezielles Kommando des Agent)
-DataSnmpTrapIndex: Im Zusammenhang mit SNMP wird mit "Trap" ein Kommando bezeichnet, mit dem ein "Agent" unaufgefordert eine Nachricht an eine Managementstation senden kann. Sein Zweck ist es, die Managementstation über außergewöhnliche Ereignisse zu informieren.
+DataSnmpTrapIndex: Im Zusammenhang mit SNMP wird mit "Trap" ein Kommando bezeichnet, mit dem ein "Agent" unaufgefordert eine Nachricht an eine Managementstation senden kann. Sein Zweck ist es, die Managementstation ï¿½ber auï¿½ergewï¿½hnliche Ereignisse zu informieren.
 DataSnmpTrapsEnable: Einschalten der SNMP Traps
 DataSnmpv1: v1
 DataSnmpv2c: v2c
@@ -300,7 +300,7 @@ DataWan4k4kTen: 4000/4000/10
 DataWanATMPVC: ATM PVC
 DataWanAlwaysConnected: Immer verbunden
 DataWanAtmInterface: ATM Schnittstelle
-DataWanAutoConnected: Auto - abhängig vom Datenverkehr
+DataWanAutoConnected: Auto - abhï¿½ngig vom Datenverkehr
 DataWanAvtivatePPPoEPassthrough: Aktivieren der PPPoE Durchlassfunktion
 DataWanCBR: CBR
 DataWanConnectionInterruption: Verbindungsunterbrechung von
@@ -315,7 +315,7 @@ DataWanIpByIsp: IP durch ISP zugewiesen
 DataWanLLC: LLC
 DataWanMTU: MTU
 DataWanMinusSlashMinus: -/-
-DataWanOverviewIndex: Die DSL-EasyBox verwendet ATM als Layer 2 Protokoll. ATM PVC ist eine virtuelle Verbindung, die als WAN-Schnittstelle fungiert. Die DSL-EasyBox unterstützt bis zu 3 ATM PVCs.
+DataWanOverviewIndex: Die DSL-EasyBox verwendet ATM als Layer 2 Protokoll. ATM PVC ist eine virtuelle Verbindung, die als WAN-Schnittstelle fungiert. Die DSL-EasyBox unterstï¿½tzt bis zu 3 ATM PVCs.
 DataWanPCRSCRMBS: PCR/SCR/MBS
 DataWanPPPoEPassthrough: PPPoE Durchlassfunktion
 DataWanQoS: QoS-Klasse
@@ -338,18 +338,18 @@ DataWireless11b: 11b
 DataWireless11bg: 11b/g
 DataWireless11bgn: 11b/g/n
 DataWireless11n: 11n
-DataWirelessAccessControl: Zugangskontrolle der Funkteilnehmer über die MAC-Adresse
+DataWirelessAccessControl: Zugangskontrolle der Funkteilnehmer ï¿½ber die MAC-Adresse
 DataWirelessAccessControlEnableAccess: Einschalten der MAC-Filterfunktion
 DataWirelessAccessControlEnter: Eintragen
-DataWirelessAccessControlEnterAllClients: Möchten Sie alle gegenwärtig angeschlossenen Funkteilnehmer mit ihrer jeweiligen MAC-Adresse eintragen?
-DataWirelessAccessControlIndex: Zur Erhöhung der Sicherheit in einem Funknetzwerk können Sie festlegen, dass nur bestimmte Funkteilnehmer Zugang zur Basisstation (Access Point) erhalten. Bis zu 32 MAC-Adressen können in einer Filtertabelle eingetragen werden. Wenn aktiviert, werden alle registrierten MAC-Adressen über die Zugangsregel verwaltet.
-DataWirelessAccessControlMacTable: MAC-Filtertabelle (bis zu 32 Einträge)
-DataWirelessAccessRule: Zugangsregel für registrierte MAC-Adressen
+DataWirelessAccessControlEnterAllClients: Mï¿½chten Sie alle gegenwï¿½rtig angeschlossenen Funkteilnehmer mit ihrer jeweiligen MAC-Adresse eintragen?
+DataWirelessAccessControlIndex: Zur Erhï¿½hung der Sicherheit in einem Funknetzwerk kï¿½nnen Sie festlegen, dass nur bestimmte Funkteilnehmer Zugang zur Basisstation (Access Point) erhalten. Bis zu 32 MAC-Adressen kï¿½nnen in einer Filtertabelle eingetragen werden. Wenn aktiviert, werden alle registrierten MAC-Adressen ï¿½ber die Zugangsregel verwaltet.
+DataWirelessAccessControlMacTable: MAC-Filtertabelle (bis zu 32 Eintrï¿½ge)
+DataWirelessAccessRule: Zugangsregel fï¿½r registrierte MAC-Adressen
 DataWirelessAllow: Zulassen
-DataWirelessDeny: Zurückweisen
+DataWirelessDeny: Zurï¿½ckweisen
 DataWirelessFunction: WLAN Funktion
 DataWirelessHideSSID: SSID Ausstrahlung
-DataWirelessIndex: Die DSL Easybox unterstützt den WLAN-N Standard mit bis zu 300 Mbit/s Übertragungsraten. Damit können PCs drahtlos per Funk mit der DSL-Easybox verbunden werden.
+DataWirelessIndex: Die DSL Easybox unterstï¿½tzt den WLAN-N Standard mit bis zu 300 Mbit/s ï¿½bertragungsraten. Damit kï¿½nnen PCs drahtlos per Funk mit der DSL-Easybox verbunden werden.
 DataWirelessNameSSID: SSID (Name Funknetzwerk)
 DataWirelessNetworkKey: Netzwerkschluessel
 DataWirelessOff: Aus
@@ -357,14 +357,14 @@ DataWirelessOn: Ein
 DataWirelessTimeControlled: Timer-gesteuert
 DataWirelessWds: WDS (Wireless Distribution System)
 DataWirelessWdsEnableWds: Einschalten der WDS Funktion
-DataWirelessWdsIndex: Durch WDS haben Sie die Möglichkeit, die Reichweite Ihres Funknetzes zu erhöhen. WDS ermöglicht der Basisstation (Access Point) eine direkte Verbindung zu einer weiteren Basisstation (bzw. Repeater) aufzubauen und erlaubt damit den Funkteilnehmern, sich innerhalb des durch WDS erweiterten Bereiches zu bewegen.
+DataWirelessWdsIndex: Durch WDS haben Sie die Mï¿½glichkeit, die Reichweite Ihres Funknetzes zu erhï¿½hen. WDS ermï¿½glicht der Basisstation (Access Point) eine direkte Verbindung zu einer weiteren Basisstation (bzw. Repeater) aufzubauen und erlaubt damit den Funkteilnehmern, sich innerhalb des durch WDS erweiterten Bereiches zu bewegen.
 DataWirelessWdsMacTable: Tabelle der MAC-Adressen der Basisstationen (bis zu 4 Basisstationen)
 DataWrite: Schreiben
 DataYes: Ja
 ExAdslActRate: Aktuelle Daten-Rate
-ExAdslAttenuation: Dämpfung
+ExAdslAttenuation: Dï¿½mpfung
 ExAdslConfigured: Konfiguriert
-ExAdslCounter: Zell-Zähler
+ExAdslCounter: Zell-Zï¿½hler
 ExAdslCrcError: CRC Fehler
 ExAdslCurrent: Aktuell
 ExAdslDownstream: Downstream
@@ -372,7 +372,7 @@ ExAdslErrorIndication: Fehlerindikatoren
 ExAdslFarEndIndicator: Far-End-Indikator
 ExAdslFastPath: Fast Path
 ExAdslFecError: FEC Fehler
-ExAdslHeading: Statusübersicht
+ExAdslHeading: Statusï¿½bersicht
 ExAdslHecError: HEC Fehler
 ExAdslKbps: (Kbps.)
 ExAdslLineStatus: Leitungs-Status
@@ -382,21 +382,21 @@ ExAdslNoiseMargin: Rausch-Abstand
 ExAdslOperatingData: Betriebsdaten / Fehleranzeige
 ExAdslReceived: Empfangene Zellen
 ExAdslShowTime: SHOWTIME
-ExAdslSpeed: Übertragungsgeschwindigkeit
+ExAdslSpeed: ï¿½bertragungsgeschwindigkeit
 ExAdslStandardAutomatic: Automatisch
 ExAdslStandardHeading: ADSL Parameter
 ExAdslStandardMode: Funktionsmodus
 ExAdslStandardStandard: ADSL-Standard
-ExAdslStandardText: Diese Seite erlaubt Ihnen, den zu nutzenden ADSL-Standard zu spezifizieren. Sie können explizit einen spezifischen Standard setzen, oder "Automatisch" wählen, um automatisch einen Standard mit dem Remote-DSLAM auszuhandeln.
+ExAdslStandardText: Diese Seite erlaubt Ihnen, den zu nutzenden ADSL-Standard zu spezifizieren. Sie kï¿½nnen explizit einen spezifischen Standard setzen, oder "Automatisch" wï¿½hlen, um automatisch einen Standard mit dem Remote-DSLAM auszuhandeln.
 ExAdslStatistics: Statistiken
 ExAdslStatus: Status
 ExAdslText: ADSL Status Information
-ExAdslTransmitted: Übertragene Zellen
+ExAdslTransmitted: ï¿½bertragene Zellen
 ExAdslUpstream: Upstream
 ExCommonDirectory: Verzeichnis
 ExCommonDisk: Laufwerk
-ExCommonDiskSelect: -- Festplatte auswählen --
-ExCommonDrive: Datenträger
+ExCommonDiskSelect: -- Festplatte auswï¿½hlen --
+ExCommonDrive: Datentrï¿½ger
 ExCommonHideAll: Verbergen
 ExCommonManual: (manuelle Eingabe)
 ExCommonMassStorage: Massenspeicher
@@ -404,8 +404,8 @@ ExCommonNoUsbDrive: Kein USB-Massenspeicher angeschlossen.
 ExCommonNoUsbModem: Keinen USB-Modem gefunden.
 ExCommonNoUsbPrinter: Keinen USB-Drucker gefunden.
 ExCommonPartition: Partition
-ExCommonPartitionSelect: -- Datenträger auswählen --
-ExCommonPasswordConfirmation: Kennwort bestätigen
+ExCommonPartitionSelect: -- Datentrï¿½ger auswï¿½hlen --
+ExCommonPasswordConfirmation: Kennwort bestï¿½tigen
 ExCommonRemoteAccess: Fernzugriff
 ExCommonRemove: Entfernen
 ExCommonRetrain: Neu Lernen
@@ -417,7 +417,7 @@ ExDiagBegin: Beginn
 ExDiagConnectionType: Verbindungsart
 ExDiagDestination: Zieladresse
 ExDiagEnd: Ende
-ExDiagExecute: Ausführen
+ExDiagExecute: Ausfï¿½hren
 ExDiagHeading: Diagnoseprogramm
 ExDiagMai: MAI
 ExDiagModem: Modem
@@ -425,71 +425,71 @@ ExDiagPing: Ping-Test
 ExDiagRecord: Aufzeichnen von WAN-Datenpaketen
 ExDiagResult: Ergebnis
 ExDiagSave: Speichern
-ExDiagText: Mit diesem Programm können Sie den Status Ihrer Netzwerkverbindung prüfen. Für den Ping-Test können Sie als Zieladresse einen Domänennamen oder eine gültige IP-Adresse angeben.
+ExDiagText: Mit diesem Programm kï¿½nnen Sie den Status Ihrer Netzwerkverbindung prï¿½fen. Fï¿½r den Ping-Test kï¿½nnen Sie als Zieladresse einen Domï¿½nennamen oder eine gï¿½ltige IP-Adresse angeben.
 ExDiagUplink: Ethernet Uplink
 ExFirmwareLoadHeading: Wiederherstellen einer Konfiguration Ihrer DSL-EasyBox
 ExFirmwareLoadRestore: Wiederherstellen einer gespeicherten Konfiguration
-ExFirmwareLoadText: Geben Sie den Pfad oder den Namen der gespeicherten Sicherungsdatei ein und klicken Sie dann auf das Schaltfläche "Übernehmen". Sie werden aufgefordert, die Wiederherstellung auf die gespeicherte Konfiguration zu bestätigen.
-ExFirmwareLoadUsage: Wenn Sie einen neuen Modem-Installationscode, z.B. nach Umzug oder Technologiewechsel, erhalten haben, wird automatisch nur Ihre persönliche Konfiguration geladen. Ihre Zugangsdaten werden dann nicht überschrieben.
+ExFirmwareLoadText: Geben Sie den Pfad oder den Namen der gespeicherten Sicherungsdatei ein und klicken Sie dann auf das Schaltflï¿½che "ï¿½bernehmen". Sie werden aufgefordert, die Wiederherstellung auf die gespeicherte Konfiguration zu bestï¿½tigen.
+ExFirmwareLoadUsage: Wenn Sie einen neuen Modem-Installationscode, z.B. nach Umzug oder Technologiewechsel, erhalten haben, wird automatisch nur Ihre persï¿½nliche Konfiguration geladen. Ihre Zugangsdaten werden dann nicht ï¿½berschrieben.
 ExFirmwareResetConfirmation: WARNUNG: Alle Einstellungen gehen unwiederbringlich verloren! Sind Sie sicher?
-ExFirmwareResetHeading: Zurücksetzen auf Werkseinstellungen
-ExFirmwareResetReset: Zurücksetzen
-ExFirmwareResetText: Sie können Ihre DSL-EasyBox auf die Werkseinstellungen zurücksetzen, indem Sie auf diese Schaltfläche klicken. Bitte beachten Sie, dass dabei alle von Ihnen vorgenommenen Einstellungen verloren gehen!
+ExFirmwareResetHeading: Zurï¿½cksetzen auf Werkseinstellungen
+ExFirmwareResetReset: Zurï¿½cksetzen
+ExFirmwareResetText: Sie kï¿½nnen Ihre DSL-EasyBox auf die Werkseinstellungen zurï¿½cksetzen, indem Sie auf diese Schaltflï¿½che klicken. Bitte beachten Sie, dass dabei alle von Ihnen vorgenommenen Einstellungen verloren gehen!
 ExFirmwareSaveHeading: Speichern der Konfiguration Ihrer DSL-EasyBox
 ExFirmwareSaveSave: Speichern
-ExFirmwareText: Wenn Sie auf die Schaltfläche "Speichern" klicken, werden alle Einstellungen der DSL-EasyBox gesichert. Sie können anschließend den Speicherort dieser Sicherung frei wählen.
-ExFirmwareUpgradeAltText: Alternativ können Sie auch lokal eine Firmware laden. Die aktuelleste Firmware finden sie auf
-ExFirmwareUpgradeConfirmation: Das Gerät wird neu gestartet und sucht dabei nach neuer Firmware. Wollen Sie fortfahren?
+ExFirmwareText: Wenn Sie auf die Schaltflï¿½che "Speichern" klicken, werden alle Einstellungen der DSL-EasyBox gesichert. Sie kï¿½nnen anschlieï¿½end den Speicherort dieser Sicherung frei wï¿½hlen.
+ExFirmwareUpgradeAltText: Alternativ kï¿½nnen Sie auch lokal eine Firmware laden. Die aktuelleste Firmware finden sie auf
+ExFirmwareUpgradeConfirmation: Das Gerï¿½t wird neu gestartet und sucht dabei nach neuer Firmware. Wollen Sie fortfahren?
 ExFirmwareUpgradeFile: Firmware-Datei
 ExFirmwareUpgradeHeading: Firmwareaktualisierung
-ExFirmwareUpgradeText: Sie können die Firmware Ihrer DSL-EasyBox automatisch über das Internet aktualieren. Eine bestehende Internet-Verbindung ist dafür Vorraussetzung. Ihre Konfiguration bleibt beim Firmware-Upgrade erhalten.
-ExFirmwareUpgradeText1: Sie können die Firmware Ihrer DSL-EasyBox über das Internet aktualisieren. Gehen Sie hierzu auf die Internetseite
-ExFirmwareUpgradeText2: , wählen dort Ihr DSL-EasyBox Modell aus und laden die Datei mit der aktuellen Frimware herunter.
-ExFirmwareUpgradeUsage: Geben Sie entweder den Pfad oder Namen ein oder benutzen Sie den Browser, um zur gewünschten Firmware-Datei zu gelangen. Klicken Sie dann auf die Schaltfläche "Übernehmen". Um den Aktualisierungsprozess abzuschließen werden Sie aufgefordert die Aktualisierung zu bestätigen.
+ExFirmwareUpgradeText: Sie kï¿½nnen die Firmware Ihrer DSL-EasyBox automatisch ï¿½ber das Internet aktualieren. Eine bestehende Internet-Verbindung ist dafï¿½r Vorraussetzung. Ihre Konfiguration bleibt beim Firmware-Upgrade erhalten.
+ExFirmwareUpgradeText1: Sie kï¿½nnen die Firmware Ihrer DSL-EasyBox ï¿½ber das Internet aktualisieren. Gehen Sie hierzu auf die Internetseite
+ExFirmwareUpgradeText2: , wï¿½hlen dort Ihr DSL-EasyBox Modell aus und laden die Datei mit der aktuellen Frimware herunter.
+ExFirmwareUpgradeUsage: Geben Sie entweder den Pfad oder Namen ein oder benutzen Sie den Browser, um zur gewï¿½nschten Firmware-Datei zu gelangen. Klicken Sie dann auf die Schaltflï¿½che "ï¿½bernehmen". Um den Aktualisierungsprozess abzuschlieï¿½en werden Sie aufgefordert die Aktualisierung zu bestï¿½tigen.
 ExHspaActRate: Act. Rate
 ExHspaApn: APN
-ExHspaBackupBoth: UMTS Backup für Daten&Sprache
+ExHspaBackupBoth: UMTS Backup fï¿½r Daten&Sprache
 ExHspaBackupConnection: Backup-Verbindung
-ExHspaBackupData: UMTS Backup für Daten
+ExHspaBackupData: UMTS Backup fï¿½r Daten
 ExHspaBackupOnly: Nur UMTS Verbindung
-ExHspaBackupVoice: UMTS Backup für Sprache
-ExHspaCode: -code (für SIM Karte)
-ExHspaCodeInput1: Bitte geben Sie Ihren persönlichen
-ExHspaCodeInput2: Code für die Mobilfunk SIM-Karte ein. Ihre Verbindung wird dann über Mobilfunk hergestellt, wenn keine Festnetz-Verbindung besteht.
+ExHspaBackupVoice: UMTS Backup fï¿½r Sprache
+ExHspaCode: -code (fï¿½r SIM Karte)
+ExHspaCodeInput1: Bitte geben Sie Ihren persï¿½nlichen
+ExHspaCodeInput2: Code fï¿½r die Mobilfunk SIM-Karte ein. Ihre Verbindung wird dann ï¿½ber Mobilfunk hergestellt, wenn keine Festnetz-Verbindung besteht.
 ExHspaCompression: Bild-Kompression nutzen
-ExHspaConfirmPassword: Kennwort bestätigen
-ExHspaConfirmPin: Bestätigung
-ExHspaConfirmUMTSRemark: Bitte bestätigen Sie, dass Sie die Internet-Verbindung über das Mobilfunknetz aufbauen möchten. Für diese Verbindung können zusätzliche Kosten je nach Ihrem Mobilfunk-Tarif entstehen.
-ExHspaConfirmation: Bestätigung abfragen bei Verbindungsaufbau über Mobilfunknetz
-ExHspaConnectionOverUMTS: Internet Verbindung über UMTS verfügbar
-ExHspaDSLCurrNotAvailable: Ihre DSL Verbindung ist derzeit nicht verfügbar.
-ExHspaDSLNotAvailable: DSL nicht verfügbar
-ExHspaDeviceTryingConnect: Das Gerät verbindet sich mit dem Internet.
+ExHspaConfirmPassword: Kennwort bestï¿½tigen
+ExHspaConfirmPin: Bestï¿½tigung
+ExHspaConfirmUMTSRemark: Bitte bestï¿½tigen Sie, dass Sie die Internet-Verbindung ï¿½ber das Mobilfunknetz aufbauen mï¿½chten. Fï¿½r diese Verbindung kï¿½nnen zusï¿½tzliche Kosten je nach Ihrem Mobilfunk-Tarif entstehen.
+ExHspaConfirmation: Bestï¿½tigung abfragen bei Verbindungsaufbau ï¿½ber Mobilfunknetz
+ExHspaConnectionOverUMTS: Internet Verbindung ï¿½ber UMTS verfï¿½gbar
+ExHspaDSLCurrNotAvailable: Ihre DSL Verbindung ist derzeit nicht verfï¿½gbar.
+ExHspaDSLNotAvailable: DSL nicht verfï¿½gbar
+ExHspaDeviceTryingConnect: Das Gerï¿½t verbindet sich mit dem Internet.
 ExHspaHeading: UMTS-Stick
 ExHspaIdleTime: Leerlaufzeit (Minuten)
 ExHspaMaxrate: Max Rate
 ExHspaNetworkOperator: Netzwerk-Betreiber
-ExHspaNewPin: Neuer PIN-code (für SIM Karte)
+ExHspaNewPin: Neuer PIN-code (fï¿½r SIM Karte)
 ExHspaNoBackup: Kein UMTS Backup
 ExHspaNoStick: Kein UMTS-Stick angeschlossen!
 ExHspaNotConnected: Nicht Verbunden
 ExHspaPassword: Kennwort
 ExHspaPhoneNumber: Telefonnummer
-ExHspaPin: PIN Code (für SIM Karte)
+ExHspaPin: PIN Code (fï¿½r SIM Karte)
 ExHspaPinInput1: Bitte geben Sie Ihre
 ExHspaPinInput2: ein.
 ExHspaPinOk: PIN code ok.
 ExHspaPleaseWait: Bitte warten.
 ExHspaRemark: Hinweis
-ExHspaRemoveStick: Bitte entfernen Sie den UMTS-Stick und prüfen die SIM Karte.
-ExHspaReopenInNewWindow: Sollten Sie nicht korrekt auf die angeforderte Web-Adresse weitergeleitet werden, so schließen Sie bitte das aktuelle Browserfenster und öffnen ein neues Fenster.
+ExHspaRemoveStick: Bitte entfernen Sie den UMTS-Stick und prï¿½fen die SIM Karte.
+ExHspaReopenInNewWindow: Sollten Sie nicht korrekt auf die angeforderte Web-Adresse weitergeleitet werden, so schlieï¿½en Sie bitte das aktuelle Browserfenster und ï¿½ffnen ein neues Fenster.
 ExHspaRescan: Neue Suche
 ExHspaRoaming: Roaming
 ExHspaSavePin: PIN Speichern
 ExHspaSelect: Auswahl
 ExHspaService: Service
 ExHspaStatus: Status
-ExHspaText: Die DSL-EasyBox bietet Ihnen in Verbindung mit einem UMTS-Stick die Möglichkeit eine Internet oder Sprachverbindung über das UMTS-Mobilfunknetz herzustellen. Bitte setzen Sie die SIM Karte in den UMTS-Stick, entfernen die Gerätekappe auf der Rückseite der DSL-EasyBox und stecken den UMTS-Stick in die darunterliegende Buchse. Danach geben Sie bitte den PIN Code Ihrer SIM Karte hier ein.
+ExHspaText: Die DSL-EasyBox bietet Ihnen in Verbindung mit einem UMTS-Stick die Mï¿½glichkeit eine Internet oder Sprachverbindung ï¿½ber das UMTS-Mobilfunknetz herzustellen. Bitte setzen Sie die SIM Karte in den UMTS-Stick, entfernen die Gerï¿½tekappe auf der Rï¿½ckseite der DSL-EasyBox und stecken den UMTS-Stick in die darunterliegende Buchse. Danach geben Sie bitte den PIN Code Ihrer SIM Karte hier ein.
 ExHspaUmtsConnection: UMTS-Verbindung
 ExHspaUserName: Benutzername
 ExHspaWarning: Achtung
@@ -497,12 +497,12 @@ ExHspaWarning1: Wenn diese Eingabe nicht korrekt erfolgt, wird Ihre SIM-Karte ge
 ExHspaWarning2: Falscher
 ExHspaWarning3: code
 ExHspaWarning4: Noch
-ExHspaWarning5: Eingabeversuche möglich.
+ExHspaWarning5: Eingabeversuche mï¿½glich.
 ExIndexHeading: Systemeinstellungen
-ExIndexText: Hier finden Sie grundlegende Konfigurationswerkzeuge für die DSL-EasyBox wie Anmelde- und Zeiteinstellungen sowie Fernverwaltung.
-ExLoginAdditionalText: Wenn Sie Ihre DSL-EasyBox von einem PC außerhalb Ihres Netzwerks verwalten möchten, müssen Sie auch die IP-Adresse dieses PCs eingeben. Sie können dies im Menü "Fernwartung" tun.
+ExIndexText: Hier finden Sie grundlegende Konfigurationswerkzeuge fï¿½r die DSL-EasyBox wie Anmelde- und Zeiteinstellungen sowie Fernverwaltung.
+ExLoginAdditionalText: Wenn Sie Ihre DSL-EasyBox von einem PC auï¿½erhalb Ihres Netzwerks verwalten mï¿½chten, mï¿½ssen Sie auch die IP-Adresse dieses PCs eingeben. Sie kï¿½nnen dies im Menï¿½ "Fernwartung" tun.
 ExLoginHeading: Anmeldeeinstellungen
-ExLoginLoginText: Anmeldebildschirm (Lassen Sie diese Tabelle leer, wenn nichts verändert werden soll)
+ExLoginLoginText: Anmeldebildschirm (Lassen Sie diese Tabelle leer, wenn nichts verï¿½ndert werden soll)
 ExLoginNewName: Neuer Benutzername
 ExLoginOldName: Alter Benutzername
 ExLoginText: Geben Sie einen Benutzernamen und ein Kennwort ein, um den unbefugten Zugang auf Ihre DSL-EasyBox zu verhindern.
@@ -511,14 +511,14 @@ ExLoginTimeoutLabel: Minuten ("0" bedeutet keine Abmeldung)
 ExLoginTimeoutText: Einstellungen zur Anmeldung
 ExNcidActivate: Einschalten
 ExNcidHeading: NCID
-ExNcidHistory: Gesprächs Historie
+ExNcidHistory: Gesprï¿½chs Historie
 ExNcidPort: Port Nummer
 ExNcidText: Network Caller ID Einstellungen
 ExQosActivate: Einschalten der QoS-Funktion
-ExQosAddrTypeDevice: Gerät
+ExQosAddrTypeDevice: Gerï¿½t
 ExQosAddrTypeDeviceDescr: lokal
-ExQosAddrTypeDomain: Domänenname
-ExQosAddrTypeDomainDescr: Domäne
+ExQosAddrTypeDomain: Domï¿½nenname
+ExQosAddrTypeDomainDescr: Domï¿½ne
 ExQosAddrTypeIp: IP-Adresskreis
 ExQosAddrTypeMac: MAC-Adresse
 ExQosAddrTypeMacDescr: MAC-Adressen
@@ -528,42 +528,42 @@ ExQosAddrTypeSubnet: IP-Subnetz
 ExQosAny: Alle
 ExQosBandwidth1: WAN Uplink Bandbreite
 ExQosBandwidth2: kbps
-ExQosBandwidth3: Bandbreite reserviert für die Sprachverbindung
+ExQosBandwidth3: Bandbreite reserviert fï¿½r die Sprachverbindung
 ExQosBandwidth4: kbps
 ExQosBandwidth5: (VC2 ist nicht aktiv)
 ExQosBandwidth6: (VC2 PCR=
-ExQosBandwidth7: Verwaltung der verbleibenden Bandbreite für die Internetverbindung
-ExQosBestEffort: Weiterleitung nach jeweils bester Möglichkeit
+ExQosBandwidth7: Verwaltung der verbleibenden Bandbreite fï¿½r die Internetverbindung
+ExQosBestEffort: Weiterleitung nach jeweils bester Mï¿½glichkeit
 ExQosDescription: Beschreibung
 ExQosEditAdvanced: Erweitert
-ExQosEditDscp: Verknüpfen mit Weiterleitungsgruppe
+ExQosEditDscp: Verknï¿½pfen mit Weiterleitungsgruppe
 ExQosEditDscpTos: DSCP/TOS
 ExQosEditDscpTosWmm: DSCP/TOS/WMM
 ExQosEditExample: (z.B. "abc.def.com;*.xyz.com")
-ExQosEditHeading: Bearbeiten von Klassen für den Datenverkehr
+ExQosEditHeading: Bearbeiten von Klassen fï¿½r den Datenverkehr
 ExQosEditLocalAddr: Lokale IP-Adresse
 ExQosEditLocalPort: Lokaler Port
 ExQosEditMarkDscp: Bezeichne DSCP als
 ExQosEditName: Bezeichnung der Regel
-ExQosEditNetmask: (IP-Subnetz/Länge der Subnetzmaske)
+ExQosEditNetmask: (IP-Subnetz/Lï¿½nge der Subnetzmaske)
 ExQosEditNoRemark: Keine Anmerkung
 ExQosEditOtherTos: Anderer TOS
 ExQosEditRemoteAddr: Remote Adresse
 ExQosEditRemotePort: Remote Port
 ExQosEditRouting: per Routing
 ExQosEditSpecialValue: Spezieller Wert
-ExQosEditText: Auf dieser Seite können Sie eine Klassifizierungsregel erstellen. Bestimmen Sie dazu zuerst die Klasse aufgrund der Art des Datenverkehrs sowie lokale und ferne Adresse. Geben Sie dann die Diffserv-Weiterleitungsgruppe ein, mit der diese Klasse verknüpft werden soll. Zuletzt wählen Sie die abgehende Verbindung (VC) aus, auf die diese Klasse weitergeleitet werden soll.
+ExQosEditText: Auf dieser Seite kï¿½nnen Sie eine Klassifizierungsregel erstellen. Bestimmen Sie dazu zuerst die Klasse aufgrund der Art des Datenverkehrs sowie lokale und ferne Adresse. Geben Sie dann die Diffserv-Weiterleitungsgruppe ein, mit der diese Klasse verknï¿½pft werden soll. Zuletzt wï¿½hlen Sie die abgehende Verbindung (VC) aus, auf die diese Klasse weitergeleitet werden soll.
 ExQosEditTrafficType: Art des Datenverkehrs
 ExQosEditUseVc: Nutzung von VC
 ExQosEditUseWan: Nutzung von WAN
 ExQosEditWmmAcs: WMM ACs
-ExQosFastest: Durch die Express-Weiterleitung erhalten Sie die kleinste Verzögerung, die geringsten Schwankungen und den kleinstmöglichen Übertragungsverlust an Datenpaketen.
+ExQosFastest: Durch die Express-Weiterleitung erhalten Sie die kleinste Verzï¿½gerung, die geringsten Schwankungen und den kleinstmï¿½glichen ï¿½bertragungsverlust an Datenpaketen.
 ExQosHeading: QoS-Einstellungen
 ExQosHigh: Hoch
-ExQosHighest: Höchste
+ExQosHighest: Hï¿½chste
 ExQosLow: Gering
 ExQosLowest: Geringste
-ExQosMedium: Zugesicherte Weiterleitung ermöglicht die Übermittlung von vier voneinander unabhängigen Klassen. Innerhalb einer Klasse kann ein IP-Paket eine von drei verschiedenen Prioritätsstufen zugesichert werden.
+ExQosMedium: Zugesicherte Weiterleitung ermï¿½glicht die ï¿½bermittlung von vier voneinander unabhï¿½ngigen Klassen. Innerhalb einer Klasse kann ein IP-Paket eine von drei verschiedenen Prioritï¿½tsstufen zugesichert werden.
 ExQosMin: Minimum
 ExQosMore: Mehr erlauben
 ExQosName: Name
@@ -574,10 +574,10 @@ ExQosPlanDescription: Beschreibung des Datenverkehrs
 ExQosPlanHeading: Datenverkehr zuordnen
 ExQosPlanName: Name der Regel
 ExQosPlanNoAssignment: Es wurde keine Zuweisung des Datenverkehrs vorgenommen. Aus diesem Grund wird aller Datenverkehr nach der Regel BE (Best Effort) behandelt.
-ExQosPlanText: Es können bis zu 16 Regeln aufgestellt werden, um den Internetverkehr in Diffserv-Übertragungsgruppen zu klassifizieren.
+ExQosPlanText: Es kï¿½nnen bis zu 16 Regeln aufgestellt werden, um den Internetverkehr in Diffserv-ï¿½bertragungsgruppen zu klassifizieren.
 ExQosPlanVc: genutzter VC
 ExQosPlanWan: genutzter WAN
-ExQosPriority: Priorität
+ExQosPriority: Prioritï¿½t
 ExQosReservedBandwidth: Reservierte Bandbreite
 ExQosStatistics12Hours: 12 Stunden
 ExQosStatistics1Hour: 1 Stunde
@@ -585,10 +585,10 @@ ExQosStatistics5Min: 5 Minuten
 ExQosStatistics6Hours: 6 Stunden
 ExQosStatisticsHeading: Statistiken zum Datenverkehr
 ExQosStatisticsRate: Durchschnittliche Rate der verlorenen Pakete in Byte pro Sekunde
-ExQosStatisticsText: Diese Seite zeigt eine Statistik des Datenverkehrs der Diffserv-Weiterleitungsgruppen für die letzten 12 Stunden an (wird automatisch alle 5 Minuten aktualisiert).
-ExQosStatisticsTraffic: Durchschnittliche Übertragungsrate in Byte pro Sekunde
+ExQosStatisticsText: Diese Seite zeigt eine Statistik des Datenverkehrs der Diffserv-Weiterleitungsgruppen fï¿½r die letzten 12 Stunden an (wird automatisch alle 5 Minuten aktualisiert).
+ExQosStatisticsTraffic: Durchschnittliche ï¿½bertragungsrate in Byte pro Sekunde
 ExQosStatisticsType: Art der Weiterleitung
-ExQosText: Der Bandbreitenunterschied zwischen LAN und WAN kann die Übertragungsqualität kritischer Netzwerkanwendungen wie Sprache, Spiele oder VPN deutlich herabsetzen. Mit der QoS-Funktion können Sie den Datenverkehr dieser Anwendungen klassifizieren und Übertragungsgeschwindigkeiten reservieren (Diffserv = differentiated services).
+ExQosText: Der Bandbreitenunterschied zwischen LAN und WAN kann die ï¿½bertragungsqualitï¿½t kritischer Netzwerkanwendungen wie Sprache, Spiele oder VPN deutlich herabsetzen. Mit der QoS-Funktion kï¿½nnen Sie den Datenverkehr dieser Anwendungen klassifizieren und ï¿½bertragungsgeschwindigkeiten reservieren (Diffserv = differentiated services).
 ExQosTfcTypeEmail: E-MAIL
 ExQosTfcTypeFtp: FTP
 ExQosTfcTypeIgmp: IGMP
@@ -601,25 +601,25 @@ ExQosTfcTypeUdp: Benutzerdefiniert - UDP
 ExQosTfcTypeVoice: Sprache
 ExQosTfcTypeVpn: VPN
 ExQosTfcTypeWww: WWW
-ExRebootConfirmation: Möchten Sie jetzt einen Neustart der DSL-EasyBox durchführen?
+ExRebootConfirmation: Mï¿½chten Sie jetzt einen Neustart der DSL-EasyBox durchfï¿½hren?
 ExRebootHeading: Neustart
 ExRebootReboot: Neustart
-ExRebootText: Um einen Neustart durchzuführen, klicken Sie auf die Schaltfläche "Neustart". Sie werden aufgefordert, diese Entscheidung zu bestätigen. Der Neustart ist abgeschlossen, wenn die "Power" LED wieder rot leuchtet . Ihre Einstellungen werden dadurch nicht verändert.
+ExRebootText: Um einen Neustart durchzufï¿½hren, klicken Sie auf die Schaltflï¿½che "Neustart". Sie werden aufgefordert, diese Entscheidung zu bestï¿½tigen. Der Neustart ist abgeschlossen, wenn die "Power" LED wieder rot leuchtet . Ihre Einstellungen werden dadurch nicht verï¿½ndert.
 ExRemoteActive: Aktiviert
 ExRemoteAddress: Adresse des PCs
 ExRemoteHeading: Fernverwaltung
 ExRemotePort: Port Nummer
-ExRemoteText: Auf dieser Seite stellen Sie die Fernverwaltung für die DSL-EasyBox ein. Möchten Sie die DSL-EasyBox von einem PC außerhalb des lokalen Netzwerks verwalten können, müssen Sie auch die IP-Adresse dieses PCs eingeben.
+ExRemoteText: Auf dieser Seite stellen Sie die Fernverwaltung fï¿½r die DSL-EasyBox ein. Mï¿½chten Sie die DSL-EasyBox von einem PC auï¿½erhalb des lokalen Netzwerks verwalten kï¿½nnen, mï¿½ssen Sie auch die IP-Adresse dieses PCs eingeben.
 ExTimeHeading: Zeiteinstellungen
 ExTimeNtpHeading: Konfiguration des Zeitservers (NTP)
 ExTimeNtpLabel: Einschalten der automatischen Einstellung durch einen Zeitserver
-ExTimeNtpText: Sie können die Zeit der Systemuhr Ihrer DSL-EasyBox auch automatisch von einem Zeitserver im Internet einstellen lassen.
+ExTimeNtpText: Sie kï¿½nnen die Zeit der Systemuhr Ihrer DSL-EasyBox auch automatisch von einem Zeitserver im Internet einstellen lassen.
 ExTimeText: Einstellen der Zeitzone
-ExTimeTimezoneText: Verwenden Sie diese Einstellungen um sicherzustellen, dass zeitgesteuerte Filterfunktionen und Einträge des Logbuchs Ihrer DSL-EasyBox auf der Basis einer korrekten, ortsbezogenen Uhrzeit vorgenommen werden.
+ExTimeTimezoneText: Verwenden Sie diese Einstellungen um sicherzustellen, dass zeitgesteuerte Filterfunktionen und Eintrï¿½ge des Logbuchs Ihrer DSL-EasyBox auf der Basis einer korrekten, ortsbezogenen Uhrzeit vorgenommen werden.
 ExUpnpActivate: Aktivieren von UPnP Statusinformationen
 ExUpnpActivateAv: Aktivieren DLNA Medien-Server
 ExUpnpActivateFull: Aktivieren aller UPnP Funktionen
-ExUpnpActivateIgd: Aktivieren IGD-Geräte
+ExUpnpActivateIgd: Aktivieren IGD-Gerï¿½te
 ExUpnpBrowseHeading: UPnP AV Medien-Server / Freigegebener Ordner
 ExUpnpBrowseOf: / von
 ExUpnpDirectory: Verzeichnis
@@ -629,10 +629,10 @@ ExUpnpFolder1: Freigegebener Ordner (bis zu
 ExUpnpFolder2: Ordner)
 ExUpnpHeading: UPnP
 ExUpnpMemory: Speicher Nutzung: 0%
-ExUpnpReallyDelete: Sind Sie sicher, dass Sie diesen freigegebenen Ordner löschen wollen?
+ExUpnpReallyDelete: Sind Sie sicher, dass Sie diesen freigegebenen Ordner lï¿½schen wollen?
 ExUpnpReallyReload: Dies kann eine Weile dauern. Sind Sie sicher?
 ExUpnpSetting: Einstellen
-ExUpnpText: Die Universal Plug-and-Play-Software (UPnP) erkennt und integriert alle Arten von neuer Hardware, wie z. B. PCs und Wireless-Geräte in einem Netzwerk. Über UPnP können sich solche Geräte nahtlos in ein Netzwerk einbinden. Nach Abschluß der Integration können diese Geräte gleichberechtigt im Netzwerk kommunizieren und Daten austauschen.
+ExUpnpText: Die Universal Plug-and-Play-Software (UPnP) erkennt und integriert alle Arten von neuer Hardware, wie z. B. PCs und Wireless-Gerï¿½te in einem Netzwerk. ï¿½ber UPnP kï¿½nnen sich solche Gerï¿½te nahtlos in ein Netzwerk einbinden. Nach Abschluï¿½ der Integration kï¿½nnen diese Gerï¿½te gleichberechtigt im Netzwerk kommunizieren und Daten austauschen.
 ExUpnpTitle: Titel
 ExUsbAvtivate: USB Host Controller
 ExUsbBoundTo: verbunden mit
@@ -640,20 +640,20 @@ ExUsbBrowseOf: / von
 ExUsbCommonName: Name
 ExUsbCommonPort: TCP-Port
 ExUsbCommonSetting: Einstellen
-ExUsbCommonUsage: Um auf die Inhalte Ihres USB-Massenspeichers aus dem Internet zugreifen zu können, schalten Sie die Funktion "Fernzugriff" ein. Auserhalb Ihres lokalen Netzwerkes müssen Sie dann die Ihnen zugeteilte "WAN IP"-Adresse eingeben. Diese finden Sie auf der Startseite Ihrer DSL-EasyBox (im Bereich "Internet").
+ExUsbCommonUsage: Um auf die Inhalte Ihres USB-Massenspeichers aus dem Internet zugreifen zu kï¿½nnen, schalten Sie die Funktion "Fernzugriff" ein. Auserhalb Ihres lokalen Netzwerkes mï¿½ssen Sie dann die Ihnen zugeteilte "WAN IP"-Adresse eingeben. Diese finden Sie auf der Startseite Ihrer DSL-EasyBox (im Bereich "Internet").
 ExUsbCommonUser: Benutzername
 ExUsbEditAccess: Zugriff
 ExUsbFileActivate: Dateiserver-Funktionen
 ExUsbFileDescription: Beschreibung des Servers
-ExUsbFileEditAccessProtection: Zugriffsschutz durch Passwörter
+ExUsbFileEditAccessProtection: Zugriffsschutz durch Passwï¿½rter
 ExUsbFileEditFolder: Freigegebener Ordner
 ExUsbFileEditHeading: Dateiserver / Freigegebener Ordner
-ExUsbFileEditPasswordAccess: Abhängig vom eingegebenen Kennwort
+ExUsbFileEditPasswordAccess: Abhï¿½ngig vom eingegebenen Kennwort
 ExUsbFileEditReadAccess: Nur Lesezugriff
-ExUsbFileEditReadPassword: Kennwort für Lesezugriff
+ExUsbFileEditReadPassword: Kennwort fï¿½r Lesezugriff
 ExUsbFileEditSecurity: Sicherheit
 ExUsbFileEditWriteAccess: Vollzugriff
-ExUsbFileEditWritePassword: Kennwort für Vollzugriff
+ExUsbFileEditWritePassword: Kennwort fï¿½r Vollzugriff
 ExUsbFileGroup: Gruppe
 ExUsbFileHeading: Dateiserver
 ExUsbFileIp: \\(IP-Adresse)
@@ -667,7 +667,7 @@ ExUsbFileSrv: \\(Server)
 ExUsbFileSrvDir: \\(Server)\(Verzeichnis)
 ExUsbFileSrvDirExample: Bsp.: "\\EasyBox\partition1"
 ExUsbFileSrvExample: Bsp.: "\\EasyBox"
-ExUsbFileText: Auf dieser Seite können Sie den Dateiserver Ihrer DSL-EasyBox konfigurieren, um Dateien im Netzwerk einfach und bequem austauschen zu können. Voraussetzung für die Nutzung dieser Funktion ist der Einsatz von Windows® 95, 98, NT 4.0, 2000, XP oder anderen Betriebssystemen, die NetBIOS/SMB unterstützen. Nachdem Sie einen USB-Massenspeicher (Festplatte oder USB-Stick) an die USB-Schnittstelle angeschlossen haben wählen Sie die gewünschten Verzeichnisse aus, die Sie zur gemeinsamen Nutzung freigeben wollen. Sie können den Zugriff auf diese Inhalte mit einem Benutzernamen und Passwörtern für den Lese- bzw. Vollzugriff schützen. Nachdem Sie die Freigaben eingerichtet und den Dateiserver eingeschaltet haben, können Sie auf diese zugreifen. Geben Sie in Ihrem Internet-Browser oder z.B. dem Windows Explorer hierzu Folgendes ein
+ExUsbFileText: Auf dieser Seite kï¿½nnen Sie den Dateiserver Ihrer DSL-EasyBox konfigurieren, um Dateien im Netzwerk einfach und bequem austauschen zu kï¿½nnen. Voraussetzung fï¿½r die Nutzung dieser Funktion ist der Einsatz von Windowsï¿½ 95, 98, NT 4.0, 2000, XP oder anderen Betriebssystemen, die NetBIOS/SMB unterstï¿½tzen. Nachdem Sie einen USB-Massenspeicher (Festplatte oder USB-Stick) an die USB-Schnittstelle angeschlossen haben wï¿½hlen Sie die gewï¿½nschten Verzeichnisse aus, die Sie zur gemeinsamen Nutzung freigeben wollen. Sie kï¿½nnen den Zugriff auf diese Inhalte mit einem Benutzernamen und Passwï¿½rtern fï¿½r den Lese- bzw. Vollzugriff schï¿½tzen. Nachdem Sie die Freigaben eingerichtet und den Dateiserver eingeschaltet haben, kï¿½nnen Sie auf diese zugreifen. Geben Sie in Ihrem Internet-Browser oder z.B. dem Windows Explorer hierzu Folgendes ein
 ExUsbFtpActivate: FTP-Server Funktionen
 ExUsbFtpEditHeading: FTP-Server / Benutzerprofile
 ExUsbFtpEditPassword: Kennwort
@@ -681,7 +681,7 @@ ExUsbFtpIpExample: Bsp.: "ftp://192.168.2.1"
 ExUsbFtpMaxConnections: Maximale Anzahl der Verbindungen
 ExUsbFtpProfile1: Benutzerprofile (bis zu
 ExUsbFtpProfile2: Profile)
-ExUsbFtpText: Auf dieser Seite können Sie Ihre DSL-EasyBox als FTP-Server konfigurieren. Mit dieser Funktion können Sie den Zugriff auf Dateien, die sich auf Ihrem an der DSL-EasyBox angeschlossenen USB-Massenspeicher befinden, in Ihrem lokalen Netzwerk oder im Internet ermöglichen. Richten Sie zunächst einzelne Benutzerprofile ein und wählen Sie die Verzeichnisse und Ordner aus, deren Inhalte Sie freigeben wollen. Sie können für jedes Nutzerprofil verschiedene Passwörter und Verzeichnisse/Ordner festlegen. Nachdem Sie die Profile eingerichtet und den FTP-Server eingeschaltet haben, können Sie auf diese zugreifen. Geben Sie in Ihrem Internet-Browser oder z.B. dem Windows Explorer hierzu Folgendes ein
+ExUsbFtpText: Auf dieser Seite kï¿½nnen Sie Ihre DSL-EasyBox als FTP-Server konfigurieren. Mit dieser Funktion kï¿½nnen Sie den Zugriff auf Dateien, die sich auf Ihrem an der DSL-EasyBox angeschlossenen USB-Massenspeicher befinden, in Ihrem lokalen Netzwerk oder im Internet ermï¿½glichen. Richten Sie zunï¿½chst einzelne Benutzerprofile ein und wï¿½hlen Sie die Verzeichnisse und Ordner aus, deren Inhalte Sie freigeben wollen. Sie kï¿½nnen fï¿½r jedes Nutzerprofil verschiedene Passwï¿½rter und Verzeichnisse/Ordner festlegen. Nachdem Sie die Profile eingerichtet und den FTP-Server eingeschaltet haben, kï¿½nnen Sie auf diese zugreifen. Geben Sie in Ihrem Internet-Browser oder z.B. dem Windows Explorer hierzu Folgendes ein
 ExUsbHeading: USB
 ExUsbModem: USB-Modem verbunden
 ExUsbPartitions: Partitionen
@@ -689,7 +689,7 @@ ExUsbPrinter: USB-Drucker verbunden
 ExUsbPrtActivate: LPD-LPR Drucker-Server
 ExUsbPrtHeading: Drucker-Server
 ExUsbPrtName: Name des Druckers (LPR Queue Name)
-ExUsbPrtText: Ihr Gerät verfügt über einen Drucker-Server der es ermöglicht, Ihren an der DSL-EasyBox angeschlossenen USB-Drucker als Netzwerkdrucker zu nutzen. Hierzu müssen Sie auf jedem Computer, von dem aus Sie den Netzwerkdrucker nutzen wollen, einen Druckeranschluss einrichten. Über den Druckeranschluss werden Druckaufträge an die IP-Adresse des Drucker-Servers im lokalen Netzwerk weitergeleitet. Nähere Informationen erhalten Sie im Handbuch Ihrer DSL-EasyBox.
+ExUsbPrtText: Ihr Gerï¿½t verfï¿½gt ï¿½ber einen Drucker-Server der es ermï¿½glicht, Ihren an der DSL-EasyBox angeschlossenen USB-Drucker als Netzwerkdrucker zu nutzen. Hierzu mï¿½ssen Sie auf jedem Computer, von dem aus Sie den Netzwerkdrucker nutzen wollen, einen Druckeranschluss einrichten. ï¿½ber den Druckeranschluss werden Druckauftrï¿½ge an die IP-Adresse des Drucker-Servers im lokalen Netzwerk weitergeleitet. Nï¿½here Informationen erhalten Sie im Handbuch Ihrer DSL-EasyBox.
 ExUsbRes1: USB-Massenspeicher: maximal
 ExUsbRes2: Festplatte(n) oder
 ExUsbRes3: Speicher-Stick(s)
@@ -697,18 +697,18 @@ ExUsbRes4: USB-Drucker: maximal
 ExUsbRes5: USB-Drucker
 ExUsbRes6: USB-Hubs: maximal 1 USB-Hub
 ExUsbRes7: USB-HSPA Modem: maximal 1 HSPA modem
-ExUsbStatus: Status Ihres USB-Gerätes
+ExUsbStatus: Status Ihres USB-Gerï¿½tes
 ExUsbStorage: USB-Speicher
-ExUsbText: Ihre DSL-EasyBox verfügt über einen so genannten USB Host Controller. Dieser USB Host Controller stellt einen USB-Anschluss zur Verfügung, an den Sie USB-Geräte anschließen und gemeinsam in Ihrem Netzwerk nutzen können. Ihre DSL-EasyBox eignet sich für den Anschluss folgender Geräte
-ExUsbUsage: Nachdem Sie das Gerät an den USB-Anschluss der DSL-EasyBox angeschlossen haben, klicken Sie bitte auf die Schaltfläche "Status aktualisieren". Das Gerät wird oUsagedann in der Tabelle unten angezeigt.
-ExUsbUsage1: USB-Massenspeicher mit folgenden Dateisystemen werden unterstützt: FAT12, FAT16 und FAT32. Es können bis zu
-ExUsbUsage2: Partitionen zur gleichen Zeit aktiviert werden. Standardmäßig werden die
+ExUsbText: Ihre DSL-EasyBox verfï¿½gt ï¿½ber einen so genannten USB Host Controller. Dieser USB Host Controller stellt einen USB-Anschluss zur Verfï¿½gung, an den Sie USB-Gerï¿½te anschlieï¿½en und gemeinsam in Ihrem Netzwerk nutzen kï¿½nnen. Ihre DSL-EasyBox eignet sich fï¿½r den Anschluss folgender Gerï¿½te
+ExUsbUsage: Nachdem Sie das Gerï¿½t an den USB-Anschluss der DSL-EasyBox angeschlossen haben, klicken Sie bitte auf die Schaltflï¿½che "Status aktualisieren". Das Gerï¿½t wird oUsagedann in der Tabelle unten angezeigt.
+ExUsbUsage1: USB-Massenspeicher mit folgenden Dateisystemen werden unterstï¿½tzt: FAT12, FAT16 und FAT32. Es kï¿½nnen bis zu
+ExUsbUsage2: Partitionen zur gleichen Zeit aktiviert werden. Standardmï¿½ï¿½ig werden die
 ExUsbUsage3: ersten Partitionen des USB-Massenspeichers automatisch von Ihrer DSL-EasyBox aktiviert. Wenn Sie mehr als
 ExUsbUsage4: bevor
-ExUsbUsage5: Partitionen auf Ihrem USB-Massenspeicher konfiguriert haben, deaktivieren bzw. aktivieren Sie die Partition entsprechend Ihren Wünschen. Bitte tun Sie dies
-ExUsbUsage6: Sie weitere Einstellungen bei den Menüpunkten "Dateiserver", "FTP-Server" und "Web FTP-Server" vornehmen.
+ExUsbUsage5: Partitionen auf Ihrem USB-Massenspeicher konfiguriert haben, deaktivieren bzw. aktivieren Sie die Partition entsprechend Ihren Wï¿½nschen. Bitte tun Sie dies
+ExUsbUsage6: Sie weitere Einstellungen bei den Menï¿½punkten "Dateiserver", "FTP-Server" und "Web FTP-Server" vornehmen.
 ExUsbUsage7: Warnung!
-ExUsbUsage8: Wenn Sie Ihren USB-Massenspeicher wieder von der DSL-EasyBox trennen möchten, klicken Sie bitte unbedingt zuerst auf "Entfernen" in der Tabelle unten! Andernfalls kann es zu Datenverlusten auf dem USB-Massenspeicher oder einem Ausfall des Gerätes kommen.
+ExUsbUsage8: Wenn Sie Ihren USB-Massenspeicher wieder von der DSL-EasyBox trennen mï¿½chten, klicken Sie bitte unbedingt zuerst auf "Entfernen" in der Tabelle unten! Andernfalls kann es zu Datenverlusten auf dem USB-Massenspeicher oder einem Ausfall des Gerï¿½tes kommen.
 ExUsbWebActivate: Einschalten der Funktion Web FTP-Server
 ExUsbWebBrowseBrowse: / Durchsuchen
 ExUsbWebBrowseHeading: Web-FTP Server / Partition
@@ -721,9 +721,9 @@ ExUsbWebIp: http://(IP-Adresse)/(URL)
 ExUsbWebIpExample: Bsp.: "http://192.168.2.1/dsl_usb1
 ExUsbWebIpPort: http://(IP-Adresse):(Port)/(URL)
 ExUsbWebIpPortExample: Bsp.: "http://192.168.2.1:8000/dsl_usb1
-ExUsbWebText: Mit dieser Funktion können Sie Ihren USB-Massenspeicher über das HTTP-Protokoll freigeben. Wenn Sie diese Funktion einschalten und alle nötigen Einstellungen vorgenommen haben, können Sie aus Ihrem lokalen Netzwerk auf den an der DSL-EasyBox angeschlossenen USB-Massenspeicher zugreifen. Geben Sie hierzu bitte folgende Adresse in Ihrem Internet-Browser ein
+ExUsbWebText: Mit dieser Funktion kï¿½nnen Sie Ihren USB-Massenspeicher ï¿½ber das HTTP-Protokoll freigeben. Wenn Sie diese Funktion einschalten und alle nï¿½tigen Einstellungen vorgenommen haben, kï¿½nnen Sie aus Ihrem lokalen Netzwerk auf den an der DSL-EasyBox angeschlossenen USB-Massenspeicher zugreifen. Geben Sie hierzu bitte folgende Adresse in Ihrem Internet-Browser ein
 ExUsbWebUrl: URL
-ExUsbWebUsage: Hinweis: Wenn Sie aus dem Internet auf den USB-Massenspeicher zugreifen möchten, müssen Sie auch die Funktion "Fernzugriff" einschalten. Danach können Sie auch außerhalb Ihres Netzwerks auf den USB-Massenspeicher zugreifen, indem Sie eine der oben aufgeführten Adressen in Ihrem Internet-Browser eingeben.
+ExUsbWebUsage: Hinweis: Wenn Sie aus dem Internet auf den USB-Massenspeicher zugreifen mï¿½chten, mï¿½ssen Sie auch die Funktion "Fernzugriff" einschalten. Danach kï¿½nnen Sie auch auï¿½erhalb Ihres Netzwerks auf den USB-Massenspeicher zugreifen, indem Sie eine der oben aufgefï¿½hrten Adressen in Ihrem Internet-Browser eingeben.
 HeadingTelephonyAdvance: Erweiterte Einstellungen
 HeadingTelephonyAdvanceMicUser: Diese Einstellung erfolgt durch Ihren Anbieter.
 HeadingTelephonyCallIn: Eingehende Anrufe
@@ -743,22 +743,22 @@ HeadingTelephonyUmts2: UMTS Rufnummer
 LblTelephonyActivDetect: Voice Activity Detector
 LblTelephonyAdvanceBandwidth: Bandbreitenmanagement
 LblTelephonyAdvanceHook: Hook Flash Timer (Millisek.)
-LblTelephonyAdvancePmtu: Anpassen PMTU für MSI
-LblTelephonyAdvancePmtuSize: PMTU Größe
+LblTelephonyAdvancePmtu: Anpassen PMTU fï¿½r MSI
+LblTelephonyAdvancePmtuSize: PMTU Grï¿½ï¿½e
 LblTelephonyAdvanceRtp: RTP Port
 LblTelephonyAdvanceT38: T38 aktivieren
 LblTelephonyAlternativNo: Alternative Telefonnummer
-LblTelephonyCallIn: Anrufe für alle Rufnummern beantworten
-LblTelephonyCallOutNote: *Alle Anrufe über PSTN/ISDN werden automatisch mit der Preselection-Vorwahl 01070 geführt.
+LblTelephonyCallIn: Anrufe fï¿½r alle Rufnummern beantworten
+LblTelephonyCallOutNote: *Alle Anrufe ï¿½ber PSTN/ISDN werden automatisch mit der Preselection-Vorwahl 01070 gefï¿½hrt.
 LblTelephonyCallType: Art der Verbindung
-LblTelephonyClir: Rufnummernunterdrückung (CLIR)
+LblTelephonyClir: Rufnummernunterdrï¿½ckung (CLIR)
 LblTelephonyCw: Anklopfen
 LblTelephonyEchoCanc: Echo Canceller
 LblTelephonyFirstNo: Erste Telefonnummer
 LblTelephonyInband: inband
 LblTelephonyIsdnBus: ISDN-Bus
 LblTelephonyOutband: outband (RFC 2833)
-LblTelephonyPleaseSelect: bitte auswählen
+LblTelephonyPleaseSelect: bitte auswï¿½hlen
 LblTelephonyPreselect: Vorwahl
 LblTelephonySipInfo: SIP Info
 LblTelephonyTel1: Telefon 1 (F)
@@ -766,22 +766,22 @@ LblTelephonyTel2: Telefon 2 (U)
 LblTelephonyTel3: Telefon 3 (ISDN)
 LblWizardAal5Encaps: AAL5 Encapsulation
 LblWizardChannel: Funkkanal
-LblWizardConfirmPassword: Kennwortbestätigung
-LblWizardConfirmPw: Kennwort bestätigen
+LblWizardConfirmPassword: Kennwortbestï¿½tigung
+LblWizardConfirmPw: Kennwort bestï¿½tigen
 LblWizardDSLPassword: DSL-Kennwort
 LblWizardDSLUserName: DSL-Benutzername
 LblWizardDhcpEnable: Funktion
 LblWizardExpertMode: Expertenmodus
 LblWizardFirstIpAddr: Erste IP-Adresse
 LblWizardHideSSID: SSID Ausstrahlung
-LblWizardIpAddrCount: Anzahl möglicher IP-Adressen
+LblWizardIpAddrCount: Anzahl mï¿½glicher IP-Adressen
 LblWizardLoginDetails: Internet-Zugangsdaten
 LblWizardMicImportantMsg: Diese Installationsvariante sollten Sie nur benutzen, wenn lhr Netzbetreiber Sie dazu auffordert.
 LblWizardMicModemInstallCode: Modem-Installationscode
-LblWizardMicModemInstallCodeMsg: Bitte geben Sie Ihren persönlichen Modem-Installationscode ein. Diesen finden Sie auf der ersten Seite Ihres Willkommensbriefes mit dem Anschalttermin.
+LblWizardMicModemInstallCodeMsg: Bitte geben Sie Ihren persï¿½nlichen Modem-Installationscode ein. Diesen finden Sie auf der ersten Seite Ihres Willkommensbriefes mit dem Anschalttermin.
 LblWizardMicNoHspaModem: Kein HSPA modem gesteckt.
-LblWizardMicPersonalPinCodeMsg: Bitte geben Sie Ihren persönlichen PIN Code für die Mobilfunk SIM-Karte ein. Ihre Verbindung wird dann über Mobilfunk hergestellt, wenn keine Festnetz-Verbindung besteht.
-LblWizardMicPinCodeSim: PIN Code (für SIM Karte)
+LblWizardMicPersonalPinCodeMsg: Bitte geben Sie Ihren persï¿½nlichen PIN Code fï¿½r die Mobilfunk SIM-Karte ein. Ihre Verbindung wird dann ï¿½ber Mobilfunk hergestellt, wenn keine Festnetz-Verbindung besteht.
+LblWizardMicPinCodeSim: PIN Code (fï¿½r SIM Karte)
 LblWizardMicStandardInstallation: Standard-Installation
 LblWizardMicStorePin: PIN speichern
 LblWizardMicUserDefined: Benutzerspezifische Installation
@@ -803,21 +803,21 @@ LblWizardVoIpPhoneNumber3: Rufnummer 3
 LblWizardVoIpPwdPhoneNumber1: Passwort Rufnummer 1
 LblWizardVoIpPwdPhoneNumber2: Passwort Rufnummer 2
 LblWizardVoIpPwdPhoneNumber3: Passwort Rufnummer 3
-LblWizardVoiceConfirmPw: Passwort bestätigen
+LblWizardVoiceConfirmPw: Passwort bestï¿½tigen
 LblWizardVoicePassword: Sprach-Passwort
 LblWizardVoiceUserName: Sprach-Benutzername
 LblWizardVpiVci: VPI/VCI
-LblWizardWlanMode: Übertragungsmodus
+LblWizardWlanMode: ï¿½bertragungsmodus
 NavSubEntryHspaModem: UMTS-Stick
-NavSubEntryInternetForwarding: » Spezielle Anwendungen
-NavSubEntryIntrusionDetection: » Intrusion Detection
-NavSubEntryScheduler: » Regeln für Terminpläne
+NavSubEntryInternetForwarding: ï¿½ Spezielle Anwendungen
+NavSubEntryIntrusionDetection: ï¿½ Intrusion Detection
+NavSubEntryScheduler: ï¿½ Regeln fï¿½r Terminplï¿½ne
 NavSubEntryWizard: WIZARD
-NavTabEntryDslStandard: » ADSL-Parameter
-NavTabEntryQosStatistics: » Statistiken zum Datenverkehr
-NavTabEntryQosTrafficPlan: » Datenverkehr zuordnen
-NavTabEntryWlanTimer: » Timer
-NotYetAvailable: (Feature noch nicht verfügbar.)
+NavTabEntryDslStandard: ï¿½ ADSL-Parameter
+NavTabEntryQosStatistics: ï¿½ Statistiken zum Datenverkehr
+NavTabEntryQosTrafficPlan: ï¿½ Datenverkehr zuordnen
+NavTabEntryWlanTimer: ï¿½ Timer
+NotYetAvailable: (Feature noch nicht verfï¿½gbar.)
 OverviewCurrentTime: Aktuelle Zeit
 OverviewDhcpClientLog: DHCP Clientlogbuch
 OverviewDhcpClientLogIndex: Anzeige der Informationen zu LAN DHCP-Clients, die Ihrer DSL-EasyBox bekannt sind.
@@ -847,20 +847,20 @@ OverviewInternetAdsl: ADSL
 OverviewInternetDownload: Download
 OverviewInternetGateway: Gateway
 OverviewInternetMode: Modus
-OverviewInternetPrimDns: Primärer DNS
-OverviewInternetSecDns: Sekundärer DNS
+OverviewInternetPrimDns: Primï¿½rer DNS
+OverviewInternetSecDns: Sekundï¿½rer DNS
 OverviewInternetSubnetmask: Subnetzmaske
 OverviewInternetUpload: Upload
 OverviewInternetWanIp: WAN IP
 OverviewLanConf: LAN Einstellungen
-OverviewLanConfIndex: Sie können DHCP aktivieren, um IP-Adressen automatisch an die angeschlossenen Clients zu vergeben (dynamische Adressverwaltung) oder um Filterfunktionen - abgestimmt auf spezielle Nutzer oder Protokolle - zu konfigurieren. Der DSL-EasyBox muss eine IP-Adresse för das lokale Netzwerk zugewiesen sein.
+OverviewLanConfIndex: Sie kï¿½nnen DHCP aktivieren, um IP-Adressen automatisch an die angeschlossenen Clients zu vergeben (dynamische Adressverwaltung) oder um Filterfunktionen - abgestimmt auf spezielle Nutzer oder Protokolle - zu konfigurieren. Der DSL-EasyBox muss eine IP-Adresse fï¿½r das lokale Netzwerk zugewiesen sein.
 OverviewLanDhcpParam: Parameter des LAN DHCP Servers
 OverviewLanDhcpServer: DHCP Server
-OverviewLanDomainName: Domänenname
+OverviewLanDomainName: Domï¿½nenname
 OverviewLanEndIp: Letzte IP des Adresspools
 OverviewLanHostName: Host Name
 OverviewLanIp: LAN-IP
-OverviewLanLeaseTime: Gültigkeit der IP-Adresszuordnung
+OverviewLanLeaseTime: Gï¿½ltigkeit der IP-Adresszuordnung
 OverviewLanLeaseTimeForever: Immer
 OverviewLanLeaseTimeHalfDay: Ein halber Tag
 OverviewLanLeaseTimeHalfHour: Eine halbe Stunde
@@ -874,44 +874,44 @@ OverviewLanStartIp: Erste IP des Adresspools
 OverviewLanWlanDhcpParam: Parameter des WLAN DHCP Servers
 OverviewLanWlanIp: WLAN-IP
 OverviewState: Status
-OverviewStateIndex: Verwenden Sie diese Bildschirmanzeige, um den Verbindungsstatus der WAN/LAN-Schnittstellen Ihrer DSL-EasyBox, die Versionsnummern der Firmware und der Hardware, unberechtigte Versuche in Ihr Netzwerk einzudringen sowie Informationen ueber alle DHCP Clients, die gegenwärtig in Ihrem Netzwerk angeschlossen sind, einzusehen.
+OverviewStateIndex: Verwenden Sie diese Bildschirmanzeige, um den Verbindungsstatus der WAN/LAN-Schnittstellen Ihrer DSL-EasyBox, die Versionsnummern der Firmware und der Hardware, unberechtigte Versuche in Ihr Netzwerk einzudringen sowie Informationen ueber alle DHCP Clients, die gegenwï¿½rtig in Ihrem Netzwerk angeschlossen sind, einzusehen.
 OverviewWlanConf: WLAN - Einstellungen
 OverviewWlanConfBandwidth: Kanal-Bandbreite
 OverviewWlanConfChannel: Funkkanal
 OverviewWlanConfExtensionChannel: Zweiter Funkkanal
-OverviewWlanConfIndex: Die folgenden Einstellungen zum WLAN Netzwerk können Sie verändern.
-OverviewWlanConfMode: Übertragungsmodus
+OverviewWlanConfIndex: Die folgenden Einstellungen zum WLAN Netzwerk kï¿½nnen Sie verï¿½ndern.
+OverviewWlanConfMode: ï¿½bertragungsmodus
 OverviewWlanConfProtectedMode: Geschuetzter Mode
 OverviewWlanConfQos: 802.11e/WMM QoS
 OverviewWlanConfSeparateIpLanWlan: Getrennte IP-Adressen fuer LAN und WLAN
-OverviewWlanSec: WLAN - Verschlüsselung
+OverviewWlanSec: WLAN - Verschlï¿½sselung
 OverviewWlanSecAuth: Authentifizierung
-OverviewWlanSecDefaultKey: ID des bevorzugten Schlüssels
-OverviewWlanSecDevicePin: WPS-Geräte PIN (fuer Windows)
+OverviewWlanSecDefaultKey: ID des bevorzugten Schlï¿½ssels
+OverviewWlanSecDevicePin: WPS-Gerï¿½te PIN (fuer Windows)
 OverviewWlanSecDisabled: Ausgeschaltet
 OverviewWlanSecEnableWps: Aktivieren von WPS (automatischer Abgleich)
-OverviewWlanSecIndex: Die DSL-EasyBox kann die drahtlose Übertragung der Daten verschlüsseln. Hierzu müssen Sie auf der DSL-EasyBox und auf den anderen Wireless-Geräten die gleichen Verschlüsselungsmethoden einstellen. Wählen Sie aus der hier aufgeführten Liste eine Verschlüsselungsmethode aus und konfigurieren Sie diese an Hand der entsprechenden Felder.
-OverviewWlanSecKey: Sicherheitsschlüssel
-OverviewWlanSecKey1: Schlüssel1
-OverviewWlanSecKey2: Schlüssel2
-OverviewWlanSecKey3: Schlüssel3
-OverviewWlanSecKey4: Schlüssel4
-OverviewWlanSecKeyMethod: Art des Schlüssels
-OverviewWlanSecKeyProv: Schlüsselvergabe
-OverviewWlanSecMethod: Verschlüsselungsmethode
+OverviewWlanSecIndex: Die DSL-EasyBox kann die drahtlose ï¿½bertragung der Daten verschlï¿½sseln. Hierzu mï¿½ssen Sie auf der DSL-EasyBox und auf den anderen Wireless-Gerï¿½ten die gleichen Verschlï¿½sselungsmethoden einstellen. Wï¿½hlen Sie aus der hier aufgefï¿½hrten Liste eine Verschlï¿½sselungsmethode aus und konfigurieren Sie diese an Hand der entsprechenden Felder.
+OverviewWlanSecKey: Sicherheitsschlï¿½ssel
+OverviewWlanSecKey1: Schlï¿½ssel1
+OverviewWlanSecKey2: Schlï¿½ssel2
+OverviewWlanSecKey3: Schlï¿½ssel3
+OverviewWlanSecKey4: Schlï¿½ssel4
+OverviewWlanSecKeyMethod: Art des Schlï¿½ssels
+OverviewWlanSecKeyProv: Schlï¿½sselvergabe
+OverviewWlanSecMethod: Verschlï¿½sselungsmethode
 OverviewWlanSecNasId: NAS-ID
 OverviewWlanSecOnlyWPA: Nur WPA
 OverviewWlanSecOnlyWPA2: Nur WPA2
 OverviewWlanSecPin: WPS-PIN
-OverviewWlanSecPskType: Art des Schlüssels
+OverviewWlanSecPskType: Art des Schlï¿½ssels
 OverviewWlanSecPskTypeHex: Hex (64 Buchstaben A bis F oder Ziffern)
 OverviewWlanSecPskTypePw: Passwort (8 bis 63 Zeichen)
 OverviewWlanSecReAuth: Zeitraum bis zur erneuten Authentifizierung
-OverviewWlanSecReAuthSec: Sekunden ( 0 steht für keine erneute Authentifizierung )
+OverviewWlanSecReAuthSec: Sekunden ( 0 steht fï¿½r keine erneute Authentifizierung )
 OverviewWlanSecServerIp: Server-IP
 OverviewWlanSecServerPort: Server-Port
-OverviewWlanSecSessionTimeout: Gültigkeit
-OverviewWlanSecSessionTimeoutSec: Sekunden ( 0 steht für unbefristete Gültigkeit )
+OverviewWlanSecSessionTimeout: Gï¿½ltigkeit
+OverviewWlanSecSessionTimeoutSec: Sekunden ( 0 steht fï¿½r unbefristete Gï¿½ltigkeit )
 OverviewWlanSecWEP: WEP
 OverviewWlanSecWPA_WPA2: WPA/WPA2
 OverviewWlanSecWaitAuth: Wartezeit
@@ -920,7 +920,7 @@ OverviewWlanSecWepMode: WEP Modus
 OverviewWlanTimer: WLAN - Timer
 OverviewWlanTimerEnd: Ende-Zeit
 OverviewWlanTimerFriday: Fr
-OverviewWlanTimerIndex: Die DSL-EasyBox ermöglicht Ihnen die WLAN Funktion Timer-gesteuert zu aktivieren.
+OverviewWlanTimerIndex: Die DSL-EasyBox ermï¿½glicht Ihnen die WLAN Funktion Timer-gesteuert zu aktivieren.
 OverviewWlanTimerMonday: Mo
 OverviewWlanTimerSaturday: Sa
 OverviewWlanTimerStart: Start-Zeit
@@ -930,12 +930,12 @@ OverviewWlanTimerTuesday: Di
 OverviewWlanTimerWednesday: Mi
 OverviewWlanTimerWeekDay: Wochentage
 OverviewWlanTimerWlanEnable: Die WLAN-Funktion wird zu o.g. Zeiten
-TextTelephony: Diese Seite enthält alle Angaben zum Konfigurieren der Sprach- und Telefoneinstellungen für Ihre DSL-EasyBox.
+TextTelephony: Diese Seite enthï¿½lt alle Angaben zum Konfigurieren der Sprach- und Telefoneinstellungen fï¿½r Ihre DSL-EasyBox.
 TextTelephonyAdvanceParam: Verschiedene Parameter
 TextTelephonyAdvanceRtp: RTP Parameter
 TextTelephonyAdvanceT38: T38 Parameter
 TextTelephonyAuthId: Auth ID
-TextTelephonyAvailableCodecs: Verfügbare Codecs
+TextTelephonyAvailableCodecs: Verfï¿½gbare Codecs
 TextTelephonyCallInEmpty: Keine eingehenden Anrufe
 TextTelephonyCallInList: Eingehende Anrufe
 TextTelephonyCallOutEmpty: Keine ausgehenden Anrufe
@@ -943,7 +943,7 @@ TextTelephonyCallOutList: Ausgehende Anrufe
 TextTelephonyCallStates: Status der Rufnummern
 TextTelephonyChangeFxo: Bitte tragen Sie die Rufnummer ohne Vorwahl ein.
 TextTelephonyChangeUmts: Bitte tragen Sie die Rufnummer ohne Netz-Vorwahl ein.
-TextTelephonyConfirmPassword: Passwort bestätigen
+TextTelephonyConfirmPassword: Passwort bestï¿½tigen
 TextTelephonyDisplayName: Angezeigter Name
 TextTelephonyDnsSrv: DNS SRV
 TextTelephonyDtmf: DTMF Modus
@@ -951,7 +951,7 @@ TextTelephonyEnable: Aktiviert
 TextTelephonyFailed: Fehlgeschlagen
 TextTelephonyFaxPassthroughCodec: FAX Passthrough Codec
 TextTelephonyFetchBinding: "Fetch-binding"-Prozedur
-TextTelephonyNewDialRule: Die Einstellung der Rufnummernzuordnung wird gespeichert, wenn Sie auf die Schaltfläche Übernehmen klicken.
+TextTelephonyNewDialRule: Die Einstellung der Rufnummernzuordnung wird gespeichert, wenn Sie auf die Schaltflï¿½che ï¿½bernehmen klicken.
 TextTelephonyNoAccount: Kein Account aktiviert!
 TextTelephonyOutProxy: Abgehender Proxy Server
 TextTelephonyOutProxyPort: Abgehender Proxy Port
@@ -960,10 +960,10 @@ TextTelephonyPort: Listen Port
 TextTelephonyPreselecUmts: Bitte tragen Sie die Netz-Vorwahl (z.B. 0172) ein.
 TextTelephonyPreselect: Bitte tragen Sie die Vorwahl ein.
 TextTelephonyProxyPort: Proxy Port
-TextTelephonyRealm: Realm (Domäne)
+TextTelephonyRealm: Realm (Domï¿½ne)
 TextTelephonyRegInterval: Registrierungsintervall
 TextTelephonyRegistrar: Registrar Server (Anmeldeserver)
-TextTelephonySelectedCodecs: Ausgewählte Codecs
+TextTelephonySelectedCodecs: Ausgewï¿½hlte Codecs
 TextTelephonySuccess: Erfolgreich
 TextTelephonyUseAuthId: Auth ID verwenden
 TextTelephonyUseOutProxy: Abgehenden Proxy Server verwenden
@@ -972,15 +972,15 @@ TextTelephonyVc: Listen VC
 TextWizardAdslMode: ADSL-Betriebsmodus (WAN)
 TextWizardDhcpParam: DHCP Parameter
 TextWizardImportant: ACHTUNG
-TextWizardImportantMsg: DIESE EINSTELLUNG KÖNNEN SIE NUR MIT EINEM FIRMWARE-RESET UNTER VERLUST ALLER EINSTELLUNGEN WIEDER RÜCKGÄNGIG MACHEN.
+TextWizardImportantMsg: DIESE EINSTELLUNG Kï¿½NNEN SIE NUR MIT EINEM FIRMWARE-RESET UNTER VERLUST ALLER EINSTELLUNGEN WIEDER Rï¿½CKGï¿½NGIG MACHEN.
 TextWizardIspParam: ISP-Parameter
 TextWizardStep1: Sie nehmen die DSL-EasyBox zum ersten Mal in Betrieb.
-TextWizardStep2: Auf dieser Seite können Sie die SSID (Name des Funknetzes) und den Funkkanal für die drahtlose Verbindung festlegen. Die DSL-EasyBox kann als Basisstation (Access Point) in diesem Funknetz dienen. Die folgenden Parameter werden benötigt, um Funkteilnehmer mit der DSL-EasyBox zu verbinden.
+TextWizardStep2: Auf dieser Seite kï¿½nnen Sie die SSID (Name des Funknetzes) und den Funkkanal fï¿½r die drahtlose Verbindung festlegen. Die DSL-EasyBox kann als Basisstation (Access Point) in diesem Funknetz dienen. Die folgenden Parameter werden benï¿½tigt, um Funkteilnehmer mit der DSL-EasyBox zu verbinden.
 TextWizardStep3: Bitte geben Sie Ihre Internetzugangsdaten ein.
 TextWizardStep3Voice: Bitte geben Sie Ihre Sprachdaten ein.
 TextWizardSummary: Sie haben die folgenden Konfigurationsparameter eingegeben.
-TextWizardThanksEasyBox: Danke, dass Sie die DSL-EasyBox gewählt haben.
+TextWizardThanksEasyBox: Danke, dass Sie die DSL-EasyBox gewï¿½hlt haben.
 TextWizardWait: Ihre Daten werden gespeichert
-WizardMainEntryStep1: Was möchten Sie tun?
+WizardMainEntryStep1: Was mï¿½chten Sie tun?
 WizardMainEntryStep2: Channel und SSID
 WizardMainEntryStep3: Internetzugangsdaten
