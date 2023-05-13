@@ -2,7 +2,7 @@
 import getopt, sys, re
 from os.path import isabs, dirname, abspath, realpath, isdir, exists, join
 from os import makedirs, environ, chdir, getcwd, remove
-from shutil import copytree, copyfile
+from shutil import copyfile
 from glob import glob
 from subprocess import run, DEVNULL
 
@@ -24,7 +24,7 @@ def help():
 usage: {dirname(__file__)} [options]
 options:
 -t  <installation target folder>
-    default $HOME/iad    
+    default $HOME/iad_runtime    
 -d  compile with debug output
 -p  preview      
 -v  verbose  
