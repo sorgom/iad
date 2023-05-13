@@ -4,7 +4,7 @@ from os.path import isabs, dirname, abspath, realpath, isdir, exists, join
 from os import makedirs, environ, chdir, getcwd, remove
 from shutil import copytree, copyfile
 from glob import glob
-from subprocess import run
+from subprocess import run, DEVNULL
 
 verbose = False
 preview = False
@@ -85,6 +85,11 @@ def placeTemplate(file:str):
         with open(tFile, 'w') as fh:
             fh.write(txt)
 
+def runc(com:str):
+    a = com.split()
+    if verbose or preview: run(a)
+    else: run(a, stdout=DEVNULL)
+
 #   command line & target folder
 try:
     opts, args = getopt.getopt(sys.argv[1:], 't:dpvh')
@@ -113,10 +118,10 @@ checkDir(targetDir)
 goProjDir('srv')
 rm('CMakeCache.txt')
 if debug: 
-    run(['cmake',  '-DDEVEL=1', '.'])
+    runc('cmake -DDEVEL=1 .')
 else: 
-    run(['cmake',  '.'])
-run('make')
+    runc('cmake .')
+runc('make')
 
 #   create databases
 goProjDir('db')
