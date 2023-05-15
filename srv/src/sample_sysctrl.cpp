@@ -8,13 +8,13 @@
 //!
 //| ============================================================
 
-#include "sample_sysctrl.hpp"
+#include <sample_sysctrl.h>
 
-#include "ini.hpp"
-#include "sysctrl.hpp"
+#include <ini.h>
+#include <sysctrl.h>
 
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdlib>
 

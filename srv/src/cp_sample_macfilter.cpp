@@ -8,9 +8,9 @@
 //!
 //| ============================================================
 
-#include "cp_sample_macfilter.hpp"
+#include <cp_sample_macfilter.h>
 
-#include "cp_convenience.hpp"
+#include <cp_convenience.h>
 
 //	if no conflicting names: shorten up the typing
 using namespace ta;

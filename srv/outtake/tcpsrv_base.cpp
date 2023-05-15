@@ -8,12 +8,12 @@
 //!
 //| ============================================================
 
-#include "tcpsrv_base.hpp"
+#include <tcpsrv_base.h>
 
-#include "net.hpp"
+#include <net.h>
 
-#include "trace_macros.hpp"
-#include "stypes.hpp"
+#include <trace_macros.h>
+#include <stypes.h>
 
 #include <sys/socket.h>
 #include <cstring>
@@ -36,7 +36,7 @@
 	}
 
 //	reset of all field sets
-	void tcpsrv::mkfds(void)
+	void tcpsrv::mkfds()
 	{
 		TRACE_FLOW
 		TRACE_VAR(svs)

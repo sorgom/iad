@@ -8,21 +8,21 @@
 //!
 //| ============================================================
 
-#include "ini.hpp"
+#include <ini.h>
 
-#include "ccs.hpp"
-#include "f_io.hpp"
-#include "finders.hpp"
-#include "hdn_vars.hpp"
-#include "ini_io.hpp"
-#include "sfunc.hpp"
-#include "utilz.hpp"
-#include "val.hpp"
-#include "vars.hpp"
+#include <ccs.h>
+#include <f_io.h>
+#include <finders.h>
+#include <hdn_vars.h>
+#include <ini_io.h>
+#include <sfunc.h>
+#include <utilz.h>
+#include <val.h>
+#include <vars.h>
 
 // #undef DEVEL
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdio>
 

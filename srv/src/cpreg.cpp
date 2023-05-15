@@ -8,23 +8,23 @@
 //!
 //| ============================================================
 
-#include "cpreg.hpp"
+#include <cpreg.h>
 
 //	cproc inclusions (generated).
-#include "cp_sample_ilanguage.hpp"
-#include "cp_sample_macfilter.hpp"
-#include "cp_sample_online.hpp"
-#include "cp_samples_ajax.hpp"
-#include "cp_samples_db.hpp"
-#include "cp_samples_dbx.hpp"
-#include "cp_samples_format.hpp"
-#include "cp_samples_htm.hpp"
-#include "cp_samples_time.hpp"
-#include "cp_vars.hpp"
-#include "err_inf.hpp"
-#include "system_cprocs.hpp"
+#include <cp_sample_ilanguage.h>
+#include <cp_sample_macfilter.h>
+#include <cp_sample_online.h>
+#include <cp_samples_ajax.h>
+#include <cp_samples_db.h>
+#include <cp_samples_dbx.h>
+#include <cp_samples_format.h>
+#include <cp_samples_htm.h>
+#include <cp_samples_time.h>
+#include <cp_vars.h>
+#include <err_inf.h>
+#include <system_cprocs.h>
 
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 #include <cstdlib>
 
 #define c_NR_CPROCS 56
@@ -197,13 +197,13 @@
 	}
 
 //!	reset function.
-	void resetcps(void)
+	void resetcps()
 	{
 		cprg* pcp = cprgs;
 		for (unsigned i = c_NR_CPROCS; i--; ++pcp) if (pcp->p) pcp->p->reset();
 	}
 //!	remove all cproc instances from memory
-	void removecps(void)
+	void removecps()
 	{
 		cprg* pcp = cprgs;
 		for (unsigned i = c_NR_CPROCS; i--; ++pcp) if (pcp->p) {

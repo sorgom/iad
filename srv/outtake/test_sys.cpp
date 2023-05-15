@@ -9,11 +9,11 @@
 //| ============================================================
 
 #include <cstdlib>
-#include "ini.hpp"
+#include <ini.h>
 
 #define XDEVEL
-#include "trace_macros.hpp"
-#include "tutilz.hpp"
+#include <trace_macros.h>
+#include <tutilz.h>
 	int		ac;
 	char**	av;
 
@@ -27,19 +27,19 @@
 
 //	============================================================
 //	setup & finish
-	void setup(void)
+	void setup()
 	{
 		TRACE_FLOW
 		load_ini(c_iadcgi_ini);
 	}
 
-	void finish(void)
+	void finish()
 	{
 		TRACE_FLOW
 	}
 //	============================================================
 //	the tests
-	void test01(void)
+	void test01()
 	{
 		TRACE_FLOW
 		TRACE_INF("system call of " << c_sysreset << " = ini value in " << c_iadcgi_ini)
@@ -51,25 +51,25 @@
 		}
 	}
 
-	void test02(void)
+	void test02()
 	{
 		TRACE_FLOW
 		TRACE_INF("")
 	}
 
-	void test03(void)
+	void test03()
 	{
 		TRACE_FLOW
 		TRACE_INF("")
 	}
 
-	void test04(void)
+	void test04()
 	{
 		TRACE_FLOW
 		TRACE_INF("")
 	}
 
-	void test05(void)
+	void test05()
 	{
 		TRACE_FLOW
 		TRACE_INF("")

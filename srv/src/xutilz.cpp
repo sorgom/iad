@@ -8,12 +8,12 @@
 //!
 //| ============================================================
 
-#include "xutilz.hpp"
+#include <xutilz.h>
 
-#include "utilz.hpp"
+#include <utilz.h>
 
 #undef DEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 //!	a helper function that could be placed somewhere else
 	t_cc at2mp(t_cc c, cmapper& mp, char ct)

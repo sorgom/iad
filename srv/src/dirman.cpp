@@ -8,12 +8,12 @@
 //!
 //| ============================================================
 
-#include "dirman.hpp"
+#include <dirman.h>
 
-#include "defs.hpp"
+#include <defs.h>
 
 //#define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdio>
 #include <dirent.h>

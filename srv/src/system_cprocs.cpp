@@ -8,16 +8,16 @@
 //!
 //| ============================================================
 
-#include "system_cprocs.hpp"
+#include <system_cprocs.h>
 
-#include "cgi.hpp"
+#include <cgi.h>
 
 // #define XDEVEL
-#include "cp_convenience.hpp"
-#include "finders.hpp"
-#include "fcp.hpp"
-#include "hdn_vars.hpp"
-#include "sysctrl.hpp"
+#include <cp_convenience.h>
+#include <finders.h>
+#include <fcp.h>
+#include <hdn_vars.h>
+#include <sysctrl.h>
 #include <cstring>
 
 using namespace ta;

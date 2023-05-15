@@ -8,15 +8,15 @@
 //!
 //| ============================================================
 
-#include "db.hpp"
+#include <db.h>
 
-#include "ccs.hpp"
-#include "dbn.hpp"
-#include "defs.hpp"
-#include "vars.hpp"
+#include <ccs.h>
+#include <dbn.h>
+#include <defs.h>
+#include <vars.h>
 
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <sqlite3.h>
 #include <cstdlib>
@@ -78,7 +78,7 @@ namespace db
 		return true;
 	}
 
-	void con::disconnect(void)
+	void con::disconnect()
 	{
 		if (d) {
 			sqlite3_close(d);
@@ -120,11 +120,11 @@ namespace db
 		virtual void operator()(proc*) {}
 	};
 
-	const t_where* 		where(void) 	{ return 0; }
-	const t_not_null* 	nn(void) 		{ return 0; }
-	const t_pile* 		pile(void) 		{ return 0; }
-	const t_or* 		o(void) 		{ return 0; }
-	const t_and* 		a(void) 		{ return 0; }
+	const t_where* 		where() 	{ return 0; }
+	const t_not_null* 	nn() 		{ return 0; }
+	const t_pile* 		pile() 		{ return 0; }
+	const t_or* 		o() 		{ return 0; }
+	const t_and* 		a() 		{ return 0; }
 
 //	============================================================
 //	trigger && null string
@@ -147,7 +147,7 @@ namespace db
 
 //	============================================================
 //	db:proc
-	proc& proc::instance(void)
+	proc& proc::instance()
 	{
 		static proc* p = new proc;
 		return *p;
@@ -164,7 +164,7 @@ namespace db
 	, trg(0)
 	{}
 
-	t_cc proc::str(void)
+	t_cc proc::str()
 	{
 		if (!built) {
 			if (!tbl) {
@@ -566,7 +566,7 @@ namespace db
 		}
 	}
 
-	t_fcc proc::getv(void)
+	t_fcc proc::getv()
 	{
 		TRACE_FLOW
 	//	are we conected?
@@ -668,7 +668,7 @@ namespace db
 	}
 
 //!	execute count
-	unsigned proc::count(void)
+	unsigned proc::count()
 	{
 		TRACE_FLOW
 	//	are we conected?
@@ -782,7 +782,7 @@ namespace db
 		pile();
 	}
 
-	void proc::pile(void)
+	void proc::pile()
 	{
 //		if (asq()) bb.copy(bq.str());
 		if (asq()) bb.take(bq);
@@ -837,7 +837,7 @@ namespace db
 		return ok;
 	}
 
-	void proc::trigger(void)
+	void proc::trigger()
 	{
 		TRACE_FLOW
 		if (trg) trg->trigger(bt);

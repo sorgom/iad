@@ -8,10 +8,10 @@
 //!
 //| ============================================================
 
-#include "utilz.hpp"
+#include <utilz.h>
 
 //#undef DEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstring>
 #include <cstdio>

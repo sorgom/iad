@@ -8,8 +8,8 @@
 //!
 //| ============================================================
 
-#include "cp_date_time.hpp"
-#include "cp_convenience.hpp"
+#include <cp_date_time.h>
+#include <cp_convenience.h>
 
 #include <cstdlib>
 

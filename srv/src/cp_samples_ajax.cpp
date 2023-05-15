@@ -8,10 +8,10 @@
 //!
 //| ============================================================
 
-#include "cp_samples_ajax.hpp"
+#include <cp_samples_ajax.h>
 
-#include "cp_convenience.hpp"
-#include "sample_ajax.hpp"
+#include <cp_convenience.h>
+#include <sample_ajax.h>
 
 using namespace ta;
 using namespace tag;
@@ -26,7 +26,7 @@ using namespace tag;
 //	ajax container storage
 	s_cc pre_ajax::ajx;
 
-	bool pre_ajax::pre(void)
+	bool pre_ajax::pre()
 	{
 		if (curr_sid && !is_ajax) {
 			if (ajx) {
@@ -130,7 +130,7 @@ using namespace tag;
 					<<	c__end
 				//	end javascript tag
 					<< tte
-				;	
+				;
 			}
 		}
 	}

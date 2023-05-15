@@ -8,19 +8,19 @@
 //!
 //| ============================================================
 
-#include "cgi.hpp"
+#include <cgi.h>
 
-#include "ccs.hpp"
-#include "defs.hpp"
-#include "f_io.hpp"
-#include "hdn_vars.hpp"
-#include "ini_io.hpp"
-#include "utilz.hpp"
-#include "vars.hpp"
+#include <ccs.h>
+#include <defs.h>
+#include <f_io.h>
+#include <hdn_vars.h>
+#include <ini_io.h>
+#include <utilz.h>
+#include <vars.h>
 
 // #undef DEVEL
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdlib>
 #include <cstdio>
@@ -30,7 +30,7 @@
 //	============================================================
 //	hidden subs
 //!	process tokenized parameters.
-	void process_params(void);
+	void process_params();
 
 //	check for valid SID
 	bool oksid;
@@ -72,7 +72,7 @@
 #else
 
 //!	Load parameters from CGI GET / POST.
-	void cgi_params(void)
+	void cgi_params()
 	{
 		TRACE_FLOW
 		hdn::cgi.clear();
@@ -113,7 +113,7 @@
 
 //	============================================================
 //	common
-	void mk_paramvals(void)
+	void mk_paramvals()
 	{
 		if (params) {
 			fbuffer& rb = rfb(params);
@@ -128,7 +128,7 @@
 		}
 	}
 //!	process tokenized parameters.
-	void process_params(void)
+	void process_params()
 	{
 		TRACE_FLOW
 		time(&curr_time);
@@ -355,7 +355,7 @@
 	}
 
 //!	clear cgi container from all non system (i.e. form) entries.
-	void clear_cgi(void)
+	void clear_cgi()
 	{
 		hdn::cgi.intersec(form_vars);
 		mk_paramvals();
@@ -367,7 +367,7 @@
 
 #ifndef ISSRV
 //!	cgi environment sid creation function.
-	t_fcc cgi_sid(void)
+	t_fcc cgi_sid()
 	{
 		t_cc cra = getenv(uc_remote_addr);
 		t_cc crp = getenv(uc_remote_port);
@@ -380,7 +380,7 @@
 #endif
 
 //!	simple time based sid creation function.
-	t_fcc time_sid(void)
+	t_fcc time_sid()
 	{
 		struct tm* ptm = gmtime(&curr_time);
 		cbf1.clean();

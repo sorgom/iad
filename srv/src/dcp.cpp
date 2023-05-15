@@ -8,25 +8,25 @@
 //!
 //| ============================================================
 
-#include "dcp.hpp"
+#include <dcp.h>
 
-#include "bbl_mapper.hpp"
-#include "ccs.hpp"
-#include "defs.hpp"
-#include "dirman.hpp"
-#include "fcp.hpp"
-#include "f_io.hpp"
-#include "finders.hpp"
-#include "cgi.hpp"
-#include "ini.hpp"
-#include "ini_io.hpp"
-#include "utilz.hpp"
-#include "vars.hpp"
-#include "xutilz.hpp"
+#include <bbl_mapper.h>
+#include <ccs.h>
+#include <defs.h>
+#include <dirman.h>
+#include <fcp.h>
+#include <f_io.h>
+#include <finders.h>
+#include <cgi.h>
+#include <ini.h>
+#include <ini_io.h>
+#include <utilz.h>
+#include <vars.h>
+#include <xutilz.h>
 
 // #undef DEVEL
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 //  C style file input
 #include <cstdlib>
@@ -132,7 +132,7 @@
 	{}
 
 //!	parse a file with r1 state set
-	bool dcp::parse(void)
+	bool dcp::parse()
 	{
 		dml.clear();
 		if (!call_page) return false;
@@ -839,7 +839,7 @@
 	}
 
 //!	check dcp_vars for certain keys.
-	void dcp::check_vars(void)
+	void dcp::check_vars()
 	{
 		TRACE_FLOW
 		link_atts = fvar(c_link_atts);

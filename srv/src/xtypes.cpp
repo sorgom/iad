@@ -8,7 +8,7 @@
 //!
 //| ============================================================
 
-#include "xtypes.hpp"
+#include <xtypes.h>
 
 #include <cstring>
 

@@ -8,11 +8,11 @@
 //!
 //| ============================================================
 
-#include "nob.hpp"
+#include <nob.h>
 
 //  tracing off: tests passed
 #undef DEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 	void nob::put(outstream& os) const
 	{

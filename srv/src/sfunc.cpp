@@ -8,13 +8,13 @@
 //!
 //| ============================================================
 
-#include "sfunc.hpp"
+#include <sfunc.h>
 
-#include "bbl_mapper.hpp"
-#include "ccs.hpp"
-#include "vars.hpp"
+#include <bbl_mapper.h>
+#include <ccs.h>
+#include <vars.h>
 
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 //!	output formatter for text to text.
 	bool frmout(t_cc cc, outstream& os)
@@ -63,7 +63,7 @@
 			TRACE_FLOW
 			frmout(str, os);
 		}
-		bool data(void) const { return str; }
+		bool data() const { return str; }
 	};
 //!	xtag formatter stream functor function II: the delivering function.
 	sfunc* format(t_cc str)

@@ -8,9 +8,9 @@
 //!
 //| ============================================================
 
-#include "tutilz.hpp"
+#include <tutilz.h>
 
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 //!	standard trace #cmapper traverser function.
 	void trtrace(const s_cc& k, const s_cc& v)

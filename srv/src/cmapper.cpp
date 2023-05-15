@@ -8,13 +8,13 @@
 //!
 //| ============================================================
 
-#include "cmapper.hpp"
+#include <cmapper.h>
 
-#include "defs.hpp"
+#include <defs.h>
 
 // #undef DEVEL
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdlib>
 #include <cstring>
@@ -151,7 +151,7 @@
 
 //!	first key available.
 //!	(can be null)
-	t_cc cmapper::firstkey(void)
+	t_cc cmapper::firstkey()
 	{
 		TRACE_FLOW
 		if (!ds) return 0;
@@ -279,7 +279,7 @@
 		srtd = true;
 	}
 //!	shrink memory to used size.
-	void cmapper::shrink(void)
+	void cmapper::shrink()
 	{
 		TRACE_FLOW
 		if (ds && bs > ds) {
@@ -290,7 +290,7 @@
 	}
 
 //! clear data contents.
-	void cmapper::clear(void)
+	void cmapper::clear()
 	{
 		TRACE_FLOW
 		TRACE_VAR(ds)
@@ -309,7 +309,7 @@
 		bs = 0;
 	}
 //!	clean memory without shrink.
-	void cmapper::clean(void)
+	void cmapper::clean()
 	{
 		TRACE_FLOW
 		if (db) {
@@ -415,7 +415,7 @@
 	}
 
 //!	memory allocation
-	bool cmapper::alloc(void)
+	bool cmapper::alloc()
 	{
 		TRACE_FLOW
 		if (ds < bs) return true;
@@ -464,7 +464,7 @@
 //	============================================================
 //	cmxc
 //!	only one instance available.
-	cmxc& cmxc::instance(void)
+	cmxc& cmxc::instance()
 	{
 		static cmxc* pcmxc = new cmxc;
 		return *pcmxc;

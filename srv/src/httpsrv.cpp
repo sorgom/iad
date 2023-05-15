@@ -10,27 +10,27 @@
 
 #include <iostream>
 
-#include "httpsrv.hpp"
+#include <httpsrv.h>
 
-#include "bbl_mapper.hpp"
-#include "ccs.hpp"
-#include "cgi.hpp"
-#include "dcp.hpp"
-#include "deflate.hpp"
-#include "defs.hpp"
-#include "dflmgr.hpp"
-#include "dml.hpp"
-#include "f_io.hpp"
-#include "fcp.hpp"
-#include "hdn_vars.hpp"
-#include "htth.hpp"
-#include "sysctrl.hpp"
-#include "utilz.hpp"
-#include "val.hpp"
-#include "vars.hpp"
+#include <bbl_mapper.h>
+#include <ccs.h>
+#include <cgi.h>
+#include <dcp.h>
+#include <deflate.h>
+#include <defs.h>
+#include <dflmgr.h>
+#include <dml.h>
+#include <f_io.h>
+#include <fcp.h>
+#include <hdn_vars.h>
+#include <htth.h>
+#include <sysctrl.h>
+#include <utilz.h>
+#include <val.h>
+#include <vars.h>
 
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstring>
 #include <cstdlib>
@@ -77,7 +77,7 @@ using namespace bbl;
 		delete dmgr;
 	}
 //!	start infinite server loop.
-	int httpsrv::run(void)
+	int httpsrv::run()
 	{
 		TRACE_FLOW
 	//	load SID from tmp file

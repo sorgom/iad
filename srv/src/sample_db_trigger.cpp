@@ -8,14 +8,14 @@
 //!
 //| ============================================================
 
-#include "sample_db_trigger.hpp"
+#include <sample_db_trigger.h>
 
-#include "bbl.hpp"
-#include "bbl_mapper.hpp"
-#include "err_inf.hpp"
+#include <bbl.h>
+#include <bbl_mapper.h>
+#include <err_inf.h>
 
 // #undef DEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 using namespace bbl;
 

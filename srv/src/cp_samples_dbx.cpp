@@ -8,9 +8,9 @@
 //!
 //| ============================================================
 
-#include "cp_samples_dbx.hpp"
+#include <cp_samples_dbx.h>
 
-#include "cp_convenience.hpp"
+#include <cp_convenience.h>
 
 using namespace bbl;
 using namespace db;

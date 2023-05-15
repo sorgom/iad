@@ -11,16 +11,16 @@
 
 #include <iostream>
 
-#include "bbl_mapper.hpp"
+#include <bbl_mapper.h>
 
-#include "ccs.hpp"
-#include "defs.hpp"
-#include "ini_io.hpp"
-#include "vars.hpp"
+#include <ccs.h>
+#include <defs.h>
+#include <ini_io.h>
+#include <vars.h>
 
 // #undef DEVEL
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdlib>
 #include <cstring>
@@ -36,7 +36,7 @@ namespace bbl
 	dirman lman;
 
 //!	bbl directory manager init call.
-	bool bblinit(void)
+	bool bblinit()
 	{
 		return lman.scan(langdir, c_ext_dat, true);
 	}

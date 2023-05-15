@@ -8,7 +8,7 @@
 //!
 //| ============================================================
 
-#include "sysctrl.hpp"
+#include <sysctrl.h>
 
 
 namespace ctrl

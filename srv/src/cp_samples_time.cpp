@@ -8,15 +8,15 @@
 //!
 //| ============================================================
 
-#include "cp_samples_time.hpp"
+#include <cp_samples_time.h>
 
-#include "cmapper.hpp"
-#include "ini_io.hpp"
-#include "f_io.hpp"
+#include <cmapper.h>
+#include <ini_io.h>
+#include <f_io.h>
 
 //	#undef DEVEL
 //	#define XDEVEL
-#include "cp_convenience.hpp"
+#include <cp_convenience.h>
 
 #include <cstdio>
 #include <cstdlib>
@@ -29,7 +29,7 @@ using namespace bbl;
 
 //	============================================================
 //	fake time
-	fake_time* fake_time::instance(void)
+	fake_time* fake_time::instance()
 	{
 		static fake_time* p = new fake_time;
 		return p;
@@ -40,7 +40,7 @@ using namespace bbl;
 	, idiff(0)
 	{}
 
-	time_t fake_time::get_time(void)
+	time_t fake_time::get_time()
 	{
 		TRACE_FLOW
 		if (!loaded) {

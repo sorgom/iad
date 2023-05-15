@@ -8,9 +8,9 @@
 //!
 //| ============================================================
 
-#include "cp_sample_online.hpp"
+#include <cp_sample_online.h>
 
-#include "cp_convenience.hpp"
+#include <cp_convenience.h>
 #include <cstdlib>
 #include <ctime>
 

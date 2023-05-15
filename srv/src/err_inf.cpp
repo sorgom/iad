@@ -8,10 +8,10 @@
 //!
 //| ============================================================
 
-#include "err_inf.hpp"
-#include "dml.hpp"
+#include <err_inf.h>
+#include <dml.h>
 
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 //	============================================================
 //	msg_tainer

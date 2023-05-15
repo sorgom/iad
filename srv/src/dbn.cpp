@@ -11,7 +11,7 @@
 //!
 //| ============================================================
 
-#include "dbn.hpp"
+#include <dbn.h>
 #include <cstring>
 
 namespace dbn

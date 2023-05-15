@@ -8,7 +8,7 @@
 //!
 //| ============================================================
 
-#include "net.hpp"
+#include <net.h>
 
 //	memset / memcpy
 #include <cstring>

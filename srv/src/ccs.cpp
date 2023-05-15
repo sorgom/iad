@@ -8,7 +8,7 @@
 //!
 //| ============================================================
 
-#include "ccs.hpp"
+#include <ccs.h>
 
 //	static setup part
 	t_cc c_iadcgi_ini		= "iadcgi.ini";

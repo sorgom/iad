@@ -8,10 +8,10 @@
 //!
 //| ============================================================
 
-#include "lnum.hpp"
-#include "stypes.hpp"
+#include <lnum.h>
+#include <stypes.h>
 
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #define c_LNUM_OVERFLOW 1073741824
 #define c_LDUB_OVERFLOW 1073741824.0
@@ -44,7 +44,7 @@
 		else human(cbf, n);
 	}
 
-	void lnum::ovfl(void)
+	void lnum::ovfl()
 	{
 		TRACE_FLOW
 		if (n >= c_LNUM_OVERFLOW) {

@@ -8,20 +8,20 @@
 // ---------------------------------------------------------------------------
 //
 
-#include "bbl_mapper.hpp"
-#include "ccs.hpp"
-#include "db.hpp"
-#include "dcp.hpp"
-#include "cgi.hpp"
-#include "dml.hpp"
-#include "ini.hpp"
-#include "sample_db_trigger.hpp"
-#include "sample_sysctrl.hpp"
-#include "vars.hpp"
+#include <bbl_mapper.h>
+#include <ccs.h>
+#include <db.h>
+#include <dcp.h>
+#include <cgi.h>
+#include <dml.h>
+#include <ini.h>
+#include <sample_db_trigger.h>
+#include <sample_sysctrl.h>
+#include <vars.h>
 
 // #undef DEVEL
 #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdio>
 
@@ -33,12 +33,12 @@
 #endif
 
 
-int main(void)
+int main()
 {
 	TRACE_FLOW
 	TRACE_INF("START OF WEB")
 	load_ini(c_iadcgi_ini);
-	
+
 	TRACE_INF("cgi_params")
 	cgi_params();
 

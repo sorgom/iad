@@ -12,14 +12,14 @@
 #include <iostream>
 #endif
 
-#include "tcpsrv.hpp"
+#include <tcpsrv.h>
 
-#include "net.hpp"
-#include "stypes.hpp"
-#include "sysctrl.hpp"
+#include <net.h>
+#include <stypes.h>
+#include <sysctrl.h>
 
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <sys/socket.h>
 #include <unistd.h>
@@ -77,7 +77,7 @@
 		cstate(svs::down);
 	}
 
-	void tcpsrv::postrun(void)
+	void tcpsrv::postrun()
 	{
 		TRACE_FLOW
 		try {
@@ -140,7 +140,7 @@
 	}
 
 //	reset of all field sets
-	void tcpsrv::mkfds(void)
+	void tcpsrv::mkfds()
 	{
 		TRACE_FLOW
 		TRACE_VAR(sts.ncl)

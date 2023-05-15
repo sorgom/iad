@@ -8,9 +8,9 @@
 //!
 //| ============================================================
 
-#include "cp_samples_htm.hpp"
+#include <cp_samples_htm.h>
 
-#include "cp_convenience.hpp"
+#include <cp_convenience.h>
 
 using namespace tag;
 using namespace ta;

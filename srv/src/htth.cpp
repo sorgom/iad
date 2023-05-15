@@ -8,11 +8,11 @@
 //!
 //| ============================================================
 
-#include "htth.hpp"
-#include "ccs.hpp"
-#include "http.hpp"
-#include "stypes.hpp"
-#include "vars.hpp"
+#include <htth.h>
+#include <ccs.h>
+#include <http.h>
+#include <stypes.h>
+#include <vars.h>
 
 namespace htth
 {

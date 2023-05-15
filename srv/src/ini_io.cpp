@@ -8,17 +8,17 @@
 //!
 //| ============================================================
 
-#include "ini_io.hpp"
+#include <ini_io.h>
 
-#include "defs.hpp"
-#include "f_io.hpp"
-#include "ccs.hpp"
-#include "stypes.hpp"
-#include "utilz.hpp"
+#include <defs.h>
+#include <f_io.h>
+#include <ccs.h>
+#include <stypes.h>
+#include <utilz.h>
 
 // #undef DEVEL
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 //  C style file input
 #include <cstdio>

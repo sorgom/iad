@@ -8,16 +8,16 @@
 //!
 //| ============================================================
 
-#include "vars.hpp"
-#include "hdn_vars.hpp"
+#include <vars.h>
+#include <hdn_vars.h>
 
 #undef DEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
-#include "ccs.hpp"
-#include "defs.hpp"
-#include "ini.hpp"
-#include "utilz.hpp"
+#include <ccs.h>
+#include <defs.h>
+#include <ini.h>
+#include <utilz.h>
 
 #include <cstdlib>
 

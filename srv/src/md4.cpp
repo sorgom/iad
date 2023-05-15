@@ -8,8 +8,8 @@
 //!
 //| ============================================================
 
-#include "md4.hpp"
-#include "md4_macros.hpp"
+#include <md4.h>
+#include <md4_macros.h>
 
 #include <cstring>
 

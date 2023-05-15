@@ -9,10 +9,10 @@
 //| ============================================================
 
 
-#include "cp_samples_format.hpp"
+#include <cp_samples_format.h>
 
 // #undef DEVEL
-#include "cp_convenience.hpp"
+#include <cp_convenience.h>
 
 //	if no conflicting names: shorten up the typing
 using namespace ta;

@@ -8,19 +8,19 @@
 //!
 //| ============================================================
 
-#include "dflmgr.hpp"
+#include <dflmgr.h>
 
-#include "ccs.hpp"
-#include "deflate.hpp"
-#include "defs.hpp"
-#include "f_io.hpp"
-#include "http.hpp"
-#include "ini_io.hpp"
-#include "utilz.hpp"
-#include "vars.hpp"
+#include <ccs.h>
+#include <deflate.h>
+#include <defs.h>
+#include <f_io.h>
+#include <http.h>
+#include <ini_io.h>
+#include <utilz.h>
+#include <vars.h>
 
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <sys/types.h>
 #include <sys/stat.h>

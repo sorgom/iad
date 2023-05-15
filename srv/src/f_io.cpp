@@ -8,13 +8,13 @@
 //!
 //| ============================================================
 
-#include "f_io.hpp"
-#include "defs.hpp"
-#include "stypes.hpp"
+#include <f_io.h>
+#include <defs.h>
+#include <stypes.h>
 
 
 // #undef DEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdio>
 #include <cstdlib>

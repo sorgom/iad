@@ -10,10 +10,10 @@
 
 #ifdef ISSRV
 
-#include "fcpsrv.hpp"
-#include "cpreg.hpp"
+#include <fcpsrv.h>
+#include <cpreg.h>
 
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 //!	find and process: ok
 	bool fcpsrv::ok(t_cc c) const
@@ -52,7 +52,7 @@
 		}
 	}
 //! reset all instanciated cprocs.
-	void fcpsrv::reset(void) const
+	void fcpsrv::reset() const
 	{
 		resetcps();
 	}

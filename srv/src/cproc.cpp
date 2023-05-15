@@ -12,18 +12,18 @@
 //| ============================================================
 
 
-#include "cproc.hpp"
+#include <cproc.h>
 
-#include "bbl.hpp"
-#include "ccs.hpp"
-#include "db.hpp"
-#include "dml.hpp"
-#include "cgi.hpp"
-#include "val.hpp"
-#include "vars.hpp"
+#include <bbl.h>
+#include <ccs.h>
+#include <db.h>
+#include <dml.h>
+#include <cgi.h>
+#include <val.h>
+#include <vars.h>
 
 //#undef DEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdlib>
 #include <cstring>
@@ -109,7 +109,7 @@
 	bool db_cproc::db_chkd	= false;
 	bool db_cproc::db_ok	= false;
 
-	bool db_cproc::db_check(void)
+	bool db_cproc::db_check()
 	{
 		TRACE_FLOW
 		if (!db_chkd) {

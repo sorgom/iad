@@ -8,12 +8,12 @@
 //!
 //| ============================================================
 
-#include "stypes.hpp"
+#include <stypes.h>
 
 //  tracing off: tests passed
 // #define XDEVEL
 // #undef DEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 //  for realloc etc.
 #include <cstdio>
@@ -47,7 +47,7 @@
 		TRACE_VAR(st)
 	}
 
-	unsigned xbuffer::rs(void)
+	unsigned xbuffer::rs()
 	{
 		return db ? (ds = strlen(db)) : (ds = 0);
 	}
@@ -158,7 +158,7 @@
 
 //! mutable access to data
 //!	only given if based on copy
-	char* s_cc::ms(void) const
+	char* s_cc::ms() const
 	{
 		TRACE_FLOW
 		return rc ? const_cast<char*>(cc) : 0;
@@ -168,20 +168,20 @@
 //! refs 0 means referring to built in t_cc.
 //! refs 1 or more means carrying 1 copy,
 //! which is referred to by refs objects.
-    unsigned s_cc::refs(void) const { return rc ? *rc : 0; }
+    unsigned s_cc::refs() const { return rc ? *rc : 0; }
 
 //!	empty information.
-	bool s_cc::empty(void) const
+	bool s_cc::empty() const
 	{
 		return !cc || !cc[0];
 	}
 //!	the opposit of empty.
-	bool s_cc::val(void) const
+	bool s_cc::val() const
 	{
 		return cc && cc[0];
 	}
 
-    void s_cc::unlink(void)
+    void s_cc::unlink()
     {
 		TRACE_FLOW
         if (rc) {
@@ -301,7 +301,7 @@
 	}
 
 //	clear contents
-	void cbuffer::clear(void)
+	void cbuffer::clear()
 	{
 		TRACE_FLOW
 		if (bs) {
@@ -323,7 +323,7 @@
 	}
 
 //!	clean contents without memory shrink
-	cbuffer& cbuffer::clean(void)
+	cbuffer& cbuffer::clean()
 	{
 		TRACE_FLOW
 		if (ds) {
@@ -384,7 +384,7 @@
 		}
 		*dp = 0;
 	}
-	void fbuffer::clean(void)
+	void fbuffer::clean()
 	{
 		db[0] = 0;
 		dp = db;
@@ -444,7 +444,7 @@
 	}
 
 //!	shift a value
-	t_cc sbuffer::shift(void)
+	t_cc sbuffer::shift()
 	{
 		TRACE_FLOW
 		if (!ds) return cdef;
@@ -459,7 +459,7 @@
 	}
 
 //!	pop a value
-	t_cc sbuffer::pop(void)
+	t_cc sbuffer::pop()
 	{
 		if (!ds) return cdef;
 		t_cc c = db[ds - 1];
@@ -469,7 +469,7 @@
 	}
 
 //!	last value in stack
-	t_cc sbuffer::last(void)
+	t_cc sbuffer::last()
 	{
 		if (!ds) return cdef;
 		return db[ds - 1];
@@ -480,12 +480,12 @@
 	}
 
 //!	clean contents without memory shrink
-	void sbuffer::clean(void)
+	void sbuffer::clean()
 	{
 		ds = 0;
 	}
 //	clear contents
-	void sbuffer::clear(void)
+	void sbuffer::clear()
 	{
 		if (bs) free(db);
 		bs = 0;
@@ -495,13 +495,9 @@
 //	provide memory for following input
 //	- position
 //	- size
-	bool sbuffer::alloc(void)
+	bool sbuffer::alloc()
 	{
 		TRACE_FLOW
-		TRACE_INF("sbuffer")
-		TRACE_VAR(this)
-		TRACE_VAR(bs)
-		TRACE_VAR(this->st)
 		const unsigned ns = bs + (st > 0 ? st : c_DEFAULT_CBUFF_STEP); //st;
 		const unsigned ms = ns * sizeof(t_ch);
 		TRACE_VAR(ns)
@@ -512,7 +508,7 @@
 	}
 
 //!	sort contents
-	bool sbuffer::sort(void) const
+	bool sbuffer::sort() const
 	{
 		if (!ds) return false;
 		if (srtd) return true;
@@ -623,7 +619,7 @@
 		return isort();
 	}
 //!	internal sort
-	bool csbuffer::isort(void) const
+	bool csbuffer::isort() const
 	{
 		if (!ds)  return false;
 		if (srtd) return true;
@@ -679,7 +675,7 @@
 	}
 
 //!	pop a value
-	void csbuffer::pop(void)
+	void csbuffer::pop()
 	{
 		TRACE_FLOW
 		if (!ds) return;
@@ -689,7 +685,7 @@
 		--ds;
 	}
 //!	last value in stack
-	const s_cc& csbuffer::last(void)
+	const s_cc& csbuffer::last()
 	{
 		TRACE_FLOW
 		return (ds ? *(db[ds - 1]) : snull);
@@ -701,7 +697,7 @@
 		return (strcmp(last(), c) == 0);
 	}
 
-	void csbuffer::clean(void)
+	void csbuffer::clean()
 	{
 		s_cc** pd = db;
 		for (unsigned i = ds; i--; ++pd) {
@@ -712,7 +708,7 @@
 	}
 
 //	clear contents
-	void csbuffer::clear(void)
+	void csbuffer::clear()
 	{
 		s_cc** pd = db;
 		for (unsigned i = ds; i--; ++pd) {
@@ -744,7 +740,7 @@
 
 
 //	provide memory for following input
-	bool csbuffer::alloc(void)
+	bool csbuffer::alloc()
 	{
 		unsigned ns = bs + st;
 		unsigned ms = ns * sizeof(s_cc*);

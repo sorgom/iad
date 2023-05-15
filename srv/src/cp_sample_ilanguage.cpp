@@ -8,10 +8,10 @@
 //!
 //| ============================================================
 
-#include "cp_sample_ilanguage.hpp"
+#include <cp_sample_ilanguage.h>
 
 // #define XDEVEL
-#include "cp_convenience.hpp"
+#include <cp_convenience.h>
 
 //	============================================================
 //	cp_ilanguages

@@ -8,9 +8,9 @@
 //!
 //| ============================================================
 
-#include "cp_samples_db.hpp"
+#include <cp_samples_db.h>
 
-#include "cp_convenience.hpp"
+#include <cp_convenience.h>
 
 //	atoi
 #include <cstdlib>

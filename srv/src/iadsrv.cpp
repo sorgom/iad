@@ -8,25 +8,25 @@
 //!
 //| ============================================================
 
-#include "bbl_mapper.hpp"
-#include "ccs.hpp"
-#include "db.hpp"
-#include "hdn_vars.hpp"
-#include "httpsrv.hpp"
-#include "ini.hpp"
-#include "sample_db_trigger.hpp"
-#include "sample_sysctrl.hpp"
-#include "sysctrl.hpp"
-#include "vars.hpp"
+#include <bbl_mapper.h>
+#include <ccs.h>
+#include <db.h>
+#include <hdn_vars.h>
+#include <httpsrv.h>
+#include <ini.h>
+#include <sample_db_trigger.h>
+#include <sample_sysctrl.h>
+#include <sysctrl.h>
+#include <vars.h>
 
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #ifdef DEVEL
-#include "tutilz.hpp"
+#include <tutilz.h>
 #endif
 
-	int main(void)
+	int main()
 	{
 		TRACE_FLOW
 	//	runtime constants

@@ -8,17 +8,17 @@
 //!
 //| ============================================================
 
-#include "finders.hpp"
+#include <finders.h>
 
-#include "ccs.hpp"
-#include "defs.hpp"
-#include "ini.hpp"
-#include "utilz.hpp"
-#include "vars.hpp"
+#include <ccs.h>
+#include <defs.h>
+#include <ini.h>
+#include <utilz.h>
+#include <vars.h>
 
 #undef DEVEL
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 
 #include <cstring>
@@ -60,7 +60,7 @@
 #endif
 	}
 
-	void languagefinder::operator()(void)
+	void languagefinder::operator()()
 	{
 		TRACE_FLOW
 		clear();
@@ -84,7 +84,7 @@
 		)	copy(cd);
 	}
 
-	void layoutfinder::operator()(void)
+	void layoutfinder::operator()()
 	{
 		TRACE_FLOW
 		clear();
@@ -94,13 +94,13 @@
 //	============================================================
 //	htmfinder
 
-	const htmfinder* const htmfinder::instance(void)
+	const htmfinder* const htmfinder::instance()
 	{
 		static htmfinder* pf = new htmfinder;
 		return pf;
 	}
 
-	bool htmfinder::init(void)
+	bool htmfinder::init()
 	{
 		return scan(htmdir, c_ext_htm, true);
 	}

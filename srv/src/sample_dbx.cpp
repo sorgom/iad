@@ -9,12 +9,12 @@
 //!
 //| ============================================================
 
-#include "sample_dbx.hpp"
+#include <sample_dbx.h>
 
-#include "dbn.hpp"
-#include "cmapper.hpp"
-#include "val.hpp"
-#include "trace_macros.hpp"
+#include <dbn.h>
+#include <cmapper.h>
+#include <val.h>
+#include <trace_macros.h>
 
 
 #include <cstdlib>

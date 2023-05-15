@@ -8,17 +8,17 @@
 //!
 //| ============================================================
 
-#include "val.hpp"
+#include <val.h>
 
-#include "ccs.hpp"
-#include "defs.hpp"
-#include "sfunc.hpp"
-#include "outstream.hpp"
-#include "vars.hpp"
-#include "utilz.hpp"
+#include <ccs.h>
+#include <defs.h>
+#include <sfunc.h>
+#include <outstream.h>
+#include <vars.h>
+#include <utilz.h>
 
 //	#undef DEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdio>
 #include <cstdlib>
@@ -70,7 +70,7 @@ namespace val
 				break;
 			}
 		}
-		bool data(void) const { return cc; }
+		bool data() const { return cc; }
 	};
 
 //!	general output formatter stream class delivery function.

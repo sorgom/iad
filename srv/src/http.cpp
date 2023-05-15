@@ -8,15 +8,15 @@
 //!
 //| ============================================================
 
-#include "http.hpp"
+#include <http.h>
 
-#include "ccs.hpp"
-#include "ini_io.hpp"
-#include "md4.hpp"
-#include "utilz.hpp"
+#include <ccs.h>
+#include <ini_io.h>
+#include <md4.h>
+#include <utilz.h>
 
 // #define XDEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstring>
 #include <cstdlib>

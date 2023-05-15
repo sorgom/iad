@@ -8,9 +8,9 @@
 //!
 //| ============================================================
 
-#include "hdn_vars.hpp"
+#include <hdn_vars.h>
 
-#include "defs.hpp"
+#include <defs.h>
 
 namespace hdn
 {

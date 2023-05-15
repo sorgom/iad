@@ -8,11 +8,11 @@
 //!
 //| ============================================================
 
-#include "fcp.hpp"
+#include <fcp.h>
 
-#include "cpreg.hpp"
+#include <cpreg.h>
 
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 namespace fcp
 {
@@ -53,13 +53,13 @@ namespace fcp
 		}
 	}
 //! reset all instanciated cprocs.
-	void reset(void)
+	void reset()
 	{
 		resetcps();
 	}
 
 //! remove all instanciated cprocs.
-	void remove(void)
+	void remove()
 	{
 		removecps();
 	}

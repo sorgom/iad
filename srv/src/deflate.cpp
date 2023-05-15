@@ -8,10 +8,10 @@
 //!
 //|	============================================================
 
-#include "deflate.hpp"
-#include "f_io.hpp"
+#include <deflate.h>
+#include <f_io.h>
 
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdio>
 #include <cstdlib>

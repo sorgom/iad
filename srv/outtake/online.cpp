@@ -8,12 +8,12 @@
 //!
 //| ============================================================
 
-#include "db.hpp"
-#include "dbn.hpp"
-#include "ini.hpp"
-#include "vars.hpp"
+#include <db.h>
+#include <dbn.h>
+#include <ini.h>
+#include <vars.h>
 
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdlib>
 #include <ctime>

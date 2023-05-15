@@ -8,19 +8,19 @@
 //!
 //| ============================================================
 
-#include "dml.hpp"
+#include <dml.h>
 
-#include "bbl_mapper.hpp"
-#include "cmapper.hpp"
-#include "defs.hpp"
-#include "cgi.hpp"
-#include "hdn_vars.hpp"
-#include "ini.hpp"
-#include "stypes.hpp"
-#include "vars.hpp"
+#include <bbl_mapper.h>
+#include <cmapper.h>
+#include <defs.h>
+#include <cgi.h>
+#include <hdn_vars.h>
+#include <ini.h>
+#include <stypes.h>
+#include <vars.h>
 
 #undef DEVEL
-#include "trace_macros.hpp"
+#include <trace_macros.h>
 
 #include <cstdlib>
 #include <cstring>
@@ -28,14 +28,14 @@
 
 //	============================================================
 //	dmlstream
-	dmlstream& dmlstream::instance(void)
+	dmlstream& dmlstream::instance()
 	{
 		static dmlstream inst_dml(c_BUF_STEP_DML_OUT);
 		return inst_dml;
 	}
 	dmlstream& dml = dmlstream::instance();
-	
-//	dmlstream& dmlstream::tmp_instance(void)
+
+//	dmlstream& dmlstream::tmp_instance()
 //	{
 //		static dmlstream inst_dml(c_BUF_STEP_DML_TMP);
 //		return inst_dml;
@@ -59,7 +59,7 @@
 		hdn::form_vars.sort();
 	}
 
-	
+
 
 //	============================================================
 //	tags
@@ -117,7 +117,7 @@
 	void dmlstream::attr(taa<nob>	a) { addq(a); }
 //	standard: numeric
 	void dmlstream::attr(taan       a) { add(' '); add(a.name); add('='); add(a.val); }
-	
+
 	void dmlstream::attr(taa<t_num>	a) { add(' '); add(a.name); add('='); add(a.val); }
 //	standard: t_cc (expicit type)
 	void dmlstream::attr(taac a)
@@ -167,7 +167,7 @@
 	}
 
 //	general open check
-	void dmlstream::check_open(void) {
+	void dmlstream::check_open() {
 		if (aopen) return;
 		if (open) {
 			if (sgl && htm_xml) add(" /");
@@ -226,7 +226,7 @@ namespace tbl
 			table_tbfunc();
 		}
 	};
-	sfunc* tb(void) { return new sf_tbl; }
+	sfunc* tb() { return new sf_tbl; }
 
 	class sf_tr : public sfunc
 	{
@@ -234,7 +234,7 @@ namespace tbl
 		inline void operator()(outstream&) const { mktr(true); }
 	};
 
-	sfunc* tr(void)		{ return new sf_tr; }
+	sfunc* tr()		{ return new sf_tr; }
 
 
 	class sf_td : public sfunc
@@ -262,10 +262,10 @@ namespace tbl
 		return new sf_td(t, cl);
 	}
 
-	sfunc* th (void) { return mktd(c_th); }
-	sfunc* tha(void) { return mktd(c_th, false); }
-	sfunc* td (void) { return mktd(c_td); }
-	sfunc* tda(void) { return mktd(c_td, false); }
+	sfunc* th () { return mktd(c_th); }
+	sfunc* tha() { return mktd(c_th, false); }
+	sfunc* td () { return mktd(c_td); }
+	sfunc* tda() { return mktd(c_td, false); }
 
 	class sf_tbe : public sfunc
 	{
@@ -278,7 +278,7 @@ namespace tbl
 		}
 	};
 
-	sfunc* tbe(void) { return new sf_tbe; }
+	sfunc* tbe() { return new sf_tbe; }
 
 
 } // namespace tbl
